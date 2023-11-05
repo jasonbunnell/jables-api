@@ -42,11 +42,11 @@ const AttractionSchema = new mongoose.Schema({
         type: {
             type: String,
             enum: ['Point'],
-            required: true
+            required: false
         },
         coordinates: {
             type: [Number],
-            required: true,
+            required: false,
             index: '2dsphere'
         },
         formattedAddress: String,
@@ -77,7 +77,7 @@ const AttractionSchema = new mongoose.Schema({
     },
     lake:{
         // Array of strings
-        type: [String],
+        type: String,
         required: true,
         enum: [
             'Seneca',

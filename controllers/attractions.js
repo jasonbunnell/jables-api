@@ -18,8 +18,15 @@ exports.getAttraction = async (req, res, next) => {
 // @route   POST /api/v1/attractions
 // @access  Private
 exports.createAttraction = async (req, res, next) => {
-    console.log(req.body);
-    res.status(200).json({ success: true, msg: 'Create new attraction'});
+    try {
+        const attraction = await Attraction.create(req.body);
+        res.status(201).json({ 
+            success: true, 
+            data: attraction 
+        });        
+    } catch (err) {
+     res.status(400).json({ success: false });   
+    }
 }
 
 // @desc    Update attraction
