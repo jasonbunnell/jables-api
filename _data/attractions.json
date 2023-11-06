@@ -704,7 +704,7 @@
  },
  {
    "aName": "Big aLICe Brewing Finger Lakes",
-   "website": "bigalicebrewing.com",
+   "website": "https://www.bigalicebrewing.com/",
    "cms": "Squarespace",
    "phone": "(315) 325-4749",
    "address": "4180 NY-14, Geneva, NY 14456-9111, US",
@@ -949,7 +949,7 @@
    "phone": "(585) 786-3559",
    "address": "44 N Main St, Warsaw, NY 14569-1326, US",
    "category": "brewery",
-   "lake": "Silver Lake"
+   "lake": "Silver"
  },
  {
    "aName": "Branching Out Bottle Shop",
@@ -958,7 +958,7 @@
    "phone": "(585) 261-8775",
    "address": "170 Township Blvd, Camillus, NY 13031-1659, US",
    "category": "brewery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Bullthistle Brewery",
@@ -967,7 +967,7 @@
    "phone": "(607) 674-2337",
    "address": "45 S Main St, Sherburne, NY 13460-9202, US",
    "category": "brewery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Cortland Beer Company",
@@ -976,7 +976,7 @@
    "phone": "(607) 662-4389",
    "address": "16 Court St, Cortland, NY 13045-2604, US",
    "category": "brewery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Finger Lakes On Tap",
@@ -985,7 +985,7 @@
    "phone": "(315) 685-9600",
    "address": "35 Fennell St, Skaneateles, NY 13152-1118, US",
    "category": "brewery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Freight Yard Brewing",
@@ -994,7 +994,7 @@
    "phone": "(315) 699-7167",
    "address": "4975 NY-31, Clay, NY 13041-8708, US",
    "category": "brewery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Local 315 Brewing Company",
@@ -1003,7 +1003,7 @@
    "phone": "(315) 468-2337",
    "address": "3160 Warners Rd, Camillus, NY 13164-9786, US",
    "category": "brewery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Summerhill Brewing",
@@ -1012,14 +1012,14 @@
    "phone": "(607) 591-6148",
    "address": "14408 NY-90, Locke, NY 13092, US",
    "category": "brewery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "WT Brews",
    "phone": "(315) 720-3264",
    "address": "3 W Genesee St, Baldwinsville, NY 13027-1104, US",
    "category": "brewery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Finger Lakes Gaming & Racetrack",
@@ -1379,15 +1379,6 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Finger Lakes Boating Museum",
-   "website": "https://www.flbm.org/",
-   "cms": "Wix",
-   "phone": "(607) 569-2222",
-   "address": "8231 Pleasant Valley Rd, Hammondsport, NY 14840, US",
-   "category": "museum",
-   "lake": "Keuka"
- },
- {
    "aName": "Glenn H Curtiss Museum",
    "website": "https://glennhcurtissmuseum.org/",
    "cms": "WordPress",
@@ -1433,7 +1424,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "CMAC - Constellation Brands Marvin Sands Performing Arts Center",
+   "aName": "CMAC",
    "website": "https://www.cmacevents.com/",
    "cms": "WordPress",
    "phone": "(585) 394-4400",
@@ -1966,7 +1957,7 @@
    "phone": "(315) 685-6600",
    "address": "11 W Genesee St, Skaneateles, NY 13152-1004, US",
    "category": "restaurant",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Elderberry Pond Restaurant",
@@ -1975,7 +1966,7 @@
    "phone": "(315) 252-6025",
    "address": "3712 Center Street Rd, Auburn, NY 13021-9310, US",
    "category": "restaurant",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Gilda's",
@@ -1984,7 +1975,7 @@
    "phone": "(315) 685-7234",
    "address": "12 W Genesee St, Skaneateles, NY 13152-1005, US",
    "category": "restaurant",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Hairy Tony's",
@@ -1993,7 +1984,7 @@
    "phone": "(607) 662-0239",
    "address": "102 Main St, Cortland, NY 13045-6600, US",
    "category": "restaurant",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Rosalie's Cucina",
@@ -2002,7 +1993,7 @@
    "phone": "(315) 685-2200",
    "address": "841 W Genesee Street Rd, Skaneateles, NY 13152-9303, US",
    "category": "restaurant",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Hanger Theatre",
@@ -3043,7 +3034,7 @@
    "phone": "(315) 685-3797",
    "address": "2433 W Lake Rd, Skaneateles, NY 13152-9471, US",
    "category": "winery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Anyelas Vineyards",
@@ -3052,7 +3043,7 @@
    "phone": "(315) 685-3797",
    "address": "2433 W Lake Rd, Skaneateles, NY 13152",
    "category": "winery",
-   "lake": "Skanateles"
+   "lake": "Skaneateles"
  },
  {
    "aName": "Saunders Finger Lakes Museum",

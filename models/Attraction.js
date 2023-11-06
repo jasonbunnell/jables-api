@@ -94,6 +94,8 @@ const AttractionSchema = new mongoose.Schema({
             'Honeoye',
             'Canadice',
             'Silver',
+            'Ontario',
+            'Onondaga',
             'none'
         ]
     },

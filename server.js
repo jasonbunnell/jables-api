@@ -29,7 +29,7 @@ app.use('/api/v1/attractions', attractions);
 
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5600;
 
 const server = app.listen(
     PORT, 
