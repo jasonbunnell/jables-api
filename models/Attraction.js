@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const slugify = require('slugify');
 
 const AttractionSchema = new mongoose.Schema({
     aName: {
@@ -103,6 +104,12 @@ const AttractionSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     }
+});
+
+// Create attraction slug from the name
+AttractionSchema.pre('save', function(next) {
+    this.slug = slugify(this.aName, { lower: true });
+    next();
 });
 
 module.exports = mongoose.model('Attraction', AttractionSchema);
