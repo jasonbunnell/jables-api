@@ -2,16 +2,17 @@ const express = require('express');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
 const colors = require('colors');
+const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
-
-// Route files
-const attractions = require('./routes/attractions');
 
 // Load env vars
 dotenv.config({ path: './config/config.env' });
 
 // Connect to database
 connectDB();
+
+// Route files
+const attractions = require('./routes/attractions');
 
 const app = express();
 
@@ -25,6 +26,8 @@ if(process.env.NODE_ENV === 'development') {
 
 // Mount routers
 app.use('/api/v1/attractions', attractions);
+
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
