@@ -1,6 +1,8 @@
 const ErrorResponse = require('../utils/errorResponse');
+const goecoder = require('../utils/geocoder');
 const Attraction = require('../models/Attraction');
 const asyncHandler = require('../middleware/async');
+const geocoder = require('../utils/geocoder');
 
 // @desc    Get all attractions
 // @route   GET /api/v1/attractions
@@ -65,4 +67,31 @@ exports.deleteAttraction = asyncHandler(async (req, res, next) => {
             return next(new ErrorResponse(`Attraction not found with id of ${req.params.id}`, 404));
         }
         res.status(200).json({ success: true, data: {} });
+});
+
+// @desc    Get bootsamps within a radius
+// @route   GET /api/v1/attraractions/:zipcode/:distance
+// @access  Public
+exports.getAttractionsInRadius = asyncHandler(async (req, res, next) => {
+    const { zipcode, distance } = req.params;
+
+    // Get lat/lng from geocoder
+    const loc = await geocoder.geocode(zipcode);
+    const lat = loc[0].latitude;
+    const lng = loc[0].longitude;
+
+    // Calc radius using radians
+    // Divide dist by radius of Earth
+    // Earth radius = 3,963 mi / 6,378.1 kilometers
+    const radius = distance / 3963;
+
+    const attractions = await Attraction.find({
+        location: { $geoWithin: { $centerSphere: [ [ lng, lat ], radius ]}}
+    });
+
+    res.status(200).json({
+        success: true,
+        count: attractions.length,
+        data: attractions
+    })
 });
