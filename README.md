@@ -6,5 +6,5 @@
 [Node Geocode](https://github.com/nchaulet/node-geocoder) - Node.js geocode library
 
 ## Services
-[MapQuest Developer](https://developer.mapquest.com/) - Used to get geocode data, uses CapOne cc
-[MongDB](https://cloud.mongodb.com) - uses Project Name - Jables.  Database - jables-api.  Username flxcompass@gmail.com.
+* [MapQuest Developer](https://developer.mapquest.com/) - Used to get geocode data, uses CapOne cc
+* [MongDB](https://cloud.mongodb.com) - uses Project Name - Jables.  Database - jables-api.  Username flxcompass@gmail.com.
