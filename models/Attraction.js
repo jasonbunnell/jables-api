@@ -77,6 +77,10 @@ const AttractionSchema = new mongoose.Schema({
             'golf course'
         ]
     },
+    likes: {
+        type: Number,
+        default: 0
+    },
     lake:{
         // Array of strings
         type: String,

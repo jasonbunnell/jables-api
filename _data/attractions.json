@@ -36,13 +36,14 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "K2 Bros. Brewing",
+   "aName": "K2 Bros Brewing",
    "website": "https://www.k2brewing.com/",
    "cms": "Wix",
    "phone": "(585) 413-1997",
    "address": "1221 Empire Blvd, Rochester, NY 14609-5946, US",
    "category": "brewery",
-   "lake": "Canandaigua"
+   "lake": "Canandaigua",
+   "likes": 2
  },
  {
    "aName": "Knucklehead Craft Brewing",
@@ -150,7 +151,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Aurora Ale & Lager Co.",
+   "aName": "Aurora Ale & Lager Co",
    "website": "http://www.brewaurora.com/",
    "cms": "Weebly",
    "phone": "(315) 916-2104",
@@ -159,7 +160,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Beer Tree Brew Co.",
+   "aName": "Beer Tree Brew Co",
    "website": "https://www.beertreebrew.com/farm",
    "cms": "Wix",
    "phone": "(607) 204-0712",
@@ -230,7 +231,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Salt Point Brewing Co.",
+   "aName": "Salt Point Brewing Co",
    "website": "https://www.saltpointbrewing.com/",
    "cms": "Squarespace",
    "phone": "(607) 533-0124",
@@ -255,7 +256,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Water Street Brewing Co.",
+   "aName": "Water Street Brewing Co",
    "website": "https://www.waterstreetbrewingco.com/",
    "cms": "Wix",
    "phone": "(607) 296-4206",
@@ -264,7 +265,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Brindle Haus Brewing Co.",
+   "aName": "Brindle Haus Brewing Co",
    "website": "https://www.brindlehausbrewing.com/",
    "cms": "Wix",
    "phone": "(585) 488-2034",
@@ -354,7 +355,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Rising Storm Brewing Co.",
+   "aName": "Rising Storm Brewing Co",
    "website": "https://www.risingstormbrewing.com/",
    "cms": "Jimdo",
    "phone": "(585) 572-3009",
@@ -480,7 +481,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Keg & Barrel Brewing Co.",
+   "aName": "Keg & Barrel Brewing Co",
    "website": "https://kegandbarrelbrewing.com/",
    "cms": "WordPress",
    "phone": "(607) 292-6622",
@@ -498,7 +499,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "LyonSmith Brewing Co.",
+   "aName": "LyonSmith Brewing Co",
    "website": "https://lyonsmithbrewing.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(315) 536-5603",
@@ -577,7 +578,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Critz Farms Brewing & Cider Co.",
+   "aName": "Critz Farms Brewing & Cider Co",
    "website": "https://www.critzfarms.com/",
    "cms": "WordPress",
    "phone": "(315) 662-3355",
@@ -640,7 +641,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Stumblin' Monkey Brewing Co.",
+   "aName": "Stumblin' Monkey Brewing Co",
    "website": "https://www.stumblinmonkeybeer.com/",
    "cms": "Wix",
    "phone": "(585) 398-8189",
@@ -667,7 +668,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Lunkenheimer Craft Brewing Co.",
+   "aName": "Lunkenheimer Craft Brewing Co",
    "website": "https://www.lunkenheimercraftbrewing.com/",
    "cms": "Squarespace",
    "phone": "(315) 834-7027",
@@ -748,7 +749,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Diversion Brewing Co.",
+   "aName": "Diversion Brewing Co",
    "website": "https://www.diversionbrewing.com/",
    "cms": "Weebly",
    "phone": "(607) 542-9168",
@@ -1370,15 +1371,6 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Women's Rights National Historical Park",
-   "website": "https://www.nps.gov/wori/index.htm",
-   "cms": "custom site",
-   "phone": "(315) 568-0024",
-   "address": "136 Fall St, Seneca Falls, NY 13148-1517, US",
-   "category": "museum",
-   "lake": "Cayuga"
- },
- {
    "aName": "Glenn H Curtiss Museum",
    "website": "https://glennhcurtissmuseum.org/",
    "cms": "WordPress",
@@ -1386,15 +1378,6 @@
    "address": "8419 State Route 54, Hammondsport, NY 14840-9795, US",
    "category": "museum",
    "lake": "Keuka"
- },
- {
-   "aName": "Erie Canal Museum",
-   "website": "https://eriecanalmuseum.org/",
-   "cms": "WordPress",
-   "phone": "(315) 471-0593",
-   "address": "318 Erie Blvd E, Syracuse, NY 13202-1106, US",
-   "category": "museum",
-   "lake": "Otisco"
  },
  {
    "aName": "Corning Museum of Glass",
@@ -1834,7 +1817,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Jerlando's Ristorante & Pizza Co.",
+   "aName": "Jerlando's Ristorante & Pizza Co",
    "website": "https://jerlandospizza.com/",
    "cms": "WordPress",
    "phone": "(607) 535-4254",
@@ -1885,7 +1868,8 @@
    "phone": "(607) 395-2022",
    "address": "3482 Plum Point Rd S, Himrod, NY 14842, US",
    "category": "restaurant",
-   "lake": "Seneca"
+   "lake": "Seneca",
+   "likes": 2
  },
  {
    "aName": "Slammin Jammin BBQ",
@@ -2386,7 +2370,8 @@
    "phone": "(800) 320-0735",
    "address": "9749 Middle Rd, Hammondsport, NY 14840-9612, US",
    "category": "winery",
-   "lake": "Keuka"
+   "lake": "Keuka",
+   "likes": 4
  },
  {
    "aName": "Heron Hill Winery",
@@ -2710,7 +2695,8 @@
    "phone": "(607) 243-7971",
    "address": "3962 NY-14, Dundee, NY 14837, US",
    "category": "winery",
-   "lake": "Seneca"
+   "lake": "Seneca",
+   "likes": 6
  },
  {
    "aName": "Hickory Hollow Wine Cellars",
