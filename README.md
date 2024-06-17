@@ -29,3 +29,8 @@ You can sort.  EXAMPLE `attractions?sort=-likes`
 * **Descending** - put a negative or "-" before the field to sort
 * **Default** - default sort is by aName.  This can be changed in the controller method in the else for the sort function.
 
+## Pagination, Limit
+* **Pagination** - this is an object that has a next and prev value if there is a next or previous page.  These objects show the next and prev page values and the limit per page.
+* **Limit** - this is a value set by the limit variable or by the limit parameter.  EXAMPLE - `attractions?limit=10`
+* **Page** - this is a value set by the page variable that default to 1 or by the page parameter.  EXAMPLE - `attractions?page=2`
+
