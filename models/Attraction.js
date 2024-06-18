@@ -71,7 +71,7 @@ const AttractionSchema = new mongoose.Schema({
             'museum',
             'casino',
             'theater',
-            'music venue',
+            'event venue',
             'farm',
             'park',
             'golf course'
