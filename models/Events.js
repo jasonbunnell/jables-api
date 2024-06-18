@@ -56,6 +56,10 @@ const EventsSchema = new mongoose.Schema({
         default: 'direct'
     },
     promoter: {
-
+        type: String
+    },
+    attraction: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Attraction'
     }
 })
