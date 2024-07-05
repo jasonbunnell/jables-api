@@ -1412,7 +1412,7 @@
    "cms": "WordPress",
    "phone": "(585) 394-4400",
    "address": "3355 Marvin Sands Dr, Canandaigua, NY 14424-8405, US",
-   "category": "music venue",
+   "category": "venue",
    "lake": "Canandaigua"
  },
  {
@@ -3111,5 +3111,322 @@
    "address": "318 Erie Blvd E, Syracuse, NY 13202",
    "category": "museum",
    "lake": "Onondaga"
- }
+ },
+ {
+  "aName": "Beak and Skiff Apple Orchards",
+  "website": "https://beakandskiff.com/",
+  "cms": "WordPress",
+  "phone": "(315) 696-6085",
+  "address": "2708 Lords Hill Rd, Lafayette, NY 13084",
+  "category": "farm",
+  "lake": "Otisco",
+  "ticketmaster-id": "Z7r9jZad1G"
+},
+{
+  "aName": "Blue Cross Arena",
+  "website": "https://bluecrossarena.com/",
+  "cms": "custom site",
+  "phone": "(585) 454-5335",
+  "address": "1 War Mem Sq, Rochester, NY 14614",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "KovZpakwJe"
+},
+{
+  "aName": "Bristol Valley Theater",
+  "website": "https://www.bvtnaples.org/",
+  "cms": "Wix",
+  "phone": "(585) 374-6318",
+  "address": "151 S Main St, Naples, NY 14512",
+  "category": "theater",
+  "lake": "Canandaigua",
+  "ticketmaster-id": "Z7r9jZad-n"
+},
+{
+  "aName": "Cortland Repertory Theatre",
+  "website": "https://cortlandrep.org/",
+  "cms": "WordPress",
+  "phone": "(607) 756-2627",
+  "address": "6799 Little York Lake Road, Preble, NY 13141",
+  "category": "theater",
+  "lake": "Skaneateles",
+  "ticketmaster-id": "Z7r9jZadXn"
+},
+{
+  "aName": "Eastman Theatre",
+  "website": "https://www.esm.rochester.edu/theatre/",
+  "cms": "WordPress",
+  "phone": "(585) 274-1000",
+  "address": "26 Gibbs St, Rochester, NY 14604",
+  "category": "theater",
+  "lake": "Ontario",
+  "ticketmaster-id": "Z6r9jZAaae"
+},
+{
+  "aName": "Empower Federal Credit Union Amphitheater at Lakeview",
+  "website": "https://www.asmsyracuse.com/p/amphitheater",
+  "cms": "custom site",
+  "phone": "(315) 435-5100",
+  "address": "490 Restoration Way, Syracuse, NY 13209",
+  "category": "venue",
+  "lake": "Onondaga",
+  "ticketmaster-id": "KovZpZAEAEIA"
+},
+{
+  "aName": "First Arena",
+  "website": "https://firstarena.net/",
+  "cms": "WordPress",
+  "phone": "(607) 734-7825",
+  "address": "155 N Main St, Elmira, NY 14901",
+  "category": "venue",
+  "lake": "Seneca",
+  "ticketmaster-id": "KovZpa3ife"
+},
+{
+  "aName": "Funk N' Waffles",
+  "website": "https://funknwaffles.com/",
+  "cms": "custom site",
+  "phone": "(315) 474-1060",
+  "address": "307-13 S Clinton St, Syracuse, NY 13202",
+  "category": "venue",
+  "lake": "Onondaga",
+  "ticketmaster-id": "KovZpZAaFnvA"
+},
+{
+  "aName": "Gordon Field House",
+  "website": "https://www.rit.edu/arenas/gordon-field-house",
+  "cms": "Drupal",
+  "phone": "(585) 475-6290",
+  "address": "The Quarter Mile Walkway, Rochester, NY 14623",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "ZFr9jZ7F1d"
+},
+{
+  "aName": "Innovative Field",
+  "website": "https://www.milb.com/rochester/ballpark/innovative-field",
+  "cms": "Contentful",
+  "phone": "(585) 454-1001",
+  "address": "One Morrie Silver Way, Rochester, NY 14608",
+  "category": "sports arena",
+  "lake": "Ontario",
+  "ticketmaster-id": "ZFr9jZ7ke1"
+},
+{
+  "aName": "State Theatre of Ithaca",
+  "website": "https://stateofithaca.org/",
+  "cms": "WordPress",
+  "phone": "(607) 277-8283",
+  "address": "107 W State St, Ithaca, NY 14850",
+  "category": "theater",
+  "lake": "Cayuga",
+  "ticketmaster-id": "ZFr9jZAv7d"
+},
+{
+  "aName": "JMA Wireless Dome",
+  "website": "https://www.syracuse.edu/campus-life/highlights/jma-wireless-dome/",
+  "cms": "custom site",
+  "phone": "(315) 443-1870",
+  "address": "900 Irving Ave, Syracuse, NY 13244",
+  "category": "sports arena",
+  "lake": "Onondaga",
+  "ticketmaster-id": "KovZpakwYe"
+},
+{
+  "aName": "Kodak Center",
+  "website": "https://www.kodakcenter.com/events",
+  "cms": "custom site",
+  "phone": "(585) 254-0181",
+  "address": "200 W Ridge Rd, Rochester, NY 14615",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "KovZpa4xOe"
+},
+{
+  "aName": "Landmark Theatre",
+  "website": "https://landmarktheatre.org/",
+  "cms": "WordPress",
+  "phone": "(315) 475-7979",
+  "address": "362 S Salina St, Syracuse, NY 13202",
+  "category": "venue",
+  "lake": "Onondaga",
+  "ticketmaster-id": "KovZpZAFdldA"
+},
+{
+  "aName": "Lovin' Cup",
+  "website": "https://lovincup.com/",
+  "cms": "WordPress",
+  "phone": "(585) 292-9940",
+  "address": "300 Park Point Dr, Rochester, NY 14623",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "rZ7HnEZ17kAAf"
+},
+{
+  "aName": "Martin Luther King Jr. Memorial Park",
+  "website": "https://www.cityofrochester.gov/locations/dr-martin-luther-king-jr-memorial-park-manhattan-square",
+  "cms": "custom site",
+  "address": "353 Court Street, Rochester, NY 14607",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "KovZpZAJkltA"
+},
+{
+  "aName": "NBT Bank Stadium",
+  "website": "https://www.milb.com/syracuse",
+  "cms": "custom site",
+  "address": "1 Tex Simone Drive, Syracuse, NY 13208",
+  "category": "sports arena",
+  "lake": "Onondaga",
+  "ticketmaster-id": "ZFr9jZ6aFk"
+},
+{
+  "aName": "Rec Room",
+  "website": "https://recroombuffalo.com/",
+  "cms": "WordPress",
+  "phone": "(716) 939-1279",
+  "address": "79 W Chippewa, Buffalo, NY 14202",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "KovZpa2Gze"
+},
+{
+  "aName": "Rochester Riverside Convention Center",
+  "website": "https://www.rrcc.com/",
+  "cms": "custom site",
+  "phone": "(585) 232-7200",
+  "address": "123 E. Main St., Rochester, NY 14604",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "KovZpZAatdlA"
+},
+{
+  "aName": "St. John Fisher",
+  "website": "https://sjfathletics.com/",
+  "cms": "Sidearm Sports",
+  "phone": "(585) 385-8000",
+  "address": "3690 East Ave, Rochester, NY 14618",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "KovZpZAFktJA"
+},
+{
+  "aName": "The Bug Jar",
+  "website": "https://www.bugjar.com/",
+  "cms": "Wix",
+  "phone": "(585) 454-2966",
+  "address": "219 Monroe Ave, Rochester, NY 14607",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "rZ7HnEZ17ANuP"
+},
+{
+  "aName": "The Lost Horizon",
+  "website": "https://www.thelosthorizon.com/",
+  "cms": "WordPress",
+  "phone": "(315) 446-1934",
+  "address": "5863 Thompson Rd., Syracuse, NY 13214",
+  "category": "venue",
+  "lake": "Onondaga",
+  "ticketmaster-id": "KovZpZAatJ6A"
+},
+{
+  "aName": "Montage Music Hall",
+  "website": "https://www.rocentevents.com/",
+  "cms": "WordPress",
+  "phone": "(585) 413-1642",
+  "address": "50 Chestnut Street, Rochester, NY 14604",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "rZ7HnEZ17ko4V"
+},
+{
+  "aName": "Oncenter Carrier Theater",
+  "website": "https://www.asmsyracuse.com/location/the-oncenter-carrier-theater",
+  "cms": "Saffire",
+  "phone": "(315) 435-2121",
+  "address": "421 Montgomery St., Syracuse, NY 13202",
+  "category": "venue",
+  "lake": "Onondaga",
+  "ticketmaster-id": "KovZpa6W3e"
+},
+{
+  "aName": "The Song & Dance",
+  "website": "https://www.thesonganddance.com/",
+  "cms": "WordPress",
+  "address": "115 E Jefferson Street, Syracuse, NY 13202",
+  "category": "venue",
+  "lake": "Onondaga",
+  "ticketmaster-id": "rZ7HnEZ17fJkA"
+},
+{
+  "aName": "The Theater at Innovation Square",
+  "website": "https://www.theaterais.com/",
+  "cms": "Wix",
+  "phone": "(585) 281-4893",
+  "address": "131 Chestnut St, Rochester, NY 14604",
+  "category": "theater",
+  "lake": "Ontario",
+  "ticketmaster-id": "Z7r9jZaAuo"
+},
+{
+  "aName": "The Vine Theater at Del Lago Resort & Casino",
+  "website": "https://dellagoresort.com/entertainment/",
+  "cms": "WordPress",
+  "phone": "(315) 946-1777 ",
+  "address": "1133 State Route 414, Waterloo, NY 13165",
+  "category": "casino",
+  "lake": "Cayuga",
+  "ticketmaster-id": "Z7r9jZad6k"
+},
+{
+  "aName": "Tioga Downs Casino Resort",
+  "website": "https://tiogadowns.com/",
+  "cms": "WordPress",
+  "phone": "(888) 946-8464",
+  "address": "2384 West River Rd, Nichols, NY 13812",
+  "category": "casino",
+  "lake": "Seneca",
+  "ticketmaster-id": "KovZpZAFdl1A"
+},
+{
+  "aName": "Upstate Medical University Arena at The Oncenter War Memorial",
+  "website": "https://www.asmsyracuse.com/p/book/our-spaces/upstate-medical-arena-at-the-oncenter-war-memorial",
+  "cms": "Saffire",
+  "phone": "(315) 435-8000",
+  "address": "515 Montgomery St., Syracuse, NY 13202",
+  "category": "venue",
+  "lake": "Onondaga",
+  "ticketmaster-id": "KovZpZA77eEA"
+},
+{
+  "aName": "Watkins Glen International",
+  "website": "https://www.theglen.com/",
+  "cms": "WordPress",
+  "phone": "(607) 535-2486",
+  "address": "2790 County Road 16, Watkins Glen, NY 14891",
+  "category": "venue",
+  "lake": "Seneca",
+  "ticketmaster-id": "ZFr9jZeakA"
+},
+{
+  "aName": "West Herr Auditorium Theatre",
+  "website": "https://rbtl.org/west-herr/",
+  "cms": "WordPress",
+  "phone": "(585) 222-5000",
+  "address": "885 East Main Street, Rochester, NY 14605",
+  "category": "venue",
+  "lake": "Ontario",
+  "ticketmaster-id": "KovZpaowGe"
+},
+{
+  "aName": "Westcott Theatre",
+  "website": "https://www.thewestcotttheater.com/",
+  "cms": "WordPress",
+  "phone": "(315) 299-8886",
+  "address": "524 Westcott Street, Syracuse, NY 13210",
+  "category": "venue",
+  "lake": "Onondaga",
+  "ticketmaster-id": "ZFr9jZ67Fk"
+}
 ]

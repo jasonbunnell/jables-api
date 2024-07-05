@@ -21,7 +21,7 @@ const events = JSON.parse(fs.readFileSync(`${__dirname}/_data/events.json`, 'utf
 const importData = async () => {
     try {
         await Attraction.create(attractions);
-        await Event.create(events);
+        // await Event.create(events);
         console.log('Data Imported...'.green.inverse);
         process.exit();
     } catch (err) {
@@ -33,7 +33,7 @@ const importData = async () => {
 const deleteData = async () => {
     try {
         await Attraction.deleteMany();
-        await Event.deleteMany();
+        // await Event.deleteMany();
         console.log('Data Destroyed...'.red.inverse);
         process.exit();
     } catch (err) {

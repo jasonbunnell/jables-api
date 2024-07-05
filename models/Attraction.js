@@ -8,7 +8,7 @@ const AttractionSchema = new mongoose.Schema({
         required: [true, 'Please add an Attraction name'],
         unique: true,
         trim: true,
-        maxlength: [50, 'Name cannot be more than 50 characters']
+        maxlength: [70, 'Name cannot be more than 50 characters']
     },
     slug: String,
     description: {
@@ -71,10 +71,11 @@ const AttractionSchema = new mongoose.Schema({
             'museum',
             'casino',
             'theater',
-            'event venue',
+            'venue',
             'farm',
             'park',
-            'golf course'
+            'golf course',
+            'sports arena'
         ]
     },
     likes: {
@@ -106,6 +107,9 @@ const AttractionSchema = new mongoose.Schema({
     photo: {
         type: String,
         default: 'no-photo.jpg'
+    },
+    ticketmasterId: {
+        type: String
     },
     createdAt: {
         type: Date,
