@@ -21,7 +21,7 @@ const events = JSON.parse(fs.readFileSync(`${__dirname}/_data/events.json`, 'utf
 const importData = async () => {
     try {
         await Attraction.create(attractions);
-        // await Event.create(events);
+        await Event.create(events);
         console.log('Data Imported...'.green.inverse);
         process.exit();
     } catch (err) {
