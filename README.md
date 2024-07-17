@@ -34,3 +34,6 @@ You can sort.  EXAMPLE `attractions?sort=-likes`
 * **Limit** - this is a value set by the limit variable or by the limit parameter.  EXAMPLE - `attractions?limit=10`
 * **Page** - this is a value set by the page variable that default to 1 or by the page parameter.  EXAMPLE - `attractions?page=2`
 
+## Config
+* **Config** - backup config folder on Google Drive personal under FLX compass.
+
