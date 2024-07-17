@@ -1,17 +1,13 @@
 const mongoose = require('mongoose');
 
-const EventsSchema = new mongoose.Schema({
+const EventSchema = new mongoose.Schema({
     title: {
         type: String,
         trim: true,
         required: [true, 'Please add an event title']
     },
-    altTitle: {
-        type: String
-    },
     description: {
-        type: String,
-        required: [true, 'Please add an event description']
+        type: String
     },
     category: {
         // Array of strings
@@ -26,6 +22,15 @@ const EventsSchema = new mongoose.Schema({
             'family',
             'lecture',
             'comedy'
+        ]
+    },
+    subcategory: {
+        // Array of strings
+        type: [String],
+        enum: [
+            'musical',
+            'football',
+            'baseball'
         ]
     },
     startTime: {
@@ -60,6 +65,13 @@ const EventsSchema = new mongoose.Schema({
     },
     attraction: {
         type: mongoose.Schema.ObjectId,
-        ref: 'Attraction'
+        ref: 'Attraction',
+        required: [true, 'Please add an Attraction as location']
+    },
+    altTitle: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Entertainer'
     }
-})
+});
+
+module.exports = mongoose.model('Event', EventSchema);

@@ -1,4 +1,16 @@
 [
-    {},
-    {}
+    {
+        "title": "St Vith",
+        "category": "music",
+        "startTime": "2024-07-18T17:30:00-0400",
+        "endTime": "2024-07-18T20:30:00-0400",
+        "attraction": "66885fc90938805c695ec8a1"
+    },
+    {
+        "title": "Paul Thompson",
+        "category": "music",
+        "startTime": "2024-07-25T17:30:00-0400",
+        "endTime": "2024-07-25T20:30:00-0400",
+        "attraction": "66885fc90938805c695ec8a1"
+    }
 ]

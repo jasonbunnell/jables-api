@@ -78,6 +78,14 @@ const AttractionSchema = new mongoose.Schema({
             'sports arena'
         ]
     },
+    subcategory: {
+        // Array of strings
+        type: [String],
+        enum: [
+            'football',
+            'state park'
+        ]
+    },
     likes: {
         type: Number,
         default: 0
