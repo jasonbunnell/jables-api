@@ -8,7 +8,13 @@ const {
     getAttractionsInRadius
 } = require('../controllers/attractions');
 
+// Include other resource routers
+const eventRouter = require('./events');
+
 const router = express.Router();
+
+// Re-route into other resource routers
+router.use('/:attractionId/events', eventRouter);
 
 router.route('/radius/:zipcode/:distance').get(getAttractionsInRadius)
 

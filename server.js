@@ -13,6 +13,7 @@ connectDB();
 
 // Route files
 const attractions = require('./routes/attractions');
+const events = require('./routes/events');
 
 const app = express();
 
@@ -26,6 +27,7 @@ if(process.env.NODE_ENV === 'development') {
 
 // Mount routers
 app.use('/api/v1/attractions', attractions);
+app.use('/api/v1/events', events);
 
 app.use(errorHandler);
 
