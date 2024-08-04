@@ -24,7 +24,11 @@ exports.getAttractions = asyncHandler(async (req, res, next) => {
 
         // Create operators $gt, $gte, etc
         queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g, match => `$${match}`);
-        query = Attraction.find(JSON.parse(queryStr));
+
+        // Finding resouce
+        query = Attraction.find(JSON.parse(queryStr)).populate('events');
+
+        //
 
         // Select Fields
         if(req.query.select) {
@@ -37,7 +41,7 @@ exports.getAttractions = asyncHandler(async (req, res, next) => {
             const sortBy = req.query.sort.split(',').join(' ');
             query = query.sort(sortBy);
         } else {
-            query = query.sort('aName');
+            query = query.sort('name');
         }
 
         // Pagination
@@ -122,10 +126,15 @@ exports.updateAttraction = asyncHandler(async (req, res, next) => {
 // @route   DELETE /api/v1/attractions/:id
 // @access  Private
 exports.deleteAttraction = asyncHandler(async (req, res, next) => {
-        const attraction = await Attraction.findByIdAndDelete(req.params.id);
+        // changing from findByIdAndDelete to findById so middleware runs
+        const attraction = await Attraction.findById(req.params.id);
         if(!attraction) {
             return next(new ErrorResponse(`Attraction not found with id of ${req.params.id}`, 404));
         }
+
+        // added after removing findByIdAndDelete
+        attraction.remove();
+
         res.status(200).json({ success: true, data: {} });
 });
 

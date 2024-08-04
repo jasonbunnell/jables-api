@@ -12,7 +12,10 @@ exports.getEvents = asyncHandler(async (req, res, next) => {
     if(req.params.attractionId) {
         query = Event.find({ attraction: req.params.attractionId });
     } else {
-        query = Event.find();
+        query = Event.find().populate({
+            path: 'attraction',
+            select: 'name location'
+        });
     }
 
     const events = await query;

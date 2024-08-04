@@ -37,4 +37,8 @@ You can sort.  EXAMPLE `attractions?sort=-likes`
 ## Config
 * **Config** - backup config folder on Google Drive personal under FLX compass.
 
+# Outstanding Backend Tasks
+These are tasks that have not been completed yet.
+* [ ] Delete single attraction using `remove()` method instead of using `.findByIdAndDelete()` so middleware runs
+
 

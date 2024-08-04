@@ -3,7 +3,7 @@ const slugify = require('slugify');
 const geocoder = require('../utils/geocoder');
 
 const AttractionSchema = new mongoose.Schema({
-    aName: {
+    name: {
         type: String,
         required: [true, 'Please add an Attraction name'],
         unique: true,
@@ -123,11 +123,14 @@ const AttractionSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     }
+}, {
+    toJSON: { virtuals: true },
+    toObject: {virtuals: true }
 });
 
 // Create attraction slug from the name
 AttractionSchema.pre('save', function(next) {
-    this.slug = slugify(this.aName, { lower: true });
+    this.slug = slugify(this.name, { lower: true });
     next();
 });
 
@@ -150,5 +153,23 @@ AttractionSchema.pre('save', async function(next) {
     this.address = undefined;
     next();
 });
+
+// Cascade delete events when attraction is deleted
+AttractionSchema.pre('remove', async function (next) {
+    console.log(`Events being removed and deleted from attraction ${this._id}`);
+    await this.model('Event').deleteMany({ event: this._id });
+    next();
+})
+
+// Reverse populate with virtuals
+// local field
+// foreign field = field in Event model that refers to this model
+// justOne - gets an array of, in this case, events
+AttractionSchema.virtual('events', {
+    ref: 'Event',
+    localField: '_id',
+    foreignField: 'attraction',
+    justOne: false
+})
 
 module.exports = mongoose.model('Attraction', AttractionSchema);
