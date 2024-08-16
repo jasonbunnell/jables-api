@@ -1,5 +1,6 @@
 const ErrorResponse = require('../utils/errorResponse');
 const Event = require('../models/Event');
+const Attraction = require('../models/Attraction');
 const asyncHandler = require('../middleware/async');
 
 // @desc    Get all events
@@ -45,3 +46,26 @@ if(!event) {
         data: event
     });
 });
+
+// @desc    Add event
+// @route   POST /api/v1/attractions/:attractionId/events
+// @access  Private
+exports.addEvent = asyncHandler(async (req, res, next) => {
+    req.body.attraction = req.params.attractionId;
+
+    const attraction = await Attraction.findById(req.params.attractionId);
+    
+    if(!attraction) {
+        return next(
+            new ErrorResponse(`No attraction with ID of ${req.params.attracionId}`), 
+            404
+        );
+    }
+
+    const event = await Event.create(req.body);
+    
+        res.status(200).json({
+            success: true,
+            data: event
+        });
+    });
