@@ -25,4 +25,23 @@ exports.getEvents = asyncHandler(async (req, res, next) => {
         count: events.length,
         data: events
     });
-})
+});
+
+// @desc    Get single event
+// @route   GET /api/v1/events/:id
+// @access  Public
+exports.getEvent = asyncHandler(async (req, res, next) => {
+const event = await Event.findById(req.params.id).populate({
+    path: 'attraction',
+    select: 'name category'
+});
+
+if(!event) {
+    return next(new ErrorResponse(`No event with ID of ${req.params.id}`), 404);
+}
+
+    res.status(200).json({
+        success: true,
+        data: event
+    });
+});

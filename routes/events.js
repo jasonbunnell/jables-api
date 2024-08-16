@@ -1,6 +1,7 @@
 const express = require('express');
 const { 
-    getEvents
+    getEvents,
+    getEvent
 } = require('../controllers/events');
 
 const router = express.Router({
@@ -8,5 +9,6 @@ const router = express.Router({
 });
 
 router.route('/').get(getEvents);
+router.route('/:id').get(getEvent);
 
 module.exports = router;
