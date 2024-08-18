@@ -2,7 +2,8 @@ const express = require('express');
 const { 
     getEvents,
     getEvent,
-    addEvent
+    addEvent,
+    updateEvent
 } = require('../controllers/events');
 
 const router = express.Router({
@@ -10,6 +11,6 @@ const router = express.Router({
 });
 
 router.route('/').get(getEvents).post(addEvent);
-router.route('/:id').get(getEvent);
+router.route('/:id').get(getEvent).put(updateEvent);
 
 module.exports = router;
