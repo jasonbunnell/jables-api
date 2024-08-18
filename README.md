@@ -39,6 +39,6 @@ You can sort.  EXAMPLE `attractions?sort=-likes`
 
 # Outstanding Backend Tasks
 These are tasks that have not been completed yet.
-* [ ] Delete single attraction using `remove()` method instead of using `.findByIdAndDelete()` so middleware runs
+* [ ] Using `Event.findByIdAndDelete(req.params.id)` instead of `event.remove()` because the remove function is depricated.  This will conflict with course middleware as it had created a function that if an attraction was deleted that had events, it would delete events too.
 
 

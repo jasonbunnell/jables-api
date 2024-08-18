@@ -92,4 +92,25 @@ exports.updateEvent = asyncHandler(async (req, res, next) => {
             success: true,
             data: event
         });
-    });    
+    });   
+    
+// @desc    Delete event
+// @route   DELETE /api/v1/events/:id
+// @access  Private
+exports.deleteEvent = asyncHandler(async (req, res, next) => {
+    const event = await Event.findById(req.params.id);
+    
+    if(!event) {
+        return next(
+            new ErrorResponse(`No event with ID of ${req.params.id}`), 
+            404
+        );
+    }
+    
+await Event.findByIdAndDelete(req.params.id);
+
+        res.status(200).json({
+            success: true,
+            data: {}
+        });
+    });   
