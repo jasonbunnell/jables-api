@@ -89,6 +89,10 @@ const AttractionSchema = new mongoose.Schema({
     likes: {
         type: Number,
         default: 0
+        // depricate
+    },
+    avgBookmarks: {
+        type: Number
     },
     lake:{
         // Array of strings
