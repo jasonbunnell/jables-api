@@ -40,5 +40,6 @@ You can sort.  EXAMPLE `attractions?sort=-likes`
 # Outstanding Backend Tasks
 These are tasks that have not been completed yet.
 * [ ] Using `Event.findByIdAndDelete(req.params.id)` instead of `event.remove()` because the remove function is depricated.  This will conflict with course middleware as it had created a function that if an attraction was deleted that had events, it would delete events too.
+* [ ] User `bookmarks` `Events` and `likes` `Entertainers`.  Remove `likes` field from `Attraction` collection.  `Attraction` will have `avgBookmarks` which is the average from the number of bookmarks for each event at that attraction.
 
 
