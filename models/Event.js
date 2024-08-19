@@ -12,7 +12,7 @@ const EventSchema = new mongoose.Schema({
     category: {
         // Array of strings
         type: [String],
-        required: true,
+        required: [true, 'Please add a category'],
         enum: [
             'music',
             'theater',
@@ -74,6 +74,12 @@ const EventSchema = new mongoose.Schema({
     altTitle: {
         type: mongoose.Schema.ObjectId,
         ref: 'Entertainer'
+    },
+    bookmarks: {
+        type: Number
+    },
+    likes: {
+        type: Number
     }
 });
 
