@@ -1,0 +1,18 @@
+Sapalta id = 66c3c0a78085d1ef5b9f9dbe
+Eastman Theatre = 66c3c0a78085d1ef5b9f9e4d
+CMAC = 66c3c0a78085d1ef5b9f9d8b
+
+CATEGORIES
+    music
+    theater
+    games
+    sports
+    nerdy
+    family
+    lecture
+    comedy
+
+TICKETING
+    Spektrix
+    accesso
+    Ticketmaster

@@ -50,20 +50,238 @@
         "bookmarks": 40
     },
     {
-        "title": "Ying Quartet",
-        "series": "Eastsman Ranlet Series",
+        "title": "Lomazov/Rackers Piano Duo",
+        "series": "Faculty Artist Series",
         "category": "music",
-        "startTime": "2024-09-15T15:00:00.000Z",
         "source": "direct",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d",
-        "bookmarks": 200
+        "promoted": true,
+        "bookmarks": 12,
+        "startTime": "2024-09-08T15:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
     },
     {
-        "title": "Pete Davidson",
-        "category": "comedy",
-        "startTime": "2024-09-13T23:30:00.000Z",
+        "title": "Joshua Conyers & Chelsea Whitaker",
+        "series": "Faculty Artist Series",
+        "category": "music",
         "source": "direct",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d",
-        "bookmarks": 100
+        "promoted": true,
+        "bookmarks": 16,
+        "startTime": "2024-09-09T19:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "Colin Jost",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 14,
+        "startTime": "2024-09-13T19:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "William Prince",
+        "series": "Kilbourn Concert Series",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 18,
+        "startTime": "2024-09-13T19:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "Ran Dank",
+        "series": "Faculty Artist Series",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 22,
+        "startTime": "2024-09-14T19:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "Ying Quartet",
+        "series": "Eastman-Ranlet Series",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 24,
+        "startTime": "2024-09-15T15:00:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "Composition Faculty Showcase",
+        "series": "Faculty Artist Series",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 11,
+        "startTime": "2024-09-16T19:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "Crystal Sellers Battle",
+        "series": "Faculty Artist Series",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 13,
+        "startTime": "2024-09-18T19:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "Brock Tjosvold",
+        "series": "Faculty Artist Series",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 15,
+        "startTime": "2024-09-19T19:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "Endea Owens and The Cookout",
+        "series": "Kilbourn Concert Series",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 17,
+        "startTime": "2024-09-20T19:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "Tony Caramia",
+        "series": "Faculty Artist Series",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 19,
+        "startTime": "2024-09-22T15:30:00",
+        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+    },
+    {
+        "title": "RuPaul\u2019s Drag Race All Stars LIVE",
+        "category": "theater",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 19,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-09-13T20:00:00"
+    },
+    {
+        "title": "Tesla",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 24,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-09-27T19:00:00"
+    },
+    {
+        "title": "Face 2 Face \u2013 A Tribute to Elton John & Billy Joel",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 27,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-09-13T19:00:00"
+    },
+    {
+        "title": "Dirty Honey",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 30,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-09-28T20:00:00"
+    },
+    {
+        "title": "Nitty Gritty Dirt Band",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 25,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-10-04T20:00:00"
+    },
+    {
+        "title": "Three Dog Night",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 29,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-10-11T20:00:00"
+    },
+    {
+        "title": "Ice Cube",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 27,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-10-12T20:00:00"
+    },
+    {
+        "title": "Radio Floyd \u2013 A Tribute to Pink Floyd",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 26,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-10-19T19:00:00"
+    },
+    {
+        "title": "Tracy Morgan",
+        "category": "comedy",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 24,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-10-25T20:00:00"
+    },
+    {
+        "title": "Doug T - Comedian & Hypnotist",
+        "category": "theater",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 23,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-11-01T20:00:00"
+    },
+    {
+        "title": "Purple Madness: A Tribute to Prince",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 25,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-11-01T20:00:00"
+    },
+    {
+        "title": "Sons of Skynyrd A Tribute to Skynyrd",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 24,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-11-09T20:00:00"
+    },
+    {
+        "title": "Gary Allan",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 28,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-11-16T20:00:00"
+    },
+    {
+        "title": "Daughtry",
+        "category": "music",
+        "source": "direct",
+        "promoted": true,
+        "bookmarks": 29,
+        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "startTime": "2024-11-01T20:00:00"
     }
 ]

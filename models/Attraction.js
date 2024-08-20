@@ -119,7 +119,8 @@ const AttractionSchema = new mongoose.Schema({
         type: String,
         enum: [
             'Spektrix',
-            'Ticketmaster'
+            'Ticketmaster',
+            'accesso'
         ]
     },
     ticketmasterId: {
