@@ -6,6 +6,12 @@ const EventSchema = new mongoose.Schema({
         trim: true,
         required: [true, 'Please add an event title']
     },
+    subtitle: {
+        type: String
+    },
+    series: {
+        type: String
+    },
     description: {
         type: String
     },
@@ -78,6 +84,10 @@ const EventSchema = new mongoose.Schema({
     bookmarks: {
         type: Number,
         default: 0
+    },
+    promoted: {
+        type: Boolean,
+        default: false
     },
     likes: {
         type: Number

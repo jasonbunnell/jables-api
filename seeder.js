@@ -14,15 +14,15 @@ const Event = require('./models/Event');
 mongoose.connect(process.env.MONGO_URI, {});
 
 // Read JSON files
-// const attractions = JSON.parse(fs.readFileSync(`${__dirname}/_data/attractions.json`, 'utf-8'));
+const attractions = JSON.parse(fs.readFileSync(`${__dirname}/_data/attractions.json`, 'utf-8'));
 // const events = JSON.parse(fs.readFileSync(`${__dirname}/_data/events.json`, 'utf-8'));
-const events = JSON.parse(fs.readFileSync(`${__dirname}/_data/events-test.json`, 'utf-8'));
+// const events = JSON.parse(fs.readFileSync(`${__dirname}/_data/events-test.json`, 'utf-8'));
 
 // Import into database
 const importData = async () => {
     try {
-        // await Attraction.create(attractions);
-        await Event.create(events);
+        await Attraction.create(attractions);
+        // await Event.create(events);
         console.log('Data Imported...'.green.inverse);
         process.exit();
     } catch (err) {

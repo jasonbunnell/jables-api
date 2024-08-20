@@ -1,6 +1,6 @@
 [
  {
-   "aName": "Brew & Brats at Arbor Hill",
+   "name": "Brew & Brats at Arbor Hill",
    "website": "https://brewandbrats.com/",
    "cms": "WordPress",
    "phone": "(585) 531-4113",
@@ -9,7 +9,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Engine 14 Brewery",
+   "name": "Engine 14 Brewery",
    "website": "https://www.engine14brewery.com/",
    "cms": "Squarespace",
    "phone": "(585) 531-0014",
@@ -18,7 +18,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Fairport Brewing Company",
+   "name": "Fairport Brewing Company",
    "website": "https://www.fairportbrewing.com/",
    "cms": "CMS Max",
    "phone": "(585) 425-3003",
@@ -27,7 +27,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Frequentem Brewing Company",
+   "name": "Frequentem Brewing Company",
    "website": "https://frequentembrewing.com/",
    "cms": "WordPress",
    "phone": "(585) 577-8007",
@@ -36,17 +36,16 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "K2 Bros Brewing",
+   "name": "K2 Bros Brewing",
    "website": "https://www.k2brewing.com/",
    "cms": "Wix",
    "phone": "(585) 413-1997",
    "address": "1221 Empire Blvd, Rochester, NY 14609-5946, US",
    "category": "brewery",
-   "lake": "Canandaigua",
-   "likes": 2
+   "lake": "Canandaigua"
  },
  {
-   "aName": "Knucklehead Craft Brewing",
+   "name": "Knucklehead Craft Brewing",
    "website": "https://knuckleheadcraftbrewing.com/",
    "cms": "WordPress",
    "phone": "(585) 347-6236",
@@ -55,7 +54,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Lock 32 Brewing Company",
+   "name": "Lock 32 Brewing Company",
    "website": "https://lock32brew.com/",
    "cms": "Squarespace",
    "phone": "(585) 500-8844",
@@ -64,7 +63,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Naked Dove Brewing Company",
+   "name": "Naked Dove Brewing Company",
    "website": "http://www.nakeddovebrewing.com/",
    "cms": "custom site",
    "phone": "(585) 396-2537",
@@ -73,7 +72,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Naples Brewing Company",
+   "name": "Naples Brewing Company",
    "website": "https://www.naplesbrewco.com/",
    "cms": "Squarespace",
    "phone": "(585) 531-4166",
@@ -82,7 +81,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Other Half Brewing Finger Lakes",
+   "name": "Other Half Brewing Finger Lakes",
    "website": "https://otherhalfbrewing.com/location/finger-lakes/",
    "cms": "Wordpress",
    "phone": "(585) 617-0453",
@@ -91,7 +90,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Peacemaker Brewing Company",
+   "name": "Peacemaker Brewing Company",
    "website": "https://www.peacemakerbrewing.com/",
    "cms": "Wix",
    "phone": "(585) 396-3561",
@@ -100,7 +99,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Reinvention Brewing Company",
+   "name": "Reinvention Brewing Company",
    "website": "https://www.reinventionbrewing.com/",
    "cms": "BentoBox",
    "phone": "(585) 289-7309",
@@ -109,7 +108,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "The Irish Mafia Brewing Company",
+   "name": "The Irish Mafia Brewing Company",
    "website": "https://www.irishmafiabrewing.com/",
    "cms": "Squarespace",
    "phone": "(585) 257-5172",
@@ -118,13 +117,13 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Three Huskies Brewing",
+   "name": "Three Huskies Brewing",
    "address": "93 Clark St, Canandaigua, NY 14424",
    "category": "brewery",
    "lake": "Canandaigua"
  },
  {
-   "aName": "Triphammer Bierwerks",
+   "name": "Triphammer Bierwerks",
    "website": "https://triphammerbierwerks.com/",
    "cms": "custom site",
    "phone": "(585) 388-8281",
@@ -133,7 +132,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Twin Elder Brewery",
+   "name": "Twin Elder Brewery",
    "website": "https://twinelderbrewery.com/",
    "cms": "WordPress",
    "phone": "(585) 902-8166",
@@ -142,7 +141,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Young Lion Brewing",
+   "name": "Young Lion Brewing",
    "website": "https://younglionbrewing.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(585) 412-6065",
@@ -151,7 +150,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Aurora Ale & Lager Co",
+   "name": "Aurora Ale & Lager Co",
    "website": "http://www.brewaurora.com/",
    "cms": "Weebly",
    "phone": "(315) 916-2104",
@@ -160,7 +159,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Beer Tree Brew Co",
+   "name": "Beer Tree Brew Co",
    "website": "https://www.beertreebrew.com/farm",
    "cms": "Wix",
    "phone": "(607) 204-0712",
@@ -169,7 +168,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Binghamton Brewing Company",
+   "name": "Binghamton Brewing Company",
    "website": "https://www.bingbrew.com/",
    "cms": "Wix",
    "phone": "(607) 238-3448",
@@ -178,7 +177,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Fleur De Lis Brew Works",
+   "name": "Fleur De Lis Brew Works",
    "website": "https://www.fleurdelisbrewworks.com/",
    "cms": "React",
    "phone": "(315) 665-2337",
@@ -187,7 +186,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Garrett's Brewing Company",
+   "name": "Garrett's Brewing Company",
    "website": "https://garrettsbrewing.com/",
    "cms": "Squarespace",
    "phone": "(607) 209-4011",
@@ -196,7 +195,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Hopshire Farm and Brewery",
+   "name": "Hopshire Farm and Brewery",
    "website": "https://hopshire.com/",
    "cms": "WordPress",
    "phone": "(607) 279-1243",
@@ -205,7 +204,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Ithaca Ale House",
+   "name": "Ithaca Ale House",
    "website": "http://www.ithacaalehouse.com/",
    "cms": "Drupal",
    "phone": "(607) 256-7977",
@@ -214,16 +213,16 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Ithaca Beer Company",
+   "name": "Ithaca Beer Company",
    "website": "https://ithacabeer.com/homepage",
    "cms": "Squarespace",
    "phone": "(607) 273-0766",
-   "address": "122 Ithaca Beer Dr, Ithaca, NY 14850, US",
+   "address": "122 Ithaca Beer Drive, Ithaca, NY 14850, US",
    "category": "brewery",
    "lake": "Cayuga"
  },
  {
-   "aName": "Liquid State Brewing Company",
+   "name": "Liquid State Brewing Company",
    "website": "https://www.liquidstatebeer.com/",
    "cms": "Wix",
    "address": "620 W Green St, Ithaca, NY 14850-5250, US",
@@ -231,7 +230,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Salt Point Brewing Co",
+   "name": "Salt Point Brewing Co",
    "website": "https://www.saltpointbrewing.com/",
    "cms": "Squarespace",
    "phone": "(607) 533-0124",
@@ -240,7 +239,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "The FarmHouse Brewery",
+   "name": "The FarmHouse Brewery",
    "website": "https://backbayfarmhouse.com/",
    "cms": "Squarespace",
    "phone": "(757) 904-3183",
@@ -249,14 +248,14 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "The North Brewery",
+   "name": "The North Brewery",
    "phone": "(607) 785-0524",
    "address": "110 Washington Ave, Endicott, NY 13760-5307, US",
    "category": "brewery",
    "lake": "Cayuga"
  },
  {
-   "aName": "Water Street Brewing Co",
+   "name": "Water Street Brewing Co",
    "website": "https://www.waterstreetbrewingco.com/",
    "cms": "Wix",
    "phone": "(607) 296-4206",
@@ -265,7 +264,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Brindle Haus Brewing Co",
+   "name": "Brindle Haus Brewing Co",
    "website": "https://www.brindlehausbrewing.com/",
    "cms": "Wix",
    "phone": "(585) 488-2034",
@@ -274,7 +273,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Dublin Corners Farm Brewery",
+   "name": "Dublin Corners Farm Brewery",
    "website": "https://www.dublincornersfarm.com/",
    "cms": "Wix",
    "phone": "(585) 447-9416",
@@ -283,7 +282,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Eli Fish Brewing Company",
+   "name": "Eli Fish Brewing Company",
    "website": "https://elifishbrewing.com/",
    "cms": "WordPress",
    "phone": "(585) 343-0008",
@@ -292,7 +291,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Fifth Frame Brewing Co",
+   "name": "Fifth Frame Brewing Co",
    "website": "http://fifthframe.co/",
    "cms": "Squarespace",
    "phone": "(585) 735-7155",
@@ -301,7 +300,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Genesee Brew House",
+   "name": "Genesee Brew House",
    "website": "https://www.geneseebeer.com/brewhouse/",
    "cms": "Netlify",
    "phone": "(585) 263-9200",
@@ -310,7 +309,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Griff’s Brewery",
+   "name": "Griff’s Brewery",
    "website": "http://www.griffsbrewery.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(585) 617-3843",
@@ -319,7 +318,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Iron Tug Brewing",
+   "name": "Iron Tug Brewing",
    "website": "https://www.irontugbrewing.com/",
    "cms": "Squarespace",
    "phone": "(585) 738-5606",
@@ -328,7 +327,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Mortalis Brewing Company FLX",
+   "name": "Mortalis Brewing Company FLX",
    "website": "https://www.mortalisbrewing.com/",
    "cms": "Squarespace",
    "phone": "(585) 438-4200",
@@ -337,7 +336,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "No BS Brewing",
+   "name": "No BS Brewing",
    "website": "https://www.bsbrewcompany.com/",
    "cms": "Squarespace",
    "phone": "(585) 572-3010",
@@ -346,7 +345,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "RG Brewery",
+   "name": "RG Brewery",
    "website": "https://www.rgbrewery.com/",
    "cms": "Wix",
    "phone": "(585) 391-3569",
@@ -355,7 +354,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Rising Storm Brewing Co",
+   "name": "Rising Storm Brewing Co",
    "website": "https://www.risingstormbrewing.com/",
    "cms": "Jimdo",
    "phone": "(585) 572-3009",
@@ -364,7 +363,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Rohrbach Beer Hall and Brewery",
+   "name": "Rohrbach Beer Hall and Brewery",
    "website": "https://www.rohrbachs.com/",
    "cms": "Squarespace",
    "phone": "(585) 546-8020",
@@ -373,7 +372,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Sager Brew Works",
+   "name": "Sager Brew Works",
    "website": "https://sagerbeerworks.com/",
    "cms": "WordPress",
    "phone": "(585) 417-5404",
@@ -382,7 +381,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Silver Lake Brewing Project",
+   "name": "Silver Lake Brewing Project",
    "website": "https://silverlakebrewingproject.com/",
    "cms": "custom site",
    "phone": "(585) 969-4238",
@@ -391,7 +390,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Stoneyard Brewing Company",
+   "name": "Stoneyard Brewing Company",
    "website": "https://www.stoneyardbrewingcompany.com/",
    "cms": "Wix",
    "phone": "(585) 417-5404",
@@ -400,7 +399,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Swiftwater Brewing Company",
+   "name": "Swiftwater Brewing Company",
    "website": "https://swiftwaterbrewing.com/",
    "cms": "WordPress",
    "phone": "(585) 530-3471",
@@ -409,7 +408,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Three Heads Brewing",
+   "name": "Three Heads Brewing",
    "website": "https://threeheadsbrewing.com/",
    "cms": "WordPress",
    "phone": "(585) 244-1224",
@@ -418,7 +417,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Wood Kettle Brewing",
+   "name": "Wood Kettle Brewing",
    "website": "http://woodkettlebrewing.com/",
    "cms": "WordPress",
    "phone": "(585) 366-4183",
@@ -427,7 +426,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Battle Street Brewery",
+   "name": "Battle Street Brewery",
    "website": "https://www.battlestreetbrewery.com/",
    "cms": "Wix",
    "phone": "(585) 432-2337",
@@ -436,7 +435,7 @@
    "lake": "Hemlock"
  },
  {
-   "aName": "Noble Shepherd Craft Brewery",
+   "name": "Noble Shepherd Craft Brewery",
    "website": "https://www.nobleshepherdbrewery.com/",
    "cms": "Squarespace",
    "phone": "(585) 229-7661",
@@ -445,7 +444,7 @@
    "lake": "Honeoye"
  },
  {
-   "aName": "Twisted Rail Brewing Honeoye",
+   "name": "Twisted Rail Brewing Honeoye",
    "website": "https://www.twistedrailbrewing.com/",
    "cms": "Squarespace",
    "phone": "(585) 531-5144",
@@ -454,7 +453,7 @@
    "lake": "Honeoye"
  },
  {
-   "aName": "Abandon Brewing Company",
+   "name": "Abandon Brewing Company",
    "website": "http://abandonbrewing.com/",
    "cms": "WordPress",
    "phone": "(585) 208-9088",
@@ -463,7 +462,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Brewery of Broken Dreams",
+   "name": "Brewery of Broken Dreams",
    "website": "https://www.thebreweryofbrokendreams.com/",
    "cms": "Wix",
    "phone": "(607) 224-4050",
@@ -472,7 +471,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Finger Lakes Beer Company",
+   "name": "Finger Lakes Beer Company",
    "website": "https://fingerlakesbeercompany.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(607) 569-3311",
@@ -481,7 +480,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Keg & Barrel Brewing Co",
+   "name": "Keg & Barrel Brewing Co",
    "website": "https://kegandbarrelbrewing.com/",
    "cms": "WordPress",
    "phone": "(607) 292-6622",
@@ -490,7 +489,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Keuka Brewing Company",
+   "name": "Keuka Brewing Company",
    "website": "https://www.keukabrewingcompany.com/",
    "cms": "Squarespace",
    "phone": "(607) 868-4648",
@@ -499,7 +498,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "LyonSmith Brewing Co",
+   "name": "LyonSmith Brewing Co",
    "website": "https://lyonsmithbrewing.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(315) 536-5603",
@@ -508,7 +507,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Railhead Brewing Company",
+   "name": "Railhead Brewing Company",
    "website": "https://www.railheadbrewing.com/",
    "cms": "Squarespace",
    "phone": "(607) 324-3286",
@@ -517,7 +516,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Steuben Brewing Company",
+   "name": "Steuben Brewing Company",
    "website": "https://steubenbrewingcompany.com/",
    "cms": "WordPress",
    "phone": "(607) 332-3000",
@@ -526,14 +525,14 @@
    "lake": "Keuka"
  },
  {
-   "aName": "TripEnd Brewing",
+   "name": "TripEnd Brewing",
    "phone": "(607) 346-7472",
    "address": "3072 Prutsman Rd, Troupsburg, NY 14885-9613, US",
    "category": "brewery",
    "lake": "Keuka"
  },
  {
-   "aName": "Twisted Rail Brewing Canandaigua",
+   "name": "Twisted Rail Brewing Canandaigua",
    "website": "https://www.twistedrailbrewing.com/",
    "cms": "Squarespace",
    "phone": "(585) 396-0683",
@@ -542,7 +541,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Wellsville Brewing Company",
+   "name": "Wellsville Brewing Company",
    "website": "https://wellsvillebrewingcompany.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(585) 596-1214",
@@ -551,7 +550,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Horseheads Brewing Company",
+   "name": "Horseheads Brewing Company",
    "website": "https://horseheadsbrewing.com/",
    "cms": "WordPress",
    "phone": "(607) 739-8468",
@@ -560,7 +559,7 @@
    "lake": "none"
  },
  {
-   "aName": "All Who Wander",
+   "name": "All Who Wander",
    "website": "https://www.awwander.com/",
    "cms": "Weebly",
    "phone": "(315) 692-2026",
@@ -569,7 +568,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Buried Acorn Brewing Company",
+   "name": "Buried Acorn Brewing Company",
    "website": "https://www.buriedacorn.com/",
    "cms": "Weebly",
    "phone": "(315) 552-1499",
@@ -578,7 +577,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Critz Farms Brewing & Cider Co",
+   "name": "Critz Farms Brewing & Cider Co",
    "website": "https://www.critzfarms.com/",
    "cms": "WordPress",
    "phone": "(315) 662-3355",
@@ -587,7 +586,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Full Boar Craft Brewery and Tap Room",
+   "name": "Full Boar Craft Brewery and Tap Room",
    "website": "http://www.fullboarbrew.com/",
    "cms": "BentoBox",
    "phone": "(315) 802-4784",
@@ -596,7 +595,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Heritage Hill Brewhouse",
+   "name": "Heritage Hill Brewhouse",
    "website": "https://heritagehillbrewery.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(315) 677-7060",
@@ -605,7 +604,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Middle Ages Brewing Company",
+   "name": "Middle Ages Brewing Company",
    "website": "https://www.middleagesbrewing.com/",
    "cms": "Wix",
    "phone": "(315) 476-4250",
@@ -614,7 +613,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Red Hawk Brewing",
+   "name": "Red Hawk Brewing",
    "website": "http://www.redhawkbrewing.com/",
    "cms": "Homestead",
    "phone": "(315) 491-5158",
@@ -623,7 +622,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Seneca Street Brew Pub",
+   "name": "Seneca Street Brew Pub",
    "website": "https://senecastreetbrewpub.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(315) 682-6968",
@@ -632,7 +631,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Stout Beard Brewing Company",
+   "name": "Stout Beard Brewing Company",
    "website": "https://www.stoutbeardbrewery.com/",
    "cms": "custom site",
    "phone": "(315) 214-3769",
@@ -641,7 +640,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Stumblin' Monkey Brewing Co",
+   "name": "Stumblin' Monkey Brewing Co",
    "website": "https://www.stumblinmonkeybeer.com/",
    "cms": "Wix",
    "phone": "(585) 398-8189",
@@ -650,7 +649,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Syracuse Suds Factory",
+   "name": "Syracuse Suds Factory",
    "website": "https://www.sudsfactory.com/",
    "cms": "WordPress",
    "phone": "(315) 471-2253",
@@ -659,7 +658,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Willow Rock Brewing Company",
+   "name": "Willow Rock Brewing Company",
    "website": "https://www.willowrockbrew.com/",
    "cms": "WordPress",
    "phone": "(315) 928-6948",
@@ -668,7 +667,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Lunkenheimer Craft Brewing Co",
+   "name": "Lunkenheimer Craft Brewing Co",
    "website": "https://www.lunkenheimercraftbrewing.com/",
    "cms": "Squarespace",
    "phone": "(315) 834-7027",
@@ -677,7 +676,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "Next Chapter Brewpub",
+   "name": "Next Chapter Brewpub",
    "website": "https://nextchapterbrewpub.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(315) 271-2739",
@@ -686,7 +685,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "Prison City Pub & Brewery",
+   "name": "Prison City Pub & Brewery",
    "website": "https://www.prisoncitybrewing.com/",
    "cms": "Squarespace",
    "phone": "(315) 604-1277",
@@ -695,7 +694,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "The Good Shepherd's Brewing Company",
+   "name": "The Good Shepherd's Brewing Company",
    "website": "https://www.shepsbrewing.com/",
    "cms": "Squarespace",
    "phone": "(315) 406-6498",
@@ -704,7 +703,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "Big aLICe Brewing Finger Lakes",
+   "name": "Big aLICe Brewing Finger Lakes",
    "website": "https://www.bigalicebrewing.com/",
    "cms": "Squarespace",
    "phone": "(315) 325-4749",
@@ -713,7 +712,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Brewery Ardennes",
+   "name": "Brewery Ardennes",
    "website": "https://www.breweryardennes.com/",
    "cms": "Squarespace",
    "phone": "(315) 325-4858",
@@ -722,7 +721,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Cary's Brew House",
+   "name": "Cary's Brew House",
    "website": "https://careysbrewhouse.com/",
    "cms": "custom site",
    "phone": "(607) 377-5651",
@@ -731,7 +730,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Climbing Bines Hop Farm & Brewery",
+   "name": "Climbing Bines Hop Farm & Brewery",
    "website": "https://www.climbingbineshopfarm.com/",
    "cms": "WordPress",
    "phone": "(585) 484-1397",
@@ -740,7 +739,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Crafty Ales & Lagers",
+   "name": "Crafty Ales & Lagers",
    "website": "https://www.drinkcraftyales.com/",
    "cms": "Wix",
    "phone": "(315) 332-1606",
@@ -749,7 +748,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Diversion Brewing Co",
+   "name": "Diversion Brewing Co",
    "website": "https://www.diversionbrewing.com/",
    "cms": "Weebly",
    "phone": "(607) 542-9168",
@@ -758,7 +757,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Grist Iron Brewing Company",
+   "name": "Grist Iron Brewing Company",
    "website": "http://gristironbrewing.com/",
    "cms": "Squarespace",
    "phone": "(607) 882-2739",
@@ -767,7 +766,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Hop Notch Brewing Co",
+   "name": "Hop Notch Brewing Co",
    "website": "https://hopnotchbrewingco.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(607) 738-4789",
@@ -776,7 +775,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Horseheads Brewing Seneca Lake",
+   "name": "Horseheads Brewing Seneca Lake",
    "website": "https://horseheadsbrewing.com/",
    "cms": "WordPress",
    "phone": "(607) 210-6116",
@@ -785,7 +784,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Iron Flamingo Brewery",
+   "name": "Iron Flamingo Brewery",
    "website": "https://www.ironflamingobrewery.com/",
    "cms": "Drupal",
    "phone": "(607) 936-4766",
@@ -794,7 +793,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Lake Drum Brewing",
+   "name": "Lake Drum Brewing",
    "website": "https://www.lakedrumbrewing.com/",
    "cms": "WordPress",
    "phone": "(315) 789-1200",
@@ -803,7 +802,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Liquid Shoes Brewing",
+   "name": "Liquid Shoes Brewing",
    "website": "https://liquidshoesbrewing.com/",
    "cms": "WordPress",
    "phone": "(607) 463-9726",
@@ -812,7 +811,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Lucky Hare Brewing Company",
+   "name": "Lucky Hare Brewing Company",
    "website": "http://www.luckyharebrewing.com/",
    "cms": "Drupal",
    "phone": "(607) 546-2036",
@@ -821,7 +820,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Market Street Brewing Company",
+   "name": "Market Street Brewing Company",
    "website": "https://www.936-beer.com/",
    "cms": "Wix",
    "phone": "(607) 936-2337",
@@ -830,7 +829,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Relative Risk Brewing Company",
+   "name": "Relative Risk Brewing Company",
    "website": "https://www.relativeriskbrewing.com/",
    "cms": "Weebly",
    "phone": "(315) 325-4292",
@@ -839,7 +838,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Rooster Fish Brewing",
+   "name": "Rooster Fish Brewing",
    "website": "https://roosterfishpub.com/",
    "cms": "Squarespace",
    "phone": "(607) 215-2847",
@@ -848,7 +847,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Scale House Brewery",
+   "name": "Scale House Brewery",
    "website": "https://www.scalehousebrews.com/",
    "cms": "Weebly",
    "phone": "(607) 546-2030",
@@ -857,7 +856,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Seneca Lake Brewing Company",
+   "name": "Seneca Lake Brewing Company",
    "website": "https://www.senecalakebrewing.com/",
    "cms": "Wix",
    "phone": "(607) 216-8369",
@@ -866,7 +865,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Seneca Lodge Craft Brewing (Seasonal)",
+   "name": "Seneca Lodge Craft Brewing (Seasonal)",
    "website": "https://senecalodge.com/portfolio/",
    "cms": "WordPress",
    "phone": "(607) 535-2014",
@@ -875,7 +874,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Seneca Stag",
+   "name": "Seneca Stag",
    "website": "https://senecastagbrewing.com/",
    "cms": "Plesk",
    "phone": "(315) 694-7586",
@@ -884,7 +883,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Tin Barn Brewing FLX",
+   "name": "Tin Barn Brewing FLX",
    "website": "https://www.tinbarn.com/finger-lakes",
    "cms": "Wix",
    "address": "5428 State Route 14, Dundee, NY 14837-8826, US",
@@ -892,7 +891,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Twisted Rail Brewing Geneva",
+   "name": "Twisted Rail Brewing Geneva",
    "website": "https://www.twistedrailbrewing.com/",
    "cms": "Squarespace",
    "phone": "(315) 325-6995",
@@ -901,7 +900,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Two Goats Brewing",
+   "name": "Two Goats Brewing",
    "website": "https://twogoatsbrewing.com/",
    "cms": "Squarespace",
    "phone": "(607) 546-2337",
@@ -910,7 +909,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Upstate Brewing Company",
+   "name": "Upstate Brewing Company",
    "website": "https://upstatebrewing.com/",
    "cms": "BentoBox",
    "phone": "(607) 742-2750",
@@ -919,7 +918,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Wagner Valley Brewing Company",
+   "name": "Wagner Valley Brewing Company",
    "website": "https://wagnerbrewing.com/",
    "cms": "WordPress",
    "phone": "(866) 924-6378",
@@ -928,7 +927,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "War Horse Brewing Company",
+   "name": "War Horse Brewing Company",
    "website": "https://www.3brotherswinery.com/war-horse-brewing",
    "cms": "custom site",
    "phone": "(315) 585-4432",
@@ -937,7 +936,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "WeBe Brewing Company",
+   "name": "WeBe Brewing Company",
    "website": "https://www.webebrewing.com/",
    "cms": "Wix",
    "phone": "(315) 325-4834",
@@ -946,14 +945,14 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Amber Lantern Brewing Company",
+   "name": "Amber Lantern Brewing Company",
    "phone": "(585) 786-3559",
    "address": "44 N Main St, Warsaw, NY 14569-1326, US",
    "category": "brewery",
    "lake": "Silver"
  },
  {
-   "aName": "Branching Out Bottle Shop",
+   "name": "Branching Out Bottle Shop",
    "website": "https://branchingoutbottleshop.com/",
    "cms": "WordPress",
    "phone": "(585) 261-8775",
@@ -962,7 +961,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Bullthistle Brewery",
+   "name": "Bullthistle Brewery",
    "website": "https://bullthistlebrewing.square.site/",
    "cms": "Weebly",
    "phone": "(607) 674-2337",
@@ -971,7 +970,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Cortland Beer Company",
+   "name": "Cortland Beer Company",
    "website": "https://www.cortlandbeer.com/",
    "cms": "Duda",
    "phone": "(607) 662-4389",
@@ -980,7 +979,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Finger Lakes On Tap",
+   "name": "Finger Lakes On Tap",
    "website": "http://www.fingerlakesontap.com/",
    "cms": "custom site",
    "phone": "(315) 685-9600",
@@ -989,7 +988,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Freight Yard Brewing",
+   "name": "Freight Yard Brewing",
    "website": "https://freightyardbrewing.square.site/",
    "cms": "Weebly",
    "phone": "(315) 699-7167",
@@ -998,7 +997,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Local 315 Brewing Company",
+   "name": "Local 315 Brewing Company",
    "website": "https://local315brewing.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(315) 468-2337",
@@ -1007,7 +1006,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Summerhill Brewing",
+   "name": "Summerhill Brewing",
    "website": "https://www.summerhillbrewing.com/",
    "cms": "Wix",
    "phone": "(607) 591-6148",
@@ -1016,14 +1015,14 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "WT Brews",
+   "name": "WT Brews",
    "phone": "(315) 720-3264",
    "address": "3 W Genesee St, Baldwinsville, NY 13027-1104, US",
    "category": "brewery",
    "lake": "Skaneateles"
  },
  {
-   "aName": "Finger Lakes Gaming & Racetrack",
+   "name": "Finger Lakes Gaming & Racetrack",
    "website": "https://www.fingerlakesgaming.com/",
    "cms": "Sitecore CMS",
    "phone": "(585) 924-3232",
@@ -1032,7 +1031,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Lakeside Entertainment",
+   "name": "Lakeside Entertainment",
    "website": "https://lakesidegaming.com/index.html",
    "cms": "Weeby",
    "phone": "(315) 889-5416",
@@ -1041,7 +1040,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Turning Stone Resort Casino",
+   "name": "Turning Stone Resort Casino",
    "website": "https://www.turningstone.com/",
    "cms": "custom site",
    "phone": "(800) 771-7711",
@@ -1050,7 +1049,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Del Lago Resort Casino",
+   "name": "Del Lago Resort Casino",
    "website": "https://dellagoresort.com/",
    "cms": "WordPress",
    "phone": "(315) 946-1777",
@@ -1059,7 +1058,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Black Diamond Farm and Cider",
+   "name": "Black Diamond Farm and Cider",
    "website": "https://www.blackdiamondcider.com/",
    "cms": "WordPress",
    "phone": "(607) 279-5112",
@@ -1068,7 +1067,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Blackduck Cidery",
+   "name": "Blackduck Cidery",
    "website": "https://blackduckcidery.com/",
    "cms": "WordPress",
    "phone": "(607) 869-5920",
@@ -1077,7 +1076,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Finger Lakes Cider House",
+   "name": "Finger Lakes Cider House",
    "website": "https://www.fingerlakesciderhouse.com/",
    "cms": "Squarespace",
    "phone": "(607) 351-3313",
@@ -1086,7 +1085,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Idiot Brothers Cider",
+   "name": "Idiot Brothers Cider",
    "website": "https://idiotbrothers.com/",
    "cms": "WordPress",
    "phone": "(607) 793-0409",
@@ -1095,7 +1094,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "New York Cider Company",
+   "name": "New York Cider Company",
    "website": "https://www.nyciderco.com/",
    "cms": "Squarespace",
    "phone": "(607) 229-7511",
@@ -1104,7 +1103,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Redbyrd Orchard Cider",
+   "name": "Redbyrd Orchard Cider",
    "website": "https://redbyrdorchardcider.com/",
    "cms": "WordPress",
    "phone": "(607) 351-3787",
@@ -1113,7 +1112,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "South Hill Cider",
+   "name": "South Hill Cider",
    "website": "https://southhillcider.squarespace.com/",
    "cms": "Squarespace",
    "phone": "(607) 792-1097",
@@ -1122,7 +1121,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Cider Creek Hard Cider",
+   "name": "Cider Creek Hard Cider",
    "website": "https://www.cidercreekhardcider.com/",
    "cms": "Wix",
    "phone": "(607) 301-3244",
@@ -1131,7 +1130,7 @@
    "lake": "none"
  },
  {
-   "aName": "Embark Craft Ciderworks",
+   "name": "Embark Craft Ciderworks",
    "website": "https://embarkcraftciderworks.com/",
    "cms": "custom site",
    "phone": "(315) 904-4212",
@@ -1140,7 +1139,7 @@
    "lake": "Ontario"
  },
  {
-   "aName": "Rootstock Ciderworks",
+   "name": "Rootstock Ciderworks",
    "website": "https://www.rootstockciderworks.com/",
    "cms": "Squarespace",
    "phone": "(315) 589-8733",
@@ -1149,7 +1148,7 @@
    "lake": "Ontario"
  },
  {
-   "aName": "Sterling Cidery",
+   "name": "Sterling Cidery",
    "website": "https://www.sterlingcidery.com/",
    "cms": "Wix",
    "address": "14451 Richmond Ave, Sterling, NY 13156",
@@ -1157,7 +1156,7 @@
    "lake": "Ontario"
  },
  {
-   "aName": "Stonegoose Market & Cidery",
+   "name": "Stonegoose Market & Cidery",
    "website": "https://www.theapplefarmstand.com/",
    "cms": "Squarespace",
    "phone": "(315) 812-0012",
@@ -1166,7 +1165,7 @@
    "lake": "Ontario"
  },
  {
-   "aName": "1911 Established",
+   "name": "1911 Established",
    "website": "https://1911established.com/",
    "cms": "Wordpress",
    "phone": "(315) 696-6085",
@@ -1175,7 +1174,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Apple Bombshell Hard Cider",
+   "name": "Apple Bombshell Hard Cider",
    "website": "https://www.3brotherswinery.com/bombshell-hard-cider",
    "cms": "WordPress",
    "phone": "(315) 585-4432",
@@ -1184,7 +1183,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Worthog Cidery",
+   "name": "Worthog Cidery",
    "website": "https://worthogcidery.com/worthog-cidery.php",
    "cms": "custom site",
    "phone": "(315) 536-1210",
@@ -1193,7 +1192,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Iron Smoke Distillery",
+   "name": "Iron Smoke Distillery",
    "website": "https://ironsmokedistillery.com/",
    "cms": "WordPress",
    "phone": "(585) 388-7584",
@@ -1202,7 +1201,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Hidden Marsh Distillery",
+   "name": "Hidden Marsh Distillery",
    "website": "https://www.montezumawinery.com/",
    "cms": "WordPress",
    "phone": "(315) 568-8190",
@@ -1211,7 +1210,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Mushroom Spirits Distillery",
+   "name": "Mushroom Spirits Distillery",
    "website": "http://www.mushroomspiritsdistillery.com/",
    "cms": "custom site",
    "phone": "(315) 549-8280",
@@ -1220,7 +1219,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Myer Farm Distilling",
+   "name": "Myer Farm Distilling",
    "website": "http://myerfarmdistillers.com/",
    "cms": "Squarespace",
    "phone": "(607) 532-4800",
@@ -1229,7 +1228,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Black Button Distilling",
+   "name": "Black Button Distilling",
    "website": "https://blackbuttondistilling.com/",
    "cms": "WordPress",
    "phone": "(585) 730-4512",
@@ -1238,7 +1237,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Antler Run Distilling",
+   "name": "Antler Run Distilling",
    "website": "https://www.antlerrundistilling.com/",
    "cms": "Squarespace",
    "phone": "(315) 694-7958",
@@ -1247,7 +1246,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Black Sheep Distillery",
+   "name": "Black Sheep Distillery",
    "website": "https://blacksheepdistilleryny.com/",
    "cms": "Wordpress",
    "phone": "(607) 661-8279",
@@ -1256,7 +1255,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Krooked Tusker Distillery",
+   "name": "Krooked Tusker Distillery",
    "website": "http://www.krookedtusker.com/",
    "cms": "Weebly",
    "phone": "(607) 868-3006",
@@ -1265,7 +1264,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Krookid Leyk Distilling",
+   "name": "Krookid Leyk Distilling",
    "website": "https://www.krookidleyk.com/",
    "cms": "Wix",
    "phone": "(607) 426-1063",
@@ -1274,7 +1273,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Cooperstown Distillery",
+   "name": "Cooperstown Distillery",
    "website": "https://cooperstowndistillery.com/",
    "cms": "WordPress",
    "phone": "(607) 282-4246",
@@ -1283,7 +1282,7 @@
    "lake": "Otisco"
  },
  {
-   "aName": "Alder Creek Distilling",
+   "name": "Alder Creek Distilling",
    "website": "https://idolridge.com/alder-creek-distillery/",
    "cms": "Wordpress",
    "phone": "(607) 582-7773",
@@ -1292,14 +1291,14 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Barrington Distillers",
+   "name": "Barrington Distillers",
    "phone": "(607) 243-9734",
    "address": "5040 Bill Bailey Rd #9765, Dundee, NY 14837",
    "category": "distillery",
    "lake": "Seneca"
  },
  {
-   "aName": "Finger Lakes Distilling Co",
+   "name": "Finger Lakes Distilling Co",
    "website": "https://fingerlakesdistilling.com/",
    "cms": "WordPress",
    "phone": "(607) 546-5510",
@@ -1308,7 +1307,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "O'Begley Distillery",
+   "name": "O'Begley Distillery",
    "website": "https://obegley.com/",
    "cms": "Wordpress",
    "phone": "(607) 678-4169",
@@ -1317,7 +1316,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Smokin' Tails Distillery",
+   "name": "Smokin' Tails Distillery",
    "website": "https://smokintails.com/",
    "cms": "WordPress",
    "phone": "(585) 880-1776",
@@ -1326,7 +1325,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Lively Run Dairy",
+   "name": "Lively Run Dairy",
    "website": "https://livelyrun.com/",
    "cms": "WordPress",
    "phone": "(607) 532-4647",
@@ -1335,7 +1334,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Granger Homestead and Carriage Museum",
+   "name": "Granger Homestead and Carriage Museum",
    "website": "https://grangerhomestead.org/",
    "cms": "WordPress",
    "phone": "(585) 394-1472",
@@ -1344,7 +1343,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Herbert F. Johnson Museum of Art",
+   "name": "Herbert F. Johnson Museum of Art",
    "website": "https://museum.cornell.edu/",
    "cms": "WordPress",
    "phone": "(607) 255-6464",
@@ -1353,7 +1352,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Museum of the Earth",
+   "name": "Museum of the Earth",
    "website": "https://www.museumoftheearth.org/",
    "cms": "Squarespace",
    "phone": "(607) 273-6623",
@@ -1362,7 +1361,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Sciencenter",
+   "name": "Sciencenter",
    "website": "https://www.sciencenter.org/",
    "cms": "custom site",
    "phone": "(607) 272-0600",
@@ -1371,7 +1370,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Glenn H Curtiss Museum",
+   "name": "Glenn H Curtiss Museum",
    "website": "https://glennhcurtissmuseum.org/",
    "cms": "WordPress",
    "phone": "(607) 569-2160",
@@ -1380,7 +1379,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Corning Museum of Glass",
+   "name": "Corning Museum of Glass",
    "website": "https://home.cmog.org/",
    "cms": "Drupal",
    "phone": "(607) 937-5371",
@@ -1389,7 +1388,7 @@
    "lake": "none"
  },
  {
-   "aName": "Geneva History Museum",
+   "name": "Geneva History Museum",
    "website": "https://genevahistorymuseum.org/",
    "cms": "WordPress",
    "phone": "(315) 789-5151",
@@ -1398,7 +1397,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "The Rockwell Museum",
+   "name": "The Rockwell Museum",
    "website": "https://rockwellmuseum.org/",
    "cms": "WordPress",
    "phone": "(607) 937-5386",
@@ -1407,7 +1406,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "CMAC",
+   "name": "CMAC",
    "website": "https://www.cmacevents.com/",
    "cms": "WordPress",
    "phone": "(585) 394-4400",
@@ -1416,7 +1415,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Casa De Pasta",
+   "name": "Casa De Pasta",
    "website": "https://casa-de-pasta.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(585) 394-3710",
@@ -1425,7 +1424,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Chakara Sushi & Bar",
+   "name": "Chakara Sushi & Bar",
    "website": "https://www.eatchakara.com/",
    "cms": "WordPress",
    "phone": "(585) 223-8101",
@@ -1434,7 +1433,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Il Posto Bistro",
+   "name": "Il Posto Bistro",
    "website": "https://ilpostobistrony.com/",
    "cms": "WordPress",
    "phone": "(585) 905-0535",
@@ -1443,7 +1442,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Nolan's on Canandaigua Lake",
+   "name": "Nolan's on Canandaigua Lake",
    "website": "https://www.nolansonthelake.com/",
    "cms": "Squarespace",
    "phone": "(585) 905-0201",
@@ -1452,7 +1451,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Otto Tomotto's",
+   "name": "Otto Tomotto's",
    "website": "https://www.ottotomottos.com/",
    "cms": "Duda",
    "phone": "(585) 742-2070",
@@ -1461,7 +1460,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Rheinblick German Restaurant",
+   "name": "Rheinblick German Restaurant",
    "website": "https://www.rheinblick.net/",
    "cms": "custom site",
    "phone": "(585) 905-0950",
@@ -1470,7 +1469,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Richardson's Canal House",
+   "name": "Richardson's Canal House",
    "website": "http://richardsonscanalhouse.com/",
    "cms": "ExpressEngine",
    "phone": "(585) 248-5000",
@@ -1479,7 +1478,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Roots Cafe",
+   "name": "Roots Cafe",
    "website": "https://rootscafenaplesny.com/",
    "cms": "Websitebuilder",
    "phone": "(585) 374-9800",
@@ -1488,7 +1487,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Simply Crepes Cafe",
+   "name": "Simply Crepes Cafe",
    "website": "https://www.simplycrepes.com/",
    "cms": "Squarespace",
    "phone": "(585) 394-9090",
@@ -1497,7 +1496,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "The Green Front",
+   "name": "The Green Front",
    "website": "https://thegreenfrontrestaurant.com/",
    "cms": "WordPress",
    "phone": "(585) 394-7015",
@@ -1506,7 +1505,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "1833 Kitchen & Bar",
+   "name": "1833 Kitchen & Bar",
    "website": "https://1833kitchen.com/",
    "cms": "Squarespace",
    "phone": "(315) 364-8888",
@@ -1515,7 +1514,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "84 Fall",
+   "name": "84 Fall",
    "website": "https://www.84fall.com/",
    "cms": "Popmenu",
    "phone": "(315) 828-6300",
@@ -1524,7 +1523,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Atlas Bowl",
+   "name": "Atlas Bowl",
    "website": "https://atlasbowl.com/",
    "cms": "WordPress",
    "phone": "(607) 387-3191",
@@ -1533,7 +1532,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Ciao Wood-Fired Pizza & Pasta",
+   "name": "Ciao Wood-Fired Pizza & Pasta",
    "website": "https://ciaoithaca.com/",
    "cms": "custom site",
    "phone": "(607) 257-2233",
@@ -1542,7 +1541,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Fargo Bar & Grill",
+   "name": "Fargo Bar & Grill",
    "website": "https://fargogrill.com/",
    "cms": "Squarespace",
    "phone": "(315) 364-8006",
@@ -1551,7 +1550,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Hazelnut Kitchen",
+   "name": "Hazelnut Kitchen",
    "website": "https://www.hazelnutkitchen.com/",
    "cms": "Squarespace",
    "phone": "(607) 387-4433",
@@ -1560,14 +1559,14 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Just a Taste",
+   "name": "Just a Taste",
    "phone": "(607) 277-9463",
    "address": "116 N Aurora St, Ithaca, NY 14850-4302, US",
    "category": "restaurant",
    "lake": "Cayuga"
  },
  {
-   "aName": "Le Cafe Cent-Dix",
+   "name": "Le Cafe Cent-Dix",
    "website": "https://www.lecafecentdix.com/",
    "cms": "Wix",
    "phone": "(607) 319-0750",
@@ -1576,7 +1575,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Maxie's Supper Club and Oyster Bar",
+   "name": "Maxie's Supper Club and Oyster Bar",
    "website": "https://www.maxiesithaca.com/",
    "cms": "BentoBox",
    "phone": "(607) 272-4136",
@@ -1585,7 +1584,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "MIX Kitchen and Bar",
+   "name": "MIX Kitchen and Bar",
    "website": "https://www.mixithaca.com/",
    "cms": "Wix",
    "phone": "(607) 319-4248",
@@ -1594,7 +1593,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Saigon Kitchen",
+   "name": "Saigon Kitchen",
    "website": "https://www.saigonkitchenithaca.com/",
    "cms": "Wix",
    "phone": "(607) 257-8881",
@@ -1603,7 +1602,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "The Boatyard Grill",
+   "name": "The Boatyard Grill",
    "website": "https://boatyardgrill.com/",
    "cms": "custom site",
    "phone": "(607) 256-2628",
@@ -1612,7 +1611,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "The Heights Restaurant",
+   "name": "The Heights Restaurant",
    "website": "https://www.theheightsithaca.com/",
    "cms": "custom site",
    "phone": "(607) 257-4144",
@@ -1621,7 +1620,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Brian's USA Diner",
+   "name": "Brian's USA Diner",
    "website": "https://www.briansusadiner.com/",
    "cms": "custom site",
    "phone": "(585) 658-9380",
@@ -1630,7 +1629,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Ember Woodfire Grill",
+   "name": "Ember Woodfire Grill",
    "website": "https://www.emberwoodfiregrill.com/",
    "cms": "Squarespace",
    "phone": "(585) 346-0222",
@@ -1639,7 +1638,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Questa Lasagna",
+   "name": "Questa Lasagna",
    "website": "https://www.questalasagna.com/",
    "cms": "no site",
    "phone": "(585) 658-1121",
@@ -1648,14 +1647,14 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Liberty Street Pub",
+   "name": "Liberty Street Pub",
    "phone": "(607) 776-3600",
    "address": "7 Liberty St, Bath, NY 14810-1506, US",
    "category": "restaurant",
    "lake": "Keuka"
  },
  {
-   "aName": "Penn Yan Diner",
+   "name": "Penn Yan Diner",
    "website": "https://www.pennyandiner.com/",
    "cms": "Squarespace",
    "phone": "(315) 536-6004",
@@ -1664,7 +1663,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Pleasant Valley Inn",
+   "name": "Pleasant Valley Inn",
    "website": "https://pleasantvalleyinn.com/",
    "cms": "WordPress",
    "phone": "(607) 569-2282",
@@ -1673,7 +1672,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Timber Stone Grill",
+   "name": "Timber Stone Grill",
    "website": "https://timberstonegrill.com/",
    "cms": "Weebly",
    "phone": "(607) 224-0006",
@@ -1682,7 +1681,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Union Block Italian Bistro",
+   "name": "Union Block Italian Bistro",
    "website": "https://unionblockitalian.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(607) 246-4065",
@@ -1691,7 +1690,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Village Tavern Restaurant and Inn",
+   "name": "Village Tavern Restaurant and Inn",
    "website": "https://www.villagetaverninn.com/",
    "cms": "custom site",
    "phone": "(607) 569-2528",
@@ -1700,7 +1699,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Moro's Table",
+   "name": "Moro's Table",
    "website": "https://morostable.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(315) 282-7772",
@@ -1709,7 +1708,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "Atlas Brick Oven Pizzeria",
+   "name": "Atlas Brick Oven Pizzeria",
    "website": "https://atlaspizzeria.com/",
    "cms": "custom site",
    "phone": "(607) 210-4538",
@@ -1718,7 +1717,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Beef & Brew",
+   "name": "Beef & Brew",
    "website": "https://beefandbrewgeneva.com/",
    "cms": "WordPress",
    "phone": "(315) 789-7770",
@@ -1727,7 +1726,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Blue Pointe Grille",
+   "name": "Blue Pointe Grille",
    "website": "https://www.watkinsglenharborhotel.com/",
    "cms": "custom site",
    "phone": "(607) 535-6116",
@@ -1736,7 +1735,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Connie's Diner",
+   "name": "Connie's Diner",
    "website": "https://connieswaterloo.com/",
    "cms": "custom site",
    "phone": "(315) 539-9556",
@@ -1745,7 +1744,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Cosentino's Ristorante",
+   "name": "Cosentino's Ristorante",
    "website": "https://www.cosentinosgeneva.com/",
    "cms": "Wix",
    "phone": "(315) 789-1638",
@@ -1754,7 +1753,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Curly's Family Restaurant",
+   "name": "Curly's Family Restaurant",
    "website": "https://www.curlysfamilyrestaurant.com/",
    "cms": "Popmenu",
    "phone": "(607) 535-4383",
@@ -1763,7 +1762,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Dano's Heuriger On Seneca",
+   "name": "Dano's Heuriger On Seneca",
    "website": "https://www.danosonseneca.com/",
    "cms": "SinglePlatform",
    "phone": "(607) 582-7555",
@@ -1772,7 +1771,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Edgar’s Restaurant in the Castle",
+   "name": "Edgar’s Restaurant in the Castle",
    "website": "https://www.belhurst.com/dining/edgars-restaurant-in-the-castle/",
    "cms": "WordPress",
    "phone": "(315) 781-0201",
@@ -1781,7 +1780,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "FLX Wienery",
+   "name": "FLX Wienery",
    "website": "https://flxwienery.com/",
    "cms": "WordPress",
    "phone": "(607) 243-7100",
@@ -1790,7 +1789,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Graft Wine + Cider Bar",
+   "name": "Graft Wine + Cider Bar",
    "website": "https://www.graftwineciderbar.com/",
    "cms": "Weebly",
    "phone": "(607) 210-4324",
@@ -1799,7 +1798,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Halsey's Restaurant",
+   "name": "Halsey's Restaurant",
    "website": "https://www.halseysgeneva.com/",
    "cms": "Popmenu",
    "phone": "(315) 789-4070",
@@ -1808,7 +1807,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Jelly Beans Restaurant",
+   "name": "Jelly Beans Restaurant",
    "website": "https://jellybeansrestaurant.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(607) 936-2075",
@@ -1817,7 +1816,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Jerlando's Ristorante & Pizza Co",
+   "name": "Jerlando's Ristorante & Pizza Co",
    "website": "https://jerlandospizza.com/",
    "cms": "WordPress",
    "phone": "(607) 535-4254",
@@ -1826,7 +1825,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Kindred Fare",
+   "name": "Kindred Fare",
    "website": "https://kindredfare.com/",
    "cms": "Squarespace",
    "phone": "(315) 787-0400",
@@ -1835,7 +1834,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Nickel's Pit BBQ",
+   "name": "Nickel's Pit BBQ",
    "website": "https://www.nickelspitbbq.com/",
    "cms": "Squarespace",
    "phone": "(607) 210-4646",
@@ -1844,7 +1843,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Parkers Grille & Tap house",
+   "name": "Parkers Grille & Tap house",
    "website": "https://www.parkersgrille.com/",
    "cms": "Popmenu",
    "phone": "(315) 789-4656",
@@ -1853,7 +1852,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Ports Cafe",
+   "name": "Ports Cafe",
    "website": "https://portscafe.com/",
    "cms": "WordPress",
    "phone": "(315) 789-2020",
@@ -1862,17 +1861,16 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Sapalta",
+   "name": "Sapalta",
    "website": "https://sapalta.com/",
    "cms": "Drupal",
    "phone": "(607) 395-2022",
    "address": "3482 Plum Point Rd S, Himrod, NY 14842, US",
    "category": "restaurant",
-   "lake": "Seneca",
-   "likes": 2
+   "lake": "Seneca"
  },
  {
-   "aName": "Slammin Jammin BBQ",
+   "name": "Slammin Jammin BBQ",
    "website": "https://www.orderslamminjamminbbq.com/",
    "cms": "custom site",
    "phone": "(607) 936-1828",
@@ -1881,7 +1879,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Sorge's Restaurant",
+   "name": "Sorge's Restaurant",
    "website": "https://sorges.com/",
    "cms": "WordPress",
    "phone": "(607) 937-5422",
@@ -1890,7 +1888,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Spotted Duck",
+   "name": "Spotted Duck",
    "website": "https://spottedduck.com/",
    "cms": "Squarespace",
    "phone": "(315) 509-3939",
@@ -1899,7 +1897,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Stonecat Cafe",
+   "name": "Stonecat Cafe",
    "website": "https://www.stonecatcafe.com/",
    "cms": "Wix",
    "phone": "(607) 546-5000",
@@ -1908,7 +1906,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "The Cellar",
+   "name": "The Cellar",
    "website": "https://corningwinebar.com/",
    "cms": "WordPress",
    "phone": "(607) 377-5552",
@@ -1917,7 +1915,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Three Birds Restaurant",
+   "name": "Three Birds Restaurant",
    "website": "https://www.threebirdsrestaurant.com/",
    "cms": "custom site",
    "phone": "(607) 936-8862",
@@ -1926,7 +1924,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Veraisons Restaurant",
+   "name": "Veraisons Restaurant",
    "website": "https://www.glenora.com/Restaurant/Veraisons-Restaurant",
    "cms": "custom site",
    "phone": "(800) 243-5513",
@@ -1935,7 +1933,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Bluewater Grill",
+   "name": "Bluewater Grill",
    "website": "https://www.bluewatergrillskaneateles.com/",
    "cms": "Squarespace",
    "phone": "(315) 685-6600",
@@ -1944,7 +1942,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Elderberry Pond Restaurant",
+   "name": "Elderberry Pond Restaurant",
    "website": "https://www.elderberrypond.com/",
    "cms": "Squarespace",
    "phone": "(315) 252-6025",
@@ -1953,7 +1951,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Gilda's",
+   "name": "Gilda's",
    "website": "https://gildasskaneateles.com/",
    "cms": "Squarespace",
    "phone": "(315) 685-7234",
@@ -1962,7 +1960,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Hairy Tony's",
+   "name": "Hairy Tony's",
    "website": "https://hairytonys.com/",
    "cms": "WordPress",
    "phone": "(607) 662-0239",
@@ -1971,7 +1969,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Rosalie's Cucina",
+   "name": "Rosalie's Cucina",
    "website": "https://www.rosaliescucina.com/",
    "cms": "WordPress",
    "phone": "(315) 685-2200",
@@ -1980,7 +1978,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Hanger Theatre",
+   "name": "Hanger Theatre",
    "website": "https://hangartheatre.org/",
    "cms": "WordPress",
    "phone": "(607) 273-2787",
@@ -1989,7 +1987,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Merry-Go-Round Playhouse",
+   "name": "Merry-Go-Round Playhouse",
    "website": "https://therevtheatre.com/",
    "cms": "WordPress",
    "phone": "(315) 255-1785",
@@ -1998,7 +1996,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "Arbor Hill Grapery and Winery",
+   "name": "Arbor Hill Grapery and Winery",
    "website": "https://thegrapery.com/",
    "cms": "WordPress",
    "phone": "(585) 374-2870",
@@ -2007,7 +2005,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Inspire Moore Winery & Vineyard",
+   "name": "Inspire Moore Winery & Vineyard",
    "website": "https://inspiremoorewinery.com/",
    "cms": "WordPress",
    "phone": "(585) 374-5970",
@@ -2016,7 +2014,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Raymor Estate Cellars",
+   "name": "Raymor Estate Cellars",
    "website": "https://www.raymorcellars.com/",
    "cms": "Weebly",
    "phone": "(585) 233-9860",
@@ -2025,7 +2023,7 @@
    "lake": "Canandaigua"
  },
  {
-   "aName": "Airy Acres Vineyard",
+   "name": "Airy Acres Vineyard",
    "website": "https://airyacresvineyard.com/",
    "cms": "WordPress",
    "phone": "(607) 342-0265",
@@ -2034,7 +2032,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Americana Vineyards Winery",
+   "name": "Americana Vineyards Winery",
    "website": "http://www.americanavineyards.com/",
    "cms": "custom site",
    "phone": "(607) 387-6801",
@@ -2043,7 +2041,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Apple Station Winery",
+   "name": "Apple Station Winery",
    "website": "https://www.theapplestation.com/",
    "cms": "Duda",
    "phone": "(315) 730-4239",
@@ -2052,7 +2050,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Bellwether Hard Cidary & Wine",
+   "name": "Bellwether Hard Cidary & Wine",
    "website": "https://cidery.com/",
    "cms": "WordPress",
    "phone": "(607) 387-9464",
@@ -2061,7 +2059,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Bet the Farm Winery",
+   "name": "Bet the Farm Winery",
    "website": "https://btfwines.com/",
    "cms": "Squarespace",
    "phone": "(607) 387-6548",
@@ -2070,7 +2068,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Bright Leaf Vineyard",
+   "name": "Bright Leaf Vineyard",
    "website": "https://www.brightleafvineyard.com/",
    "cms": "Squarespace",
    "phone": "(315) 364-5323",
@@ -2079,7 +2077,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Buttonwood Grove",
+   "name": "Buttonwood Grove",
    "website": "https://www.buttonwoodgrove.com/",
    "cms": "WordPress",
    "phone": "(607) 869-9760",
@@ -2088,7 +2086,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Cayuga Ridge Estate Winery",
+   "name": "Cayuga Ridge Estate Winery",
    "website": "https://www.cayugaridgewinery.com/",
    "cms": "Wix",
    "phone": "(607) 869-5158",
@@ -2097,7 +2095,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Chateau Dusseau",
+   "name": "Chateau Dusseau",
    "website": "https://www.chateaudusseau.com/",
    "cms": "Wix",
    "phone": "(315) 497-9463",
@@ -2106,7 +2104,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "CJS Vineyards",
+   "name": "CJS Vineyards",
    "website": "https://cjsvineyards.com/",
    "cms": "WordPress",
    "phone": "(315) 730-4619",
@@ -2115,7 +2113,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Frontenac Point Vineyard and Estate Winery",
+   "name": "Frontenac Point Vineyard and Estate Winery",
    "website": "https://frontenacpoint.com/",
    "cms": "WordPress",
    "phone": "(607) 387-9619",
@@ -2124,7 +2122,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Glenhaven Farm Winery",
+   "name": "Glenhaven Farm Winery",
    "website": "https://glenhavenfarm.com/",
    "cms": "Squarespace",
    "phone": "(607) 387-9031",
@@ -2133,7 +2131,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Goose Watch Winery",
+   "name": "Goose Watch Winery",
    "website": "https://goosewatch.com/",
    "cms": "WordPress",
    "phone": "(315) 549-2599",
@@ -2142,7 +2140,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Heart & Hands Wine Company",
+   "name": "Heart & Hands Wine Company",
    "website": "https://heartandhandswine.com/",
    "cms": "custom site",
    "phone": "(315) 889-8500",
@@ -2151,7 +2149,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Hosmer Winery",
+   "name": "Hosmer Winery",
    "website": "https://hosmerwinery.com/",
    "cms": "WordPress",
    "phone": "(607) 869-3393",
@@ -2160,7 +2158,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Izzo's White Barn Winery",
+   "name": "Izzo's White Barn Winery",
    "website": "https://izzoswhitebarnwinery.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(315) 283-8095",
@@ -2169,7 +2167,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Knapp Vineyards Winery & Restaurant",
+   "name": "Knapp Vineyards Winery & Restaurant",
    "website": "https://www.knappwine.com/",
    "cms": "Squarespace",
    "phone": "(607) 930-3495",
@@ -2178,7 +2176,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Lakeshore Winery",
+   "name": "Lakeshore Winery",
    "website": "http://lakeshorewinery.com/",
    "cms": "custom site",
    "phone": "(315) 549-7075",
@@ -2187,7 +2185,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Long Point Winery",
+   "name": "Long Point Winery",
    "website": "http://www.longpointwinery.com/",
    "cms": "custom site",
    "phone": "(315) 364-6990",
@@ -2196,7 +2194,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Lucas Vineyards",
+   "name": "Lucas Vineyards",
    "website": "https://www.lucasvineyards.com/",
    "cms": "WordPress",
    "phone": "(607) 532-4825",
@@ -2205,7 +2203,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Montezuma Winery",
+   "name": "Montezuma Winery",
    "website": "https://www.montezumawinery.com/",
    "cms": "WordPress",
    "phone": "(315) 568-8190",
@@ -2214,7 +2212,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Quarry Ridge Winery",
+   "name": "Quarry Ridge Winery",
    "website": "https://www.quarryridgewinery.com/",
    "cms": "custom site",
    "address": "4242 NY-90, Union Springs, NY 13160",
@@ -2222,7 +2220,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Sheldrake Point Winery",
+   "name": "Sheldrake Point Winery",
    "website": "https://sheldrakepoint.com/",
    "cms": "WordPress",
    "phone": "(607) 532-9401",
@@ -2231,7 +2229,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Shepherdess Cellars",
+   "name": "Shepherdess Cellars",
    "website": "https://www.shepherdesscellars.com/",
    "cms": "custom site",
    "phone": "(607) 532-3437",
@@ -2240,14 +2238,14 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Six Eighty Cellars",
+   "name": "Six Eighty Cellars",
    "phone": "(315) 530-2663",
    "address": "3050 Swick Rd, Ovid, NY 14521",
    "category": "winery",
    "lake": "Cayuga"
  },
  {
-   "aName": "Six Mile Creek Vineyard",
+   "name": "Six Mile Creek Vineyard",
    "website": "https://sixmilecreek.com/",
    "cms": "GoDaddy Website Builder",
    "phone": "(607) 272-9463",
@@ -2256,7 +2254,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Swedish Hill Winery",
+   "name": "Swedish Hill Winery",
    "website": "https://swedishhill.com/",
    "cms": "WordPress",
    "phone": "(315) 549-3060",
@@ -2265,7 +2263,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Thirsty Owl Wine Company",
+   "name": "Thirsty Owl Wine Company",
    "website": "https://www.thirstyowl.com/",
    "cms": "Magento",
    "phone": "(607) 869-5805",
@@ -2274,7 +2272,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Treleaven Wines",
+   "name": "Treleaven Wines",
    "website": "https://treleavenwines.com/",
    "cms": "WordPress",
    "phone": "(315) 364-5100",
@@ -2283,7 +2281,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Deer Run Winery",
+   "name": "Deer Run Winery",
    "website": "https://www.deerrunwinery.com/",
    "cms": "Weebly",
    "phone": "(585) 346-0850",
@@ -2292,7 +2290,7 @@
    "lake": "Conesus"
  },
  {
-   "aName": "Eagle Crest Vineyards",
+   "name": "Eagle Crest Vineyards",
    "website": "https://www.eaglecrestvineyards.com/",
    "cms": "WordPress",
    "phone": "(585) 346-2321",
@@ -2301,7 +2299,7 @@
    "lake": "Hemlock"
  },
  {
-   "aName": "O-Neh-Da Vineyard",
+   "name": "O-Neh-Da Vineyard",
    "website": "https://www.onehdavineyard.com/",
    "cms": "WordPress",
    "phone": "(585) 346-2321",
@@ -2310,7 +2308,7 @@
    "lake": "Hemlock"
  },
  {
-   "aName": "Azure Hill Winery",
+   "name": "Azure Hill Winery",
    "website": "https://www.azurehillwinery.com/",
    "cms": "Duda",
    "phone": "(607) 868-5702",
@@ -2319,7 +2317,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Barrington Cellars",
+   "name": "Barrington Cellars",
    "website": "https://www.barringtoncellars.com/",
    "cms": "custom site",
    "phone": "(315) 531-8923",
@@ -2328,7 +2326,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Bully Hill Vineyards",
+   "name": "Bully Hill Vineyards",
    "website": "https://www.bullyhillvineyards.com/",
    "cms": "custom site",
    "phone": "(607) 868-3610",
@@ -2337,7 +2335,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Chateau Renaissance Wine Cellars",
+   "name": "Chateau Renaissance Wine Cellars",
    "website": "https://www.chateaurenaissancewinecellars.com/",
    "cms": "Wix",
    "phone": "(607) 569-3609",
@@ -2346,7 +2344,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Divided Sky Vineyard",
+   "name": "Divided Sky Vineyard",
    "website": "https://www.dividedskyvineyard.com/",
    "cms": "WordPress",
    "phone": "(607) 868-3139",
@@ -2355,7 +2353,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Domaine Leseurre Winery",
+   "name": "Domaine Leseurre Winery",
    "website": "https://dlwinery.com/",
    "cms": "WordPress",
    "phone": "(607) 292-3920",
@@ -2364,17 +2362,16 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Dr. Konstantin Frank Winery",
+   "name": "Dr. Konstantin Frank Winery",
    "website": "https://www.drfrankwines.com/",
    "cms": "WordPress",
    "phone": "(800) 320-0735",
    "address": "9749 Middle Rd, Hammondsport, NY 14840-9612, US",
    "category": "winery",
-   "lake": "Keuka",
-   "likes": 4
+   "lake": "Keuka"
  },
  {
-   "aName": "Heron Hill Winery",
+   "name": "Heron Hill Winery",
    "website": "https://www.heronhill.com/",
    "cms": "custom site",
    "phone": "(607) 868-4241",
@@ -2383,7 +2380,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Hunt Country Vineyards",
+   "name": "Hunt Country Vineyards",
    "website": "https://www.huntwines.com/",
    "cms": "custom site",
    "phone": "(315) 595-2812",
@@ -2392,7 +2389,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Keuka Lake Vineyards",
+   "name": "Keuka Lake Vineyards",
    "website": "https://www.klvineyards.com/",
    "cms": "Wix",
    "phone": "(607) 868-4100",
@@ -2401,7 +2398,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Keuka Springs Vineyards",
+   "name": "Keuka Springs Vineyards",
    "website": "https://www.keukaspringwinery.com/",
    "cms": "custom site",
    "phone": "(315) 536-3147",
@@ -2410,7 +2407,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Pleasant Valley Wine Company",
+   "name": "Pleasant Valley Wine Company",
    "website": "https://www.pleasantvalleywine.com/",
    "cms": "WordPress",
    "phone": "(607) 569-6111",
@@ -2419,7 +2416,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Point of the Bluff Vinyards",
+   "name": "Point of the Bluff Vinyards",
    "website": "https://pointofthebluffvineyards.com/",
    "cms": "WordPress",
    "phone": "(607) 220-5222",
@@ -2428,7 +2425,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Rooster Hill Vineyards",
+   "name": "Rooster Hill Vineyards",
    "website": "https://www.roosterhill.com/",
    "cms": "custom site",
    "phone": "(315) 536-4773",
@@ -2437,7 +2434,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Stever Hill Vineyards",
+   "name": "Stever Hill Vineyards",
    "website": "https://steverhillvineyards.com/",
    "cms": "WordPress",
    "phone": "(315) 595-2230",
@@ -2446,7 +2443,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Vineyard View Winery",
+   "name": "Vineyard View Winery",
    "website": "https://vineyardviewwinery.com/",
    "cms": "WordPress",
    "phone": "(315) 694-7262",
@@ -2455,7 +2452,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Weis Vineyards",
+   "name": "Weis Vineyards",
    "website": "https://www.weisvineyards.com/",
    "cms": "WordPress",
    "phone": "(607) 284-4011",
@@ -2464,7 +2461,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Yates Cellars Winery",
+   "name": "Yates Cellars Winery",
    "website": "http://www.yatescellars.com/",
    "cms": "WordPress",
    "phone": "(315) 575-1863",
@@ -2473,7 +2470,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Anthony Road Wine Company",
+   "name": "Anthony Road Wine Company",
    "website": "https://anthonyroadwine.com/",
    "cms": "WordPress",
    "phone": "(315) 536-2182",
@@ -2482,7 +2479,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Ashley Lynn Winery",
+   "name": "Ashley Lynn Winery",
    "website": "https://ashleylynnwinery.com/",
    "cms": "WordPress",
    "phone": "(315) 856-8026",
@@ -2491,7 +2488,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Atwater Estate Vineyards",
+   "name": "Atwater Estate Vineyards",
    "website": "https://www.atwatervineyards.com/",
    "cms": "custom site",
    "phone": "(607) 546-8463",
@@ -2500,7 +2497,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Bagley’s Poplar Ridge Vineyards",
+   "name": "Bagley’s Poplar Ridge Vineyards",
    "website": "https://bagleysprv.com/",
    "cms": "WordPress",
    "phone": "(607) 582-6421",
@@ -2509,7 +2506,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Barnstormer Winery",
+   "name": "Barnstormer Winery",
    "website": "https://barnstormerwinery.com/",
    "cms": "WordPress",
    "phone": "(607) 243-4008",
@@ -2518,7 +2515,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Belhurst Estate Winery",
+   "name": "Belhurst Estate Winery",
    "website": "https://www.belhurst.com/",
    "cms": "WordPress",
    "phone": "(315) 781-0201",
@@ -2527,7 +2524,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Billsboro Winery",
+   "name": "Billsboro Winery",
    "website": "https://billsborowinery.com/",
    "cms": "WordPress",
    "phone": "(315) 789-9538",
@@ -2536,7 +2533,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Bloomer Creek Vineyard",
+   "name": "Bloomer Creek Vineyard",
    "website": "https://www.bloomercreek.com/",
    "cms": "Squarespace",
    "phone": "(607) 546-5027",
@@ -2545,7 +2542,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Boundary Breaks Winery",
+   "name": "Boundary Breaks Winery",
    "website": "https://boundarybreaks.com/",
    "cms": "custom site",
    "phone": "(607) 474-5030",
@@ -2554,7 +2551,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Casa Larga Vineyards",
+   "name": "Casa Larga Vineyards",
    "website": "https://www.casalarga.com/",
    "cms": "WordPress",
    "phone": "(585) 223-4210",
@@ -2563,7 +2560,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Castel Grisch Winery",
+   "name": "Castel Grisch Winery",
    "website": "https://castelgrisch.com/",
    "cms": "custom site",
    "phone": "(607) 535-9614",
@@ -2572,7 +2569,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Catharine Valley Winery",
+   "name": "Catharine Valley Winery",
    "website": "http://www.catharinevalley.com/",
    "cms": "Weebly",
    "phone": "(607) 546-5300",
@@ -2581,7 +2578,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Caywood Vineyards",
+   "name": "Caywood Vineyards",
    "website": "http://www.caywoodvineyards.com/",
    "cms": "custom site",
    "phone": "(607) 582-7230",
@@ -2590,7 +2587,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Chateau LaFayette Reneau",
+   "name": "Chateau LaFayette Reneau",
    "website": "https://www.clrwine.com/",
    "cms": "custom site",
    "phone": "(607) 546-2062",
@@ -2599,7 +2596,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "CK Cellars",
+   "name": "CK Cellars",
    "website": "https://www.ckcellars.wine/",
    "cms": "custom site",
    "phone": "(315) 536-1210",
@@ -2608,7 +2605,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Damiani Wine Cellars",
+   "name": "Damiani Wine Cellars",
    "website": "https://damianiwinecellars.com/",
    "cms": "WordPress",
    "phone": "(607) 546-5557",
@@ -2617,7 +2614,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Flatt Rock Wine Cellars",
+   "name": "Flatt Rock Wine Cellars",
    "website": "https://flattrockwinecellars.com/",
    "cms": "custom site",
    "phone": "(716) 622-2820",
@@ -2626,7 +2623,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Forge Cellars",
+   "name": "Forge Cellars",
    "website": "https://www.forgecellars.com/",
    "cms": "Squarespace",
    "phone": "(607) 622-8020",
@@ -2635,7 +2632,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Fox Run Vineyards",
+   "name": "Fox Run Vineyards",
    "website": "https://foxrunvineyards.com/",
    "cms": "WordPress",
    "phone": "(315) 536-4616",
@@ -2644,7 +2641,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Fruit Yard Winery",
+   "name": "Fruit Yard Winery",
    "website": "https://fruityardwinery.com/",
    "cms": "WordPress",
    "phone": "(607) 243-8866",
@@ -2653,7 +2650,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Fulkerson Winery",
+   "name": "Fulkerson Winery",
    "website": "https://www.fulkersonwinery.com/",
    "cms": "WordPress",
    "phone": "(607) 243-7883",
@@ -2662,7 +2659,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Glenora Wine Cellars",
+   "name": "Glenora Wine Cellars",
    "website": "https://www.glenora.com/",
    "cms": "custom site",
    "phone": "(800) 243-5513",
@@ -2671,7 +2668,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Hazlitt 1852 Vineyards",
+   "name": "Hazlitt 1852 Vineyards",
    "website": "https://hazlitt1852.com/",
    "cms": "WordPress",
    "phone": "(607) 546-9463",
@@ -2680,7 +2677,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Hector Wine Company",
+   "name": "Hector Wine Company",
    "website": "https://hectorwinecompany.com/",
    "cms": "WordPress",
    "phone": "(607) 387-1045",
@@ -2689,17 +2686,16 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Hermann J. Wiemer Vineyard",
+   "name": "Hermann J. Wiemer Vineyard",
    "website": "https://www.wiemer.com/",
    "cms": "WordPress",
    "phone": "(607) 243-7971",
    "address": "3962 NY-14, Dundee, NY 14837, US",
    "category": "winery",
-   "lake": "Seneca",
-   "likes": 6
+   "lake": "Seneca"
  },
  {
-   "aName": "Hickory Hollow Wine Cellars",
+   "name": "Hickory Hollow Wine Cellars",
    "website": "https://hickoryhollowwine.net/",
    "cms": "custom site",
    "phone": "(607) 243-9114",
@@ -2708,7 +2704,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Idol Ridge Winery",
+   "name": "Idol Ridge Winery",
    "website": "https://idolridge.com/",
    "cms": "WordPress",
    "phone": "(607) 582-7773",
@@ -2717,7 +2713,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "J.R. Dill Winery",
+   "name": "J.R. Dill Winery",
    "website": "https://jrdillwinery.com/",
    "cms": "WordPress",
    "phone": "(607) 546-5757",
@@ -2726,7 +2722,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Kemmeter Wines",
+   "name": "Kemmeter Wines",
    "website": "https://kemmeterwines.com/",
    "cms": "custom site",
    "phone": "(315) 521-3897",
@@ -2735,7 +2731,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Lacey Magruder Vineyard & Winery",
+   "name": "Lacey Magruder Vineyard & Winery",
    "website": "http://www.laceymagrudervineyardandwinery.com/",
    "cms": "Homestead",
    "phone": "(585) 260-1850",
@@ -2744,7 +2740,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Lake Street Station Winery",
+   "name": "Lake Street Station Winery",
    "website": "https://www.lakestreetwine.com/",
    "cms": "Wix",
    "phone": "(315) 789-5520",
@@ -2753,7 +2749,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Lakewood Vineyards",
+   "name": "Lakewood Vineyards",
    "website": "https://lakewoodvineyards.com/",
    "cms": "WordPress",
    "phone": "(607) 535-9252",
@@ -2762,7 +2758,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Lamoreaux Landing Wine Cellars",
+   "name": "Lamoreaux Landing Wine Cellars",
    "website": "https://www.lamoreauxwine.com/",
    "cms": "custom site",
    "phone": "(607) 582-6011",
@@ -2771,7 +2767,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Leidenfrost Vineyards",
+   "name": "Leidenfrost Vineyards",
    "website": "https://www.leidenfrostwine.com/",
    "cms": "Wix",
    "phone": "(607) 546-2800",
@@ -2780,7 +2776,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Magnus Ridge Winery",
+   "name": "Magnus Ridge Winery",
    "website": "https://www.magnusridge.com/",
    "cms": "WordPress",
    "phone": "(315) 416-0195",
@@ -2789,7 +2785,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "McGregor Vineyard",
+   "name": "McGregor Vineyard",
    "website": "https://www.mcgregorwinery.com/",
    "cms": "Vintools",
    "phone": "(800) 272-0192",
@@ -2798,7 +2794,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Miles Wine Cellars",
+   "name": "Miles Wine Cellars",
    "website": "https://mileswinecellars.com/",
    "cms": "WordPress",
    "phone": "(607) 243-7742",
@@ -2807,7 +2803,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Penguin Bay Winery",
+   "name": "Penguin Bay Winery",
    "website": "https://penguinbaywinery.com/",
    "cms": "WordPress",
    "phone": "(607) 546-5115",
@@ -2816,7 +2812,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Prejean Winery",
+   "name": "Prejean Winery",
    "website": "https://prejeanwinery.com/",
    "cms": "custom site",
    "phone": "(315) 536-7524",
@@ -2825,7 +2821,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Rasta Ranch Vineyards",
+   "name": "Rasta Ranch Vineyards",
    "website": "https://www.rastaranchvineyards.com/",
    "cms": "Websitebuilder",
    "phone": "(607) 546-2974",
@@ -2834,7 +2830,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Ravines Wine Cellars",
+   "name": "Ravines Wine Cellars",
    "website": "https://ravineswine.com/",
    "cms": "WordPress",
    "phone": "(315) 781-7007",
@@ -2843,7 +2839,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Red Newt Wine Cellars",
+   "name": "Red Newt Wine Cellars",
    "website": "https://www.rednewt.com/",
    "cms": "WordPress",
    "phone": "(607) 546-4100",
@@ -2852,7 +2848,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Red Tail Ridge Winery",
+   "name": "Red Tail Ridge Winery",
    "website": "https://www.redtailridgewinery.com/",
    "cms": "Wix",
    "phone": "(315) 536-4580",
@@ -2861,7 +2857,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Rock Stream Vineyards",
+   "name": "Rock Stream Vineyards",
    "website": "https://www.rockstreamvineyards.com/",
    "cms": "Wix",
    "phone": "(607) 243-5395",
@@ -2870,7 +2866,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Ryan William Vineyard and Winery",
+   "name": "Ryan William Vineyard and Winery",
    "website": "https://ryanwilliam.com/",
    "cms": "WordPress",
    "phone": "(607) 882-9098",
@@ -2879,7 +2875,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Seneca Shore Wine Cellars",
+   "name": "Seneca Shore Wine Cellars",
    "website": "https://senecawine.com/",
    "cms": "WordPress",
    "phone": "(315) 536-0882",
@@ -2888,7 +2884,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Serenity Vineyards",
+   "name": "Serenity Vineyards",
    "website": "http://www.serenityvineyards1977.com/",
    "cms": "Weebly",
    "phone": "(315) 536-6701",
@@ -2897,7 +2893,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Shalestone Vineyards",
+   "name": "Shalestone Vineyards",
    "website": "https://www.shalestonevineyards.com/",
    "cms": "Wix",
    "phone": "(607) 582-6600",
@@ -2906,7 +2902,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Shaw Vineyard",
+   "name": "Shaw Vineyard",
    "website": "https://shawvineyard.com/",
    "cms": "WordPress",
    "phone": "(607) 243-7000",
@@ -2915,7 +2911,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Silver Springs Winery",
+   "name": "Silver Springs Winery",
    "website": "https://silverspringswinery.com/",
    "cms": "WordPress",
    "phone": "(607) 351-8019",
@@ -2924,7 +2920,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Silver Thread Vineyard",
+   "name": "Silver Thread Vineyard",
    "website": "https://silverthreadwine.com/",
    "cms": "WordPress",
    "phone": "(607) 582-6116",
@@ -2933,7 +2929,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Standing Stone Vineyards",
+   "name": "Standing Stone Vineyards",
    "website": "https://standingstonewines.com/",
    "cms": "WordPress",
    "phone": "(607) 582-6051",
@@ -2942,7 +2938,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Tabora Farm and Winery",
+   "name": "Tabora Farm and Winery",
    "website": "https://www.taborafarmandwinery.com/",
    "cms": "Wix",
    "phone": "(607) 678-4342",
@@ -2951,7 +2947,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Three Brothers Wineries and Estates",
+   "name": "Three Brothers Wineries and Estates",
    "website": "https://www.3brotherswinery.com/",
    "cms": "Miva Merchant",
    "phone": "(315) 585-4432",
@@ -2960,7 +2956,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Toast Winery",
+   "name": "Toast Winery",
    "website": "https://www.toastwineryflx.com/",
    "cms": "Weebly",
    "phone": "(607) 535-4277",
@@ -2969,7 +2965,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Torrey Ridge Winery",
+   "name": "Torrey Ridge Winery",
    "website": "https://www.ckcellars.wine/",
    "cms": "custom site",
    "phone": "(315) 536-1210",
@@ -2978,7 +2974,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Ventosa Vineyards",
+   "name": "Ventosa Vineyards",
    "website": "https://ventosavineyards.com/",
    "cms": "WordPress",
    "phone": "(315) 719-0000",
@@ -2987,7 +2983,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Wagner Vineyards Estate Winery",
+   "name": "Wagner Vineyards Estate Winery",
    "website": "https://wagnervineyards.com/",
    "cms": "WordPress",
    "phone": "(607) 582-6450",
@@ -2996,7 +2992,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "White Springs Farm Winery",
+   "name": "White Springs Farm Winery",
    "website": "https://whitespringswinery.com/",
    "cms": "WordPress",
    "phone": "(315) 781-9463",
@@ -3005,7 +3001,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Zugibe Vineyards",
+   "name": "Zugibe Vineyards",
    "website": "https://www.zugibevineyards.com/",
    "cms": "Wix",
    "phone": "(315) 585-6402",
@@ -3014,7 +3010,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Anyela's Vineyards",
+   "name": "Anyela's Vineyards",
    "website": "https://anyelasvineyards.com/",
    "cms": "WordPress",
    "phone": "(315) 685-3797",
@@ -3023,7 +3019,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Anyelas Vineyards",
+   "name": "Anyelas Vineyards",
    "website": "https://anyelasvineyards.com/",
    "cms": "WordPress",
    "phone": "(315) 685-3797",
@@ -3032,7 +3028,7 @@
    "lake": "Skaneateles"
  },
  {
-   "aName": "Saunders Finger Lakes Museum",
+   "name": "Saunders Finger Lakes Museum",
    "website": "https://www.fingerlakesmuseum.org/",
    "cms": "WordPress",
    "phone": "(315) 595-2200",
@@ -3041,7 +3037,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "It's A Wonderful Life Museum",
+   "name": "It's A Wonderful Life Museum",
    "website": "https://www.wonderfullifemuseum.com/",
    "cms": "WordPress",
    "phone": "(315) 568-5838",
@@ -3050,7 +3046,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Seneca Museum of Waterways and Industry",
+   "name": "Seneca Museum of Waterways and Industry",
    "website": "https://sfheritagetourism.com/",
    "cms": "WordPress",
    "phone": "(315) 568-1510",
@@ -3059,7 +3055,7 @@
    "lake": "Seneca"
  },
  {
-   "aName": "Cayuga Museum of History & Art",
+   "name": "Cayuga Museum of History & Art",
    "website": "https://cayugamuseum.org/",
    "cms": "WordPress",
    "phone": "(315) 253-8051",
@@ -3068,7 +3064,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "Finger Lakes Boating Museum",
+   "name": "Finger Lakes Boating Museum",
    "website": "https://www.flbm.org/",
    "cms": "Wix",
    "phone": "(607) 569-2222",
@@ -3077,7 +3073,7 @@
    "lake": "Keuka"
  },
  {
-   "aName": "Seward House Museum",
+   "name": "Seward House Museum",
    "website": "https://sewardhouse.org/",
    "cms": "Drupal",
    "phone": "(315) 252-1283",
@@ -3086,7 +3082,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "Harriet Tubman Home",
+   "name": "Harriet Tubman Home",
    "website": "https://www.harriettubmanhome.com/",
    "cms": "Squarespace",
    "phone": "(315) 252-2081",
@@ -3095,7 +3091,7 @@
    "lake": "Owasco"
  },
  {
-   "aName": "Women's Rights National Historical Park",
+   "name": "Women's Rights National Historical Park",
    "website": "https://www.nps.gov/wori/index.htm",
    "cms": "custom site",
    "phone": "(315) 568-0024",
@@ -3104,7 +3100,7 @@
    "lake": "Cayuga"
  },
  {
-   "aName": "Erie Canal Museum",
+   "name": "Erie Canal Museum",
    "website": "https://eriecanalmuseum.org/",
    "cms": "WordPress",
    "phone": "(315) 471-0593",
@@ -3113,7 +3109,7 @@
    "lake": "Onondaga"
  },
  {
-  "aName": "Beak and Skiff Apple Orchards",
+  "name": "Beak and Skiff Apple Orchards",
   "website": "https://beakandskiff.com/",
   "cms": "WordPress",
   "phone": "(315) 696-6085",
@@ -3123,7 +3119,7 @@
   "ticketmaster-id": "Z7r9jZad1G"
 },
 {
-  "aName": "Blue Cross Arena",
+  "name": "Blue Cross Arena",
   "website": "https://bluecrossarena.com/",
   "cms": "custom site",
   "phone": "(585) 454-5335",
@@ -3133,7 +3129,7 @@
   "ticketmaster-id": "KovZpakwJe"
 },
 {
-  "aName": "Bristol Valley Theater",
+  "name": "Bristol Valley Theater",
   "website": "https://www.bvtnaples.org/",
   "cms": "Wix",
   "phone": "(585) 374-6318",
@@ -3143,7 +3139,7 @@
   "ticketmaster-id": "Z7r9jZad-n"
 },
 {
-  "aName": "Cortland Repertory Theatre",
+  "name": "Cortland Repertory Theatre",
   "website": "https://cortlandrep.org/",
   "cms": "WordPress",
   "phone": "(607) 756-2627",
@@ -3153,7 +3149,7 @@
   "ticketmaster-id": "Z7r9jZadXn"
 },
 {
-  "aName": "Eastman Theatre",
+  "name": "Eastman Theatre",
   "website": "https://www.esm.rochester.edu/theatre/",
   "cms": "WordPress",
   "phone": "(585) 274-1000",
@@ -3163,7 +3159,7 @@
   "ticketmaster-id": "Z6r9jZAaae"
 },
 {
-  "aName": "Empower Federal Credit Union Amphitheater at Lakeview",
+  "name": "Empower Federal Credit Union Amphitheater at Lakeview",
   "website": "https://www.asmsyracuse.com/p/amphitheater",
   "cms": "custom site",
   "phone": "(315) 435-5100",
@@ -3173,7 +3169,7 @@
   "ticketmaster-id": "KovZpZAEAEIA"
 },
 {
-  "aName": "First Arena",
+  "name": "First Arena",
   "website": "https://firstarena.net/",
   "cms": "WordPress",
   "phone": "(607) 734-7825",
@@ -3183,7 +3179,7 @@
   "ticketmaster-id": "KovZpa3ife"
 },
 {
-  "aName": "Funk N' Waffles",
+  "name": "Funk N' Waffles",
   "website": "https://funknwaffles.com/",
   "cms": "custom site",
   "phone": "(315) 474-1060",
@@ -3193,7 +3189,7 @@
   "ticketmaster-id": "KovZpZAaFnvA"
 },
 {
-  "aName": "Gordon Field House",
+  "name": "Gordon Field House",
   "website": "https://www.rit.edu/arenas/gordon-field-house",
   "cms": "Drupal",
   "phone": "(585) 475-6290",
@@ -3203,7 +3199,7 @@
   "ticketmaster-id": "ZFr9jZ7F1d"
 },
 {
-  "aName": "Innovative Field",
+  "name": "Innovative Field",
   "website": "https://www.milb.com/rochester/ballpark/innovative-field",
   "cms": "Contentful",
   "phone": "(585) 454-1001",
@@ -3213,7 +3209,7 @@
   "ticketmaster-id": "ZFr9jZ7ke1"
 },
 {
-  "aName": "State Theatre of Ithaca",
+  "name": "State Theatre of Ithaca",
   "website": "https://stateofithaca.org/",
   "cms": "WordPress",
   "phone": "(607) 277-8283",
@@ -3223,7 +3219,7 @@
   "ticketmaster-id": "ZFr9jZAv7d"
 },
 {
-  "aName": "JMA Wireless Dome",
+  "name": "JMA Wireless Dome",
   "website": "https://www.syracuse.edu/campus-life/highlights/jma-wireless-dome/",
   "cms": "custom site",
   "phone": "(315) 443-1870",
@@ -3233,7 +3229,7 @@
   "ticketmaster-id": "KovZpakwYe"
 },
 {
-  "aName": "Kodak Center",
+  "name": "Kodak Center",
   "website": "https://www.kodakcenter.com/events",
   "cms": "custom site",
   "phone": "(585) 254-0181",
@@ -3243,7 +3239,7 @@
   "ticketmaster-id": "KovZpa4xOe"
 },
 {
-  "aName": "Landmark Theatre",
+  "name": "Landmark Theatre",
   "website": "https://landmarktheatre.org/",
   "cms": "WordPress",
   "phone": "(315) 475-7979",
@@ -3253,7 +3249,7 @@
   "ticketmaster-id": "KovZpZAFdldA"
 },
 {
-  "aName": "Lovin' Cup",
+  "name": "Lovin' Cup",
   "website": "https://lovincup.com/",
   "cms": "WordPress",
   "phone": "(585) 292-9940",
@@ -3263,7 +3259,7 @@
   "ticketmaster-id": "rZ7HnEZ17kAAf"
 },
 {
-  "aName": "Martin Luther King Jr. Memorial Park",
+  "name": "Martin Luther King Jr. Memorial Park",
   "website": "https://www.cityofrochester.gov/locations/dr-martin-luther-king-jr-memorial-park-manhattan-square",
   "cms": "custom site",
   "address": "353 Court Street, Rochester, NY 14607",
@@ -3272,7 +3268,7 @@
   "ticketmaster-id": "KovZpZAJkltA"
 },
 {
-  "aName": "NBT Bank Stadium",
+  "name": "NBT Bank Stadium",
   "website": "https://www.milb.com/syracuse",
   "cms": "custom site",
   "address": "1 Tex Simone Drive, Syracuse, NY 13208",
@@ -3281,7 +3277,7 @@
   "ticketmaster-id": "ZFr9jZ6aFk"
 },
 {
-  "aName": "Rec Room",
+  "name": "Rec Room",
   "website": "https://recroombuffalo.com/",
   "cms": "WordPress",
   "phone": "(716) 939-1279",
@@ -3291,7 +3287,7 @@
   "ticketmaster-id": "KovZpa2Gze"
 },
 {
-  "aName": "Rochester Riverside Convention Center",
+  "name": "Rochester Riverside Convention Center",
   "website": "https://www.rrcc.com/",
   "cms": "custom site",
   "phone": "(585) 232-7200",
@@ -3301,7 +3297,7 @@
   "ticketmaster-id": "KovZpZAatdlA"
 },
 {
-  "aName": "St. John Fisher",
+  "name": "St. John Fisher",
   "website": "https://sjfathletics.com/",
   "cms": "Sidearm Sports",
   "phone": "(585) 385-8000",
@@ -3311,7 +3307,7 @@
   "ticketmaster-id": "KovZpZAFktJA"
 },
 {
-  "aName": "The Bug Jar",
+  "name": "The Bug Jar",
   "website": "https://www.bugjar.com/",
   "cms": "Wix",
   "phone": "(585) 454-2966",
@@ -3321,7 +3317,7 @@
   "ticketmaster-id": "rZ7HnEZ17ANuP"
 },
 {
-  "aName": "The Lost Horizon",
+  "name": "The Lost Horizon",
   "website": "https://www.thelosthorizon.com/",
   "cms": "WordPress",
   "phone": "(315) 446-1934",
@@ -3331,7 +3327,7 @@
   "ticketmaster-id": "KovZpZAatJ6A"
 },
 {
-  "aName": "Montage Music Hall",
+  "name": "Montage Music Hall",
   "website": "https://www.rocentevents.com/",
   "cms": "WordPress",
   "phone": "(585) 413-1642",
@@ -3341,7 +3337,7 @@
   "ticketmaster-id": "rZ7HnEZ17ko4V"
 },
 {
-  "aName": "Oncenter Carrier Theater",
+  "name": "Oncenter Carrier Theater",
   "website": "https://www.asmsyracuse.com/location/the-oncenter-carrier-theater",
   "cms": "Saffire",
   "phone": "(315) 435-2121",
@@ -3351,7 +3347,7 @@
   "ticketmaster-id": "KovZpa6W3e"
 },
 {
-  "aName": "The Song & Dance",
+  "name": "The Song & Dance",
   "website": "https://www.thesonganddance.com/",
   "cms": "WordPress",
   "address": "115 E Jefferson Street, Syracuse, NY 13202",
@@ -3360,7 +3356,7 @@
   "ticketmaster-id": "rZ7HnEZ17fJkA"
 },
 {
-  "aName": "The Theater at Innovation Square",
+  "name": "The Theater at Innovation Square",
   "website": "https://www.theaterais.com/",
   "cms": "Wix",
   "phone": "(585) 281-4893",
@@ -3370,7 +3366,7 @@
   "ticketmaster-id": "Z7r9jZaAuo"
 },
 {
-  "aName": "The Vine Theater at Del Lago Resort & Casino",
+  "name": "The Vine Theater at Del Lago Resort & Casino",
   "website": "https://dellagoresort.com/entertainment/",
   "cms": "WordPress",
   "phone": "(315) 946-1777 ",
@@ -3380,7 +3376,7 @@
   "ticketmaster-id": "Z7r9jZad6k"
 },
 {
-  "aName": "Tioga Downs Casino Resort",
+  "name": "Tioga Downs Casino Resort",
   "website": "https://tiogadowns.com/",
   "cms": "WordPress",
   "phone": "(888) 946-8464",
@@ -3390,7 +3386,7 @@
   "ticketmaster-id": "KovZpZAFdl1A"
 },
 {
-  "aName": "Upstate Medical University Arena at The Oncenter War Memorial",
+  "name": "Upstate Medical University Arena at The Oncenter War Memorial",
   "website": "https://www.asmsyracuse.com/p/book/our-spaces/upstate-medical-arena-at-the-oncenter-war-memorial",
   "cms": "Saffire",
   "phone": "(315) 435-8000",
@@ -3400,7 +3396,7 @@
   "ticketmaster-id": "KovZpZA77eEA"
 },
 {
-  "aName": "Watkins Glen International",
+  "name": "Watkins Glen International",
   "website": "https://www.theglen.com/",
   "cms": "WordPress",
   "phone": "(607) 535-2486",
@@ -3410,7 +3406,7 @@
   "ticketmaster-id": "ZFr9jZeakA"
 },
 {
-  "aName": "West Herr Auditorium Theatre",
+  "name": "West Herr Auditorium Theatre",
   "website": "https://rbtl.org/west-herr/",
   "cms": "WordPress",
   "phone": "(585) 222-5000",
@@ -3420,7 +3416,7 @@
   "ticketmaster-id": "KovZpaowGe"
 },
 {
-  "aName": "Westcott Theatre",
+  "name": "Westcott Theatre",
   "website": "https://www.thewestcotttheater.com/",
   "cms": "WordPress",
   "phone": "(315) 299-8886",

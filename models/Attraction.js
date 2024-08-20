@@ -86,11 +86,6 @@ const AttractionSchema = new mongoose.Schema({
             'state park'
         ]
     },
-    likes: {
-        type: Number,
-        default: 0
-        // depricate
-    },
     avgBookmarks: {
         type: Number
     },
@@ -119,6 +114,13 @@ const AttractionSchema = new mongoose.Schema({
     photo: {
         type: String,
         default: 'no-photo.jpg'
+    },
+    ticketing: {
+        type: String,
+        enum: [
+            'Spektrix',
+            'Ticketmaster'
+        ]
     },
     ticketmasterId: {
         type: String
