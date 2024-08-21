@@ -1,6 +1,8 @@
 Sapalta id = 66c3c0a78085d1ef5b9f9dbe
 Eastman Theatre = 66c3c0a78085d1ef5b9f9e4d
 CMAC = 66c3c0a78085d1ef5b9f9d8b
+The Vine at Del Lago = 66c3c0a78085d1ef5b9f9e63
+Del Lago = 66c3c0a78085d1ef5b9f9d63
 
 CATEGORIES
     music

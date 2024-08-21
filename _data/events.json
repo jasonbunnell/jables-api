@@ -4,37 +4,37 @@
         "category": "music",
         "startTime": "2024-08-29T17:30:00-0400",
         "endTime": "2024-08-29T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9dbe",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "source": "direct",
         "promoted": true,
-        "bookmarks": 20
+        "bookmarks": 50
     },
     {
         "title": "Erin & the Backwoods Blues Project",
         "category": "music",
         "startTime": "2024-09-05T17:30:00-0400",
         "endTime": "2024-09-05T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9dbe",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "source": "direct",
         "promoted": true,
-        "bookmarks": 25
+        "bookmarks": 45
     },
     {
         "title": "Erin + Ross",
         "category": "music",
         "startTime": "2024-09-12T17:30:00-0400",
         "endTime": "2024-09-12T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9dbe",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "source": "direct",
         "promoted": true,
-        "bookmarks": 15
+        "bookmarks": 41
     },
     {
         "title": "Bobby Henrie Duo",
         "category": "music",
         "startTime": "2024-09-19T17:30:00-0400",
         "endTime": "2024-09-19T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9dbe",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "source": "direct",
         "promoted": true,
         "bookmarks": 30
@@ -44,7 +44,7 @@
         "category": "music",
         "startTime": "2024-09-26T17:30:00-0400",
         "endTime": "2024-09-26T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9dbe",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "source": "direct",
         "promoted": true,
         "bookmarks": 40
@@ -164,7 +164,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 19,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-09-13T20:00:00"
     },
     {
@@ -173,7 +173,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 24,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-09-27T19:00:00"
     },
     {
@@ -182,7 +182,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 27,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-09-13T19:00:00"
     },
     {
@@ -191,7 +191,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 30,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-09-28T20:00:00"
     },
     {
@@ -200,7 +200,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 25,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-10-04T20:00:00"
     },
     {
@@ -209,7 +209,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 29,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-10-11T20:00:00"
     },
     {
@@ -218,7 +218,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 27,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-10-12T20:00:00"
     },
     {
@@ -227,7 +227,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 26,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-10-19T19:00:00"
     },
     {
@@ -236,7 +236,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 24,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-10-25T20:00:00"
     },
     {
@@ -245,7 +245,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 23,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-11-01T20:00:00"
     },
     {
@@ -254,7 +254,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 25,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-11-01T20:00:00"
     },
     {
@@ -263,7 +263,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 24,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-11-09T20:00:00"
     },
     {
@@ -272,7 +272,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 28,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-11-16T20:00:00"
     },
     {
@@ -281,7 +281,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 29,
-        "attraction": "66c3c0a78085d1ef5b9f9d63",
+        "attraction": "66c3c0a78085d1ef5b9f9e63",
         "startTime": "2024-11-01T20:00:00"
     }
 ]
