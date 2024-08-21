@@ -1,3 +1,4 @@
+const path = require('path');
 const ErrorResponse = require('../utils/errorResponse');
 const goecoder = require('../utils/geocoder');
 const Attraction = require('../models/Attraction');
@@ -163,4 +164,52 @@ exports.getAttractionsInRadius = asyncHandler(async (req, res, next) => {
         count: attractions.length,
         data: attractions
     })
+});
+
+// @desc    Upload photo
+// @route   PUT /api/v1/attractions/:id/photo
+// @access  Private
+exports.attractionPhotoUpload = asyncHandler(async (req, res, next) => {
+    const attraction = await Attraction.findById(req.params.id);
+
+    if(!attraction) {
+        return next(new ErrorResponse(`Attraction not found with id of ${req.params.id}`, 404));
+    }
+
+    // added after removing findByIdAndDelete
+    if(!req.files){
+        return next(new ErrorResponse(`Please upload a file`, 400));
+    }
+
+    const file = req.files.file;
+
+    // Checks file type 
+    if(!file.mimetype.startsWith('image')){
+        return next(new ErrorResponse(`Please upload an image file`, 400));      
+    }
+
+    // Checks file size, set in config
+    if(file.size > process.env.MAX_FILE_UPLOAD) {
+        return next(new ErrorResponse(`Image file size max is ${process.env.MAX_FILE_UPLOAD}`, 400));  
+    }
+
+    // Create custom file name
+    file.name = `photo_${attraction._id}${path.parse(file.name).ext}`;
+
+    //
+    file.mv(`${process.env.FILE_UPLOAD_PATH}/${file.name}`, async err => {
+        if(err) {
+            console.error(err);
+            return next(
+                new ErrorResponse(`Problem with file upload`, 500));
+        }
+
+        await Attraction.findByIdAndUpdate(req.params.id, { photo: file.name });
+
+        res.status(200).json({ 
+            success: true, 
+            data: file.name
+        });
+    });
+
 });

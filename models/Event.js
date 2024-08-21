@@ -96,8 +96,6 @@ const EventSchema = new mongoose.Schema({
 
 // Static method to get average number of bookmarks
 EventSchema.statics.getAverageBookmark = async function(attractionId){
-  console.log('Calculating avg bookmarks...'.blue);
-
   const obj = await this.aggregate([
     {
         $match: { attraction: attractionId }

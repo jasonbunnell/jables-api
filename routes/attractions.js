@@ -5,7 +5,8 @@ const {
     createAttraction, 
     updateAttraction, 
     deleteAttraction,
-    getAttractionsInRadius
+    getAttractionsInRadius,
+    attractionPhotoUpload
 } = require('../controllers/attractions');
 
 // Include other resource routers
@@ -16,7 +17,9 @@ const router = express.Router();
 // Re-route into other resource routers
 router.use('/:attractionId/events', eventRouter);
 
-router.route('/radius/:zipcode/:distance').get(getAttractionsInRadius)
+router.route('/radius/:zipcode/:distance').get(getAttractionsInRadius);
+
+router.route('/:id/photo').put(attractionPhotoUpload);
 
 router.route('/')
     .get(getAttractions)
