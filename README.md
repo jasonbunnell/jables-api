@@ -43,6 +43,6 @@ These are tasks that have not been completed yet.
 * [ ] Using `Event.findByIdAndDelete(req.params.id)` instead of `event.remove()` because the remove function is depricated.  This will conflict with course middleware as it had created a function that if an attraction was deleted that had events, it would delete events too.
 * [ ] User `bookmarks` `Events` and `likes` `Entertainers`.  Remove `likes` field from `Attraction` collection.  `Attraction` will have `avgBookmarks` which is the average from the number of bookmarks for each event at that attraction.
 * [x] avgBookmarks did not calculate for Del Lago attraction with id of 66c3c0a78085d1ef5b9f9d63.
-* [ ] have image, video, and other large files load to some S3 like service insteade of server file system.
+* [ ] have image, video, and other large files load to some S3 like service insteade of server file system.  Set route to serve image URLs.
 
 
