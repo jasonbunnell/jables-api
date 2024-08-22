@@ -8,24 +8,17 @@ const asyncHandler = require('../middleware/async');
 // #route   GET /api/v1/attractions/:attractionId/events
 // @access  Public
 exports.getEvents = asyncHandler(async (req, res, next) => {
-    let query;
-
     if(req.params.attractionId) {
-        query = Event.find({ attraction: req.params.attractionId });
+        const events = await Event.find({ attraction: req.params.attractionId });
+
+        return res.status(200).json({
+            success: true,
+            count: events.length,
+            data: events
+        })
     } else {
-        query = Event.find().populate({
-            path: 'attraction',
-            select: 'name location'
-        });
+        res.status(200).json(res.advancedResults);
     }
-
-    const events = await query;
-
-    res.status(200).json({
-        success: true,
-        count: events.length,
-        data: events
-    });
 });
 
 // @desc    Get single event

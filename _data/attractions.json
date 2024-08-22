@@ -3424,5 +3424,14 @@
   "category": "venue",
   "lake": "Onondaga",
   "ticketmaster-id": "ZFr9jZ67Fk"
+},
+{
+  "name": "Alistair’s Distillery",
+  "website": "https://www.alistairsdistillery.com/",
+  "email": "alistairsdistillery@gmail.com",
+  "cms": "Squarespace",
+  "address": "2513 Covert Rd, Lodi, NY 14860",
+  "category": "distillery",
+  "lake": "Seneca"
 }
 ]

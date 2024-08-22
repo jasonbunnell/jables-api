@@ -9,6 +9,10 @@ const {
     attractionPhotoUpload
 } = require('../controllers/attractions');
 
+const Attraction = require('../models/Attraction');
+
+const advancedResults = require('../middleware/advancedResults');
+
 // Include other resource routers
 const eventRouter = require('./events');
 
@@ -22,7 +26,7 @@ router.route('/radius/:zipcode/:distance').get(getAttractionsInRadius);
 router.route('/:id/photo').put(attractionPhotoUpload);
 
 router.route('/')
-    .get(getAttractions)
+    .get(advancedResults(Attraction, 'events'), getAttractions)
     .post(createAttraction);
 
 router.route('/:id')
