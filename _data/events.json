@@ -4,7 +4,7 @@
         "category": "music",
         "startTime": "2024-08-29T17:30:00-0400",
         "endTime": "2024-08-29T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8b51",
         "source": "direct",
         "promoted": true,
         "bookmarks": 50
@@ -14,7 +14,7 @@
         "category": "music",
         "startTime": "2024-09-05T17:30:00-0400",
         "endTime": "2024-09-05T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8b51",
         "source": "direct",
         "promoted": true,
         "bookmarks": 45
@@ -24,7 +24,7 @@
         "category": "music",
         "startTime": "2024-09-12T17:30:00-0400",
         "endTime": "2024-09-12T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8b51",
         "source": "direct",
         "promoted": true,
         "bookmarks": 41
@@ -34,7 +34,7 @@
         "category": "music",
         "startTime": "2024-09-19T17:30:00-0400",
         "endTime": "2024-09-19T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8b51",
         "source": "direct",
         "promoted": true,
         "bookmarks": 30
@@ -44,7 +44,7 @@
         "category": "music",
         "startTime": "2024-09-26T17:30:00-0400",
         "endTime": "2024-09-26T20:30:00-0400",
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8b51",
         "source": "direct",
         "promoted": true,
         "bookmarks": 40
@@ -57,7 +57,7 @@
         "promoted": true,
         "bookmarks": 12,
         "startTime": "2024-09-08T15:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Joshua Conyers & Chelsea Whitaker",
@@ -67,7 +67,7 @@
         "promoted": true,
         "bookmarks": 16,
         "startTime": "2024-09-09T19:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Colin Jost",
@@ -76,7 +76,7 @@
         "promoted": true,
         "bookmarks": 14,
         "startTime": "2024-09-13T19:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "William Prince",
@@ -86,7 +86,7 @@
         "promoted": true,
         "bookmarks": 18,
         "startTime": "2024-09-13T19:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Ran Dank",
@@ -96,7 +96,7 @@
         "promoted": true,
         "bookmarks": 22,
         "startTime": "2024-09-14T19:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Ying Quartet",
@@ -106,7 +106,7 @@
         "promoted": true,
         "bookmarks": 24,
         "startTime": "2024-09-15T15:00:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Composition Faculty Showcase",
@@ -116,7 +116,7 @@
         "promoted": true,
         "bookmarks": 11,
         "startTime": "2024-09-16T19:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Crystal Sellers Battle",
@@ -126,7 +126,7 @@
         "promoted": true,
         "bookmarks": 13,
         "startTime": "2024-09-18T19:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Brock Tjosvold",
@@ -136,7 +136,7 @@
         "promoted": true,
         "bookmarks": 15,
         "startTime": "2024-09-19T19:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Endea Owens and The Cookout",
@@ -146,7 +146,7 @@
         "promoted": true,
         "bookmarks": 17,
         "startTime": "2024-09-20T19:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Tony Caramia",
@@ -156,16 +156,7 @@
         "promoted": true,
         "bookmarks": 19,
         "startTime": "2024-09-22T15:30:00",
-        "attraction": "66c3c0a78085d1ef5b9f9e4d"
-    },
-    {
-        "title": "RuPaul\u2019s Drag Race All Stars LIVE",
-        "category": "theater",
-        "source": "direct",
-        "promoted": true,
-        "bookmarks": 19,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
-        "startTime": "2024-09-13T20:00:00"
+        "attraction": "66d8cb2922f27bef824e8be0"
     },
     {
         "title": "Tesla",
@@ -173,7 +164,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 24,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-09-27T19:00:00"
     },
     {
@@ -182,7 +173,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 27,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-09-13T19:00:00"
     },
     {
@@ -191,7 +182,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 30,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-09-28T20:00:00"
     },
     {
@@ -200,7 +191,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 25,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-10-04T20:00:00"
     },
     {
@@ -209,7 +200,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 29,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-10-11T20:00:00"
     },
     {
@@ -218,7 +209,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 27,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-10-12T20:00:00"
     },
     {
@@ -227,7 +218,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 26,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-10-19T19:00:00"
     },
     {
@@ -236,7 +227,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 24,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-10-25T20:00:00"
     },
     {
@@ -245,7 +236,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 23,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-11-01T20:00:00"
     },
     {
@@ -254,7 +245,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 25,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-11-01T20:00:00"
     },
     {
@@ -263,7 +254,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 24,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-11-09T20:00:00"
     },
     {
@@ -272,7 +263,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 28,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-11-16T20:00:00"
     },
     {
@@ -281,7 +272,7 @@
         "source": "direct",
         "promoted": true,
         "bookmarks": 29,
-        "attraction": "66c3c0a78085d1ef5b9f9e63",
+        "attraction": "66d8cb2922f27bef824e8bf6",
         "startTime": "2024-11-01T20:00:00"
     }
 ]
