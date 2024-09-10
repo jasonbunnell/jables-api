@@ -58,13 +58,13 @@ exports.updateAttraction = asyncHandler(async (req, res, next) => {
 // @access  Private
 exports.deleteAttraction = asyncHandler(async (req, res, next) => {
         // changing from findByIdAndDelete to findById so middleware runs
-        const attraction = await Attraction.findByIdAndDelete(req.params.id);
+        const attraction = await Attraction.findById(req.params.id);
         if(!attraction) {
             return next(new ErrorResponse(`Attraction not found with id of ${req.params.id}`, 404));
         }
 
         // added after removing findByIdAndDelete
-        // attraction.remove();
+        attraction.deleteOne();
 
         res.status(200).json({ success: true, data: {} });
 });
