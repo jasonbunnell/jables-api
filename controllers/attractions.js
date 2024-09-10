@@ -16,7 +16,7 @@ exports.getAttractions = asyncHandler(async (req, res, next) => {
 // @route   GET /api/v1/attractions:id
 // @access  Public
 exports.getAttraction = asyncHandler(async (req, res, next) => {
-        const attraction = await Attraction.findById(req.params.id);
+        const attraction = await Attraction.findById(req.params.id).populate('events');
         if(!attraction) {
             return next(new ErrorResponse(`Attraction not found with id of ${req.params.id}`, 404));
         }
