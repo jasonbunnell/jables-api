@@ -64,7 +64,7 @@ exports.deleteAttraction = asyncHandler(async (req, res, next) => {
         }
 
         // added after removing findByIdAndDelete
-        attraction.deleteOne();
+        await attraction.deleteOne();
 
         res.status(200).json({ success: true, data: {} });
 });
