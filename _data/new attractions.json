@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Saunders Finger Lakes Museum",
+    "website": "https://www.fingerlakesmuseum.org/",
+    "cms": "WordPress",
+    "phone": "(315) 595-2200",
+    "address": "3369 Guyanoga Rd, Branchport, NY 14418",
+    "category": "museum",
+    "lake": "Keuka"
+  },
+  {
+    "name": "It's A Wonderful Life Museum",
+    "website": "https://www.wonderfullifemuseum.com/",
+    "cms": "WordPress",
+    "phone": "(315) 568-5838",
+    "address": "76 Fall St, Seneca Falls, NY 13148",
+    "category": "museum",
+    "lake": "Cayuga"
+  }
+]
