@@ -5,6 +5,7 @@
 * **Mongoose** - mongodb object modeling for node.js
 * **[Node Geocode](https://github.com/nchaulet/node-geocoder)** - Node.js geocode library
 * **[Express FileUpload](https://www.npmjs.com/package/express-fileupload)** - Simple express file upload middleware that wraps around busboy.  Used to upload images.
+* **[JSON Web Token]()
 
 ## Services
 * **[MapQuest Developer](https://developer.mapquest.com/)** - Used to get geocode data, uses CapOne cc
