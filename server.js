@@ -16,6 +16,7 @@ connectDB();
 // Route files
 const attractions = require('./routes/attractions');
 const events = require('./routes/events');
+const auth = require('./routes/auth');
 
 const app = express();
 
@@ -36,6 +37,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Mount routers
 app.use('/api/v1/attractions', attractions);
 app.use('/api/v1/events', events);
+app.use('/api/v1/auth', auth);
 
 app.use(errorHandler);
 
