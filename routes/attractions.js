@@ -25,6 +25,8 @@ router.route('/radius/:zipcode/:distance').get(getAttractionsInRadius);
 
 router.route('/:id/photo').put(attractionPhotoUpload);
 
+
+// Advanced results should pass in the model and populate field
 router.route('/')
     .get(advancedResults(Attraction, 'events'), getAttractions)
     .post(createAttraction);

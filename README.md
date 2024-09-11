@@ -45,5 +45,6 @@ These are tasks that have not been completed yet.
 * [x] avgBookmarks did not calculate for Del Lago attraction with id of 66c3c0a78085d1ef5b9f9d63.
 * [ ] have image, video, and other large files load to some S3 like service insteade of server file system.  Set route to serve image URLs.
 * [ ] GET All Events cannot filter by date (without time) or attraction location info.
+* [ ] Count is showing results total for that page, not total results.  Count should show total results.  For example, if GET All Attractions should show total attraction count of about 380, not the number on that page of 50 set in the middleware/advancedResults pagination section.
 
 
