@@ -31,7 +31,8 @@ const EventSchema = new mongoose.Schema({
             'food',
             'drink',
             'art',
-            'festival'
+            'festival',
+            'test'
         ]
     },
     subcategory: {
@@ -81,7 +82,7 @@ const EventSchema = new mongoose.Schema({
         ref: 'Attraction',
         required: [true, 'Please add an Attraction as location']
     },
-    altTitle: {
+    entertainer: {
         type: mongoose.Schema.ObjectId,
         ref: 'Entertainer'
     },

@@ -75,7 +75,8 @@ const AttractionSchema = new mongoose.Schema({
             'farm',
             'park',
             'golf course',
-            'sports arena'
+            'sports arena',
+            "test"
         ]
     },
     subcategory: {
@@ -177,6 +178,6 @@ AttractionSchema.virtual('events', {
     localField: '_id',
     foreignField: 'attraction',
     justOne: false
-})
+});
 
 module.exports = mongoose.model('Attraction', AttractionSchema);
