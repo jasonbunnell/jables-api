@@ -23,18 +23,11 @@ const EntertainerSchema = new mongoose.Schema({
             'test'
         ]
     },
-    user: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'User',
-        required: true
-    },
     manager: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'User'
+        type: String
     },
     address: {
-        type: String,
-        required: [true, 'Please add an address']
+        type: String
     },
     photo: {
         type: String,
@@ -51,45 +44,45 @@ const EntertainerSchema = new mongoose.Schema({
 });
 
 // Geocode & create location field
-AttractionSchema.pre('save', async function(next) {
-    const loc = await geocoder.geocode(this.address);
+// EntertainerSchema.pre('save', async function(next) {
+//     const loc = await geocoder.geocode(this.address);
     
-    this.location = {
-        type: 'Point',
-        coordinates: [loc[0].longitude, loc[0].latitude],
-        formattedAddress: loc[0].formattedAddress,
-        street: loc[0].streetName,
-        city: loc[0].city,
-        state: loc[0].stateCode,
-        zipcode: loc[0].zipcode,
-        country: loc[0].countryCode
-    }
+//     this.location = {
+//         type: 'Point',
+//         coordinates: [loc[0].longitude, loc[0].latitude],
+//         formattedAddress: loc[0].formattedAddress,
+//         street: loc[0].streetName,
+//         city: loc[0].city,
+//         state: loc[0].stateCode,
+//         zipcode: loc[0].zipcode,
+//         country: loc[0].countryCode
+//     }
     
-    // Do not save address in DB
-    this.address = undefined;
-    next();
-});
+//     // Do not save address in DB
+//     this.address = undefined;
+//     next();
+// });
 
 // Reverse populate with virtuals
 // local field
 // foreign field = field in Event model that refers to this model
 // justOne - gets an array of, in this case, events
-AttractionSchema.virtual('events', {
-    ref: 'Event',
-    localField: '_id',
-    foreignField: 'entertainer',
-    justOne: false
-});
+// EntertainerSchema.virtual('events', {
+//     ref: 'Event',
+//     localField: '_id',
+//     foreignField: 'entertainer',
+//     justOne: false
+// });
 
 // Reverse populate with virtuals
 // local field
 // foreign field = field in Event model that refers to this model
 // justOne - gets an array of, in this case, events
-AttractionSchema.virtual('events', {
-    ref: 'Song',
-    localField: '_id',
-    foreignField: 'attraction',
-    justOne: false
-});
+// EntertainerSchema.virtual('songs', {
+//     ref: 'Song',
+//     localField: '_id',
+//     foreignField: 'enterainer',
+//     justOne: false
+// });
 
-module.exports = mongoose.model('Attraction', AttractionSchema);
+module.exports = mongoose.model('Entertainer', EntertainerSchema);

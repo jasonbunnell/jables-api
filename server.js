@@ -17,6 +17,7 @@ connectDB();
 const attractions = require('./routes/attractions');
 const events = require('./routes/events');
 const auth = require('./routes/auth');
+const entertainers = require('./routes/entertainers');
 
 const app = express();
 
@@ -38,6 +39,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/attractions', attractions);
 app.use('/api/v1/events', events);
 app.use('/api/v1/auth', auth);
+app.use('/api/v1/entertainers', entertainers);
 
 app.use(errorHandler);
 
