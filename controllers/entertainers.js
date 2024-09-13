@@ -112,18 +112,11 @@ exports.entertainerPhotoUpload = asyncHandler(async (req, res, next) => {
 // @route   DELETE /api/v1/entertainers/:id
 // @access  Private
 exports.deleteEntertainer = asyncHandler(async (req, res, next) => {
-    const entertainer = await User.findById(req.params.id);
+    const entertainer = await Entertainer.findById(req.params.id);
 
     if (!entertainer) {
         return next(
             new ErrorResponse(`Entertainer not found with id of ${req.params.id}`, 404)
-        );
-    }
-
-    // Make sure user is entertainer owner
-    if (entertainer.user.toString() !== req.user.id && req.user.role !== 'admin') {
-        return next(
-            new ErrorResponse(`User ${req.params.id} is not authorized to delete this entertainer`, 401)
         );
     }
 

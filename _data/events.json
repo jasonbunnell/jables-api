@@ -1,25 +1,5 @@
 [
     {
-        "title": "Rena Guinn Duo",
-        "category": "music",
-        "startTime": "2024-08-29T17:30:00-0400",
-        "endTime": "2024-08-29T20:30:00-0400",
-        "attraction": "66d8cb2922f27bef824e8b51",
-        "source": "direct",
-        "promoted": true,
-        "bookmarks": 50
-    },
-    {
-        "title": "Erin & the Backwoods Blues Project",
-        "category": "music",
-        "startTime": "2024-09-05T17:30:00-0400",
-        "endTime": "2024-09-05T20:30:00-0400",
-        "attraction": "66d8cb2922f27bef824e8b51",
-        "source": "direct",
-        "promoted": true,
-        "bookmarks": 45
-    },
-    {
         "title": "Erin + Ross",
         "category": "music",
         "startTime": "2024-09-12T17:30:00-0400",
