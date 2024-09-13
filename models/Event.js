@@ -27,6 +27,7 @@ const EventSchema = new mongoose.Schema({
             'nerdy',
             'family',
             'lecture',
+            'musical',
             'comedy',
             'food',
             'drink',

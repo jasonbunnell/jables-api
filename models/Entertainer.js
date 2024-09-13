@@ -67,12 +67,12 @@ const EntertainerSchema = new mongoose.Schema({
 // local field
 // foreign field = field in Event model that refers to this model
 // justOne - gets an array of, in this case, events
-// EntertainerSchema.virtual('events', {
-//     ref: 'Event',
-//     localField: '_id',
-//     foreignField: 'entertainer',
-//     justOne: false
-// });
+EntertainerSchema.virtual('events', {
+    ref: 'Event',
+    localField: '_id',
+    foreignField: 'entertainer',
+    justOne: false
+});
 
 // Reverse populate with virtuals
 // local field

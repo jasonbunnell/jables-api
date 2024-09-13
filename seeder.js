@@ -9,6 +9,7 @@ dotenv.config({ path: './config/config.env' });
 // Load models
 const Attraction = require('./models/Attraction');
 const Event = require('./models/Event');
+const Entertainer = require('./models/Entertainer');
 
 // Connect to database
 mongoose.connect(process.env.MONGO_URI, {});

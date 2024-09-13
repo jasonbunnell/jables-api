@@ -23,7 +23,7 @@ const router = express.Router();
 router.route('/:id/photo').put(entertainerPhotoUpload);
 
 router.route('/')
-    .get(advancedResults(Entertainer), getEntertainers)
+    .get(advancedResults(Entertainer, 'events'), getEntertainers)
     .post(createEntertainer);
 
 router.route('/:id')
