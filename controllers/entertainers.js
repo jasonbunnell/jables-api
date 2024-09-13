@@ -14,7 +14,7 @@ exports.getEntertainers = asyncHandler(async (req, res, next) => {
 // @route   POST /api/v1/entertainers/:id
 // @access  Public
 exports.getEntertainer = asyncHandler(async (req, res, next) => {
-    const enterainer = await Entertainer.findById(req.params.id);
+    const enterainer = await Entertainer.findById(req.params.id).populate('events');
     if(!enterainer) {
         return next(new ErrorResponse(`Entertainer not found with id of ${req.params.id}`, 404));
     }
