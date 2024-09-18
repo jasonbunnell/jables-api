@@ -58,6 +58,37 @@ const AttractionSchema = new mongoose.Schema({
         zipcode: String,
         country: String
     },
+    hours: {
+        type: [
+            {
+                day: {
+                    type: String,
+                    enum: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+                },
+                timeSlots: [
+                    {
+                        _id: false, // Disable _id for timeSlots
+                        start: {
+                            type: String
+                        },
+                        finish: {
+                            type: String
+                        }
+                    }
+                ],
+                _id: false // Disable _id for day objects
+            }
+        ],
+        default: [
+            { day: 'Sunday', timeSlots: [] },
+            { day: 'Monday', timeSlots: [] },
+            { day: 'Tuesday', timeSlots: [] },
+            { day: 'Wednesday', timeSlots: [] },
+            { day: 'Thursday', timeSlots: [] },
+            { day: 'Friday', timeSlots: [] },
+            { day: 'Saturday', timeSlots: [] }
+        ]
+    },
     category: {
         // Array of strings
         type: [String],
