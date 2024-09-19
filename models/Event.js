@@ -20,20 +20,30 @@ const EventSchema = new mongoose.Schema({
         type: [String],
         required: [true, 'Please add a category'],
         enum: [
-            'music',
-            'theater',
-            'games',
-            'sports',
-            'nerdy',
-            'family',
-            'lecture',
-            'musical',
-            'comedy',
-            'food',
-            'drink',
-            'art',
-            'festival',
+            'Music',
+            'Theater',
+            'Games',
+            'Sports',
+            'Nerdy',
+            'Family',
+            'Lecture',
+            'Musical',
+            'Comedy',
+            'Food',
+            'Drink',
+            'Art',
+            'Festival',
             'test'
+        ]
+    },
+    awardBadge: {
+        type: [String],
+        enum: [
+            'Promoted',
+            'Popular',
+            'New',
+            'Free',
+            'Family'
         ]
     },
     subcategory: {

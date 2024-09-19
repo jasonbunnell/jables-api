@@ -94,20 +94,30 @@ const AttractionSchema = new mongoose.Schema({
         type: [String],
         required: true,
         enum: [
-            'winery',
-            'brewery',
-            'cidery',
-            'distillery',
-            'restaurant',
-            'museum',
-            'casino',
-            'theater',
-            'venue',
-            'farm',
-            'park',
-            'golf course',
-            'sports arena',
+            'Winery',
+            'Brewery',
+            'Cidery',
+            'Distillery',
+            'Restaurant',
+            'Museum',
+            'Casino',
+            'Theater',
+            'Venue',
+            'Farm',
+            'Park',
+            'Golf Course',
+            'Sports',
             "test"
+        ]
+    },
+    awardBadge: {
+        type: [String],
+        enum: [
+            'Promoted',
+            'Popular',
+            'New',
+            'Free',
+            'Family'
         ]
     },
     subcategory: {
@@ -147,15 +157,23 @@ const AttractionSchema = new mongoose.Schema({
         type: String,
         default: 'no-photo.jpg'
     },
+    capacity: {
+        type: Number
+    },
     ticketing: {
-        type: String,
+        type: [String],
         enum: [
             'Spektrix',
             'Ticketmaster',
-            'accesso'
+            'Accesso',
+            'Eventbrite',
+            'AXS',
+            'TixTrack',
+            'Opendate',
+            'Tixr'
         ]
     },
-    ticketmasterId: {
+    ticketingId: {
         type: String
     },
     createdAt: {
