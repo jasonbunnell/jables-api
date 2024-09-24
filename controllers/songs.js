@@ -8,5 +8,15 @@ const asyncHandler = require('../middleware/async');
 // #route   GET /api/v1/entertainer/:entertainerId/songs
 // @access  Public
 exports.getSongs = asyncHandler(async (req, res, next) => {
-    // res.status(200).json(res.advancedResults(Song));
+    let songs;
+    if (req.params.entertainerId) {
+        songs = await Song.find({ entertainer: req.params.entertainerId });
+    } else {
+        songs = await Song.find();
+    }
+    res.status(200).json({
+        success: true,
+        count: songs.length,
+        data: songs
+    });
 });

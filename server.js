@@ -19,7 +19,7 @@ const events = require('./routes/events');
 const auth = require('./routes/auth');
 const entertainers = require('./routes/entertainers');
 const videos = require('./routes/videos');
-// const songs = require('./routes/songs');
+const songs = require('./routes/songs');
 
 const app = express();
 
@@ -43,7 +43,7 @@ app.use('/api/v1/events', events);
 app.use('/api/v1/auth', auth);
 app.use('/api/v1/entertainers', entertainers);
 app.use('/api/v1/videos', videos);
-// app.use('/api/v1/songs', songs);
+app.use('/api/v1/songs', songs);
 
 app.use(errorHandler);
 

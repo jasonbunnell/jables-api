@@ -5,8 +5,6 @@ const {
 
 const Song = require('../models/Song');
 
-const advancedResults = require('../middleware/advancedResults');
-
 const router = express.Router({
     mergeParams: true
 });
