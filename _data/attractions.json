@@ -20,7 +20,7 @@
  {
    "name": "Fairport Brewing Company",
    "website": "https://www.fairportbrewing.com/",
-   "cms": "CMS Max",
+   "cms": "other",
    "phone": "(585) 425-3003",
    "address": "99 S Main St, Fairport, NY 14450-2100, US",
    "category": "Brewery",
@@ -83,7 +83,7 @@
  {
    "name": "Other Half Brewing Finger Lakes",
    "website": "https://otherhalfbrewing.com/location/finger-lakes/",
-   "cms": "Wordpress",
+   "cms": "WordPress",
    "phone": "(585) 617-0453",
    "address": "6621 State Rte 5 And 20, Bloomfield, NY 14469",
    "category": "Brewery",
@@ -101,7 +101,7 @@
  {
    "name": "Reinvention Brewing Company",
    "website": "https://www.reinventionbrewing.com/",
-   "cms": "BentoBox",
+   "cms": "other",
    "phone": "(585) 289-7309",
    "address": "9 N Main St, 21, Manchester, NY 14504-9713, US",
    "category": "Brewery",
@@ -179,7 +179,7 @@
  {
    "name": "Fleur De Lis Brew Works",
    "website": "https://www.fleurdelisbrewworks.com/",
-   "cms": "React",
+   "cms": "custom site",
    "phone": "(315) 665-2337",
    "address": "3630 State Route 414, Seneca Falls, NY 13148-9202, US",
    "category": "Brewery",
@@ -302,7 +302,7 @@
  {
    "name": "Genesee Brew House",
    "website": "https://www.geneseebeer.com/brewhouse/",
-   "cms": "Netlify",
+   "cms": "other",
    "phone": "(585) 263-9200",
    "address": "25 Cataract St, Rochester, NY 14605, US",
    "category": "Brewery",
@@ -356,7 +356,7 @@
  {
    "name": "Rising Storm Brewing Co",
    "website": "https://www.risingstormbrewing.com/",
-   "cms": "Jimdo",
+   "cms": "other",
    "phone": "(585) 572-3009",
    "address": "5750 S Lima Rd, Avon, NY 14414-9791, US",
    "category": "Brewery",
@@ -588,7 +588,7 @@
  {
    "name": "Full Boar Craft Brewery and Tap Room",
    "website": "http://www.fullboarbrew.com/",
-   "cms": "BentoBox",
+   "cms": "other",
    "phone": "(315) 802-4784",
    "address": "628 S Main St, Syracuse, NY 13212-3615, US",
    "category": "Brewery",
@@ -616,7 +616,7 @@
  {
    "name": "Red Hawk Brewing",
    "website": "http://www.redhawkbrewing.com/",
-   "cms": "Homestead",
+   "cms": "other",
    "phone": "(315) 491-5158",
    "address": "4504 Bussey Rd, Syracuse, NY 13215-8783, US",
    "category": "Brewery",
@@ -877,7 +877,7 @@
  {
    "name": "Seneca Stag",
    "website": "https://senecastagbrewing.com/",
-   "cms": "Plesk",
+   "cms": "other",
    "phone": "(315) 694-7586",
    "address": "1720 NY-14, Penn Yan, NY 14527",
    "category": "Brewery",
@@ -912,7 +912,7 @@
  {
    "name": "Upstate Brewing Company",
    "website": "https://upstatebrewing.com/",
-   "cms": "BentoBox",
+   "cms": "other",
    "phone": "(607) 742-2750",
    "address": "3028 Lake Rd, Elmira, NY 14903-1409, US",
    "category": "Brewery",
@@ -973,7 +973,7 @@
  {
    "name": "Cortland Beer Company",
    "website": "https://www.cortlandbeer.com/",
-   "cms": "Duda",
+   "cms": "other",
    "phone": "(607) 662-4389",
    "address": "16 Court St, Cortland, NY 13045-2604, US",
    "category": "Brewery",
@@ -1025,7 +1025,7 @@
  {
    "name": "Finger Lakes Gaming & Racetrack",
    "website": "https://www.fingerlakesgaming.com/",
-   "cms": "Sitecore CMS",
+   "cms": "other",
    "phone": "(585) 924-3232",
    "address": "5857 NY-96, Farmington, NY 14425",
    "category": "Casino",
@@ -1034,7 +1034,7 @@
  {
    "name": "Lakeside Entertainment",
    "website": "https://lakesidegaming.com/index.html",
-   "cms": "Weeby",
+   "cms": "Weebly",
    "phone": "(315) 889-5416",
    "address": "271 Cayuga St, Union Springs, NY 13160",
    "category": "Casino",
@@ -1168,7 +1168,7 @@
  {
    "name": "1911 Established",
    "website": "https://1911established.com/",
-   "cms": "Wordpress",
+   "cms": "WordPress",
    "phone": "(315) 696-6085",
    "address": "4473 Cherry Valley Turnpike, Lafayette, NY 13120",
    "category": "Cidery",
@@ -1249,7 +1249,7 @@
  {
    "name": "Black Sheep Distillery",
    "website": "https://blacksheepdistilleryny.com/",
-   "cms": "Wordpress",
+   "cms": "WordPress",
    "phone": "(607) 661-8279",
    "address": "8059 Co Rd 77, Prattsburgh, NY 14873",
    "category": "Distillery",
@@ -1285,7 +1285,7 @@
  {
    "name": "Alder Creek Distilling",
    "website": "https://idolridge.com/alder-creek-distillery/",
-   "cms": "Wordpress",
+   "cms": "WordPress",
    "phone": "(607) 582-7773",
    "address": "9059 NY-414, Lodi, NY 14860",
    "category": "Distillery",
@@ -1310,7 +1310,7 @@
  {
    "name": "O'Begley Distillery",
    "website": "https://obegley.com/",
-   "cms": "Wordpress",
+   "cms": "WordPress",
    "phone": "(607) 678-4169",
    "address": "5700 NY-14, Dundee, NY 14837",
    "category": "Distillery",
@@ -1456,7 +1456,7 @@
  {
    "name": "Otto Tomotto's",
    "website": "https://www.ottotomottos.com/",
-   "cms": "Duda",
+   "cms": "other",
    "phone": "(585) 742-2070",
    "address": "6385 State Route 96, Victor, NY 14564, US",
    "category": "Restaurant",
@@ -1474,7 +1474,7 @@
  {
    "name": "Richardson's Canal House",
    "website": "http://richardsonscanalhouse.com/",
-   "cms": "ExpressEngine",
+   "cms": "other",
    "phone": "(585) 248-5000",
    "address": "1474 Marsh Rd, Pittsford, NY 14534-3454, US",
    "category": "Restaurant",
@@ -1483,7 +1483,7 @@
  {
    "name": "Roots Cafe",
    "website": "https://rootscafenaplesny.com/",
-   "cms": "Websitebuilder",
+   "cms": "other",
    "phone": "(585) 374-9800",
    "address": "197 N Main St, Naples, NY 14512-9202, US",
    "category": "Restaurant",
@@ -1519,7 +1519,7 @@
  {
    "name": "84 Fall",
    "website": "https://www.84fall.com/",
-   "cms": "Popmenu",
+   "cms": "other",
    "phone": "(315) 828-6300",
    "address": "84 Fall St, Seneca Falls, NY 13148-1409, US",
    "category": "Restaurant",
@@ -1580,7 +1580,7 @@
  {
    "name": "Maxie's Supper Club and Oyster Bar",
    "website": "https://www.maxiesithaca.com/",
-   "cms": "BentoBox",
+   "cms": "other",
    "phone": "(607) 272-4136",
    "address": "635 W State St, Ithaca, NY 14850-3307, US",
    "category": "Restaurant",
@@ -1643,7 +1643,6 @@
  {
    "name": "Questa Lasagna",
    "website": "https://www.questalasagna.com/",
-   "cms": "no site",
    "phone": "(585) 658-1121",
    "address": "55 Main St, Mount Morris, NY 14510-1134, US",
    "category": "Restaurant",
@@ -1758,7 +1757,7 @@
  {
    "name": "Curly's Family Restaurant",
    "website": "https://www.curlysfamilyrestaurant.com/",
-   "cms": "Popmenu",
+   "cms": "other",
    "phone": "(607) 535-4383",
    "address": "2780 NY-14, Watkins Glen, NY 14891",
    "category": "Restaurant",
@@ -1767,7 +1766,7 @@
  {
    "name": "Dano's Heuriger On Seneca",
    "website": "https://www.danosonseneca.com/",
-   "cms": "SinglePlatform",
+   "cms": "other",
    "phone": "(607) 582-7555",
    "address": "9564 NY-414, Lodi, NY 14860-9638, US",
    "category": "Restaurant",
@@ -1803,7 +1802,7 @@
  {
    "name": "Halsey's Restaurant",
    "website": "https://www.halseysgeneva.com/",
-   "cms": "Popmenu",
+   "cms": "other",
    "phone": "(315) 789-4070",
    "address": "106 Seneca St, Geneva, NY 14456-3506, US",
    "category": "Restaurant",
@@ -1848,7 +1847,7 @@
  {
    "name": "Parkers Grille & Tap house",
    "website": "https://www.parkersgrille.com/",
-   "cms": "Popmenu",
+   "cms": "other",
    "phone": "(315) 789-4656",
    "address": "100 Seneca St, Geneva, NY 14456-3506, US",
    "category": "Restaurant",
@@ -2046,7 +2045,7 @@
  {
    "name": "Apple Station Winery",
    "website": "https://www.theapplestation.com/",
-   "cms": "Duda",
+   "cms": "other",
    "phone": "(315) 730-4239",
    "address": "5279 Cross Rd, Cayuga, NY 13034-2129, US",
    "category": "Winery",
@@ -2268,7 +2267,7 @@
  {
    "name": "Thirsty Owl Wine Company",
    "website": "https://www.thirstyowl.com/",
-   "cms": "Magento",
+   "cms": "other",
    "phone": "(607) 869-5805",
    "address": "6799 Elm Beach Rd, Ovid, NY 14521",
    "category": "Winery",
@@ -2313,7 +2312,7 @@
  {
    "name": "Azure Hill Winery",
    "website": "https://www.azurehillwinery.com/",
-   "cms": "Duda",
+   "cms": "other",
    "phone": "(607) 868-5702",
    "address": "8716 Gallagher Rd, Hammondsport, NY 14840-9102, US",
    "category": "Winery",
@@ -2737,7 +2736,7 @@
  {
    "name": "Lacey Magruder Vineyard & Winery",
    "website": "http://www.laceymagrudervineyardandwinery.com/",
-   "cms": "Homestead",
+   "cms": "other",
    "phone": "(585) 260-1850",
    "address": "462 Armstrong Rd, Geneva, NY 14456-9705, US",
    "category": "Winery",
@@ -2791,7 +2790,7 @@
  {
    "name": "McGregor Vineyard",
    "website": "https://www.mcgregorwinery.com/",
-   "cms": "Vintools",
+   "cms": "other",
    "phone": "(800) 272-0192",
    "address": "5503 Dutch St, Dundee, NY 14837-9746, US",
    "category": "Winery",
@@ -2827,7 +2826,7 @@
  {
    "name": "Rasta Ranch Vineyards",
    "website": "https://www.rastaranchvineyards.com/",
-   "cms": "Websitebuilder",
+   "cms": "other",
    "phone": "(607) 546-2974",
    "address": "5882 NY-414, Hector, NY 14841-9627, US",
    "category": "Winery",
@@ -2953,7 +2952,7 @@
  {
    "name": "Three Brothers Wineries and Estates",
    "website": "https://www.3brotherswinery.com/",
-   "cms": "Miva Merchant",
+   "cms": "other",
    "phone": "(315) 585-4432",
    "address": "623 Lerch Rd, Geneva, NY 14456-9238, US",
    "category": "Winery",
@@ -3216,7 +3215,7 @@
 {
   "name": "Innovative Field",
   "website": "https://www.milb.com/rochester/ballpark/innovative-field",
-  "cms": "Contentful",
+  "cms": "other",
   "phone": "(585) 454-1001",
   "address": "One Morrie Silver Way, Rochester, NY 14608",
   "category": "Sports",
@@ -3325,7 +3324,7 @@
 {
   "name": "St. John Fisher",
   "website": "https://sjfathletics.com/",
-  "cms": "Sidearm Sports",
+  "cms": "other",
   "phone": "(585) 385-8000",
   "address": "3690 East Ave, Rochester, NY 14618",
   "category": "Venue",
@@ -3369,7 +3368,7 @@
 {
   "name": "Oncenter Carrier Theater",
   "website": "https://www.asmsyracuse.com/location/the-oncenter-carrier-theater",
-  "cms": "Saffire",
+  "cms": "other",
   "phone": "(315) 435-2121",
   "address": "421 Montgomery St., Syracuse, NY 13202",
   "category": "Venue",
@@ -3423,7 +3422,7 @@
 {
   "name": "Upstate Medical University Arena at The Oncenter War Memorial",
   "website": "https://www.asmsyracuse.com/p/book/our-spaces/upstate-medical-arena-at-the-oncenter-war-memorial",
-  "cms": "Saffire",
+  "cms": "other",
   "phone": "(315) 435-8000",
   "address": "515 Montgomery St., Syracuse, NY 13202",
   "category": "Venue",
@@ -3526,7 +3525,7 @@
 {
   "name": "Sacred Root Kava Lounge & Tea Bar",
   "website": "http://www.sacredrootkava.com/",
-  "cms": "custom",
+  "cms": "custom site",
   "phone": "(607) 272-5282",
   "address": "103 S Geneva St, Ithaca, NY 14850",
   "category": "Venue",

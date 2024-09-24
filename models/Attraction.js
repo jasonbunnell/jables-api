@@ -23,6 +23,20 @@ const AttractionSchema = new mongoose.Schema({
             'Please use a valid URL with HTTP or HTTPS'
         ]
     },
+    cms: {
+        type: String,
+        enum: [
+            'WordPress', 
+            'Wix', 
+            'Squarespace', 
+            'Wix', 
+            'Drupal',
+            'Weebly',
+            'custom site', 
+            'GoDaddy Website Builder',
+            'other'
+        ]
+    },
     phone: {
         type: String,
         maxlength: [20, 'Phone number cannot be longer than 20 characters']
