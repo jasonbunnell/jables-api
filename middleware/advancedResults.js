@@ -46,6 +46,17 @@ const advancedResults = (model, populate) => async (req, res, next) => {
         query = query.populate(populate);
     }
 
+    // Populate
+    if (populate) {
+        if (Array.isArray(populate)) {
+            populate.forEach(pop => {
+                query = query.populate(pop);
+            });
+        } else {
+            query = query.populate(populate);
+        }
+    }
+
     // Executing query
     const results = await query;
 
