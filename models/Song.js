@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const slugify = require('slugify');
 
 const SongSchema = new mongoose.Schema({
     title: {
@@ -38,22 +39,23 @@ const SongSchema = new mongoose.Schema({
             'test'
         ]
     },
-    user: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'User'
-        // required: true
-    },
     createdAt: {
         type: Date,
         default: Date.now
     },
     songFile: {
         type: String
-    }
-
+    },
+    slug: String
 }, {
     toJSON: { virtuals: true },
-    toObject: {virtuals: true }
-}); 
+    toObject: { virtuals: true }
+});
+
+// Create song slug from the title
+SongSchema.pre('save', function(next) {
+    this.slug = slugify(this.title, { lower: true });
+    next();
+});
 
 module.exports = mongoose.model('Song', SongSchema);

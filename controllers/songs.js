@@ -1,9 +1,9 @@
 const ErrorResponse = require('../utils/errorResponse');
 const Song = require('../models/Song');
-const Entertainer = require('../models/Entertainer');
 const asyncHandler = require('../middleware/async');
 const path = require('path');
 const fs = require('fs');
+const slugify = require('slugify');
 
 // @desc    Get all songs
 // @route   GET /api/v1/songs
@@ -33,6 +33,30 @@ exports.createSong = asyncHandler(async (req, res, next) => {
     // Add the entertainer ID to the request body
     req.body.entertainer = req.params.entertainerId;
 
+    // Create the song
+    const song = await Song.create(req.body);
+    console.log(`Song created: ${song}`); // Debugging statement
+
+    res.status(201).json({
+        success: true,
+        data: song
+    });
+});
+
+
+// @desc    Upload audio file for a song
+// @route   POST /api/v1/entertainers/:entertainerId/songs/:songId/upload
+// @access  Public
+exports.uploadAudio = asyncHandler(async (req, res, next) => {
+    const song = await Song.findById(req.params.songId);
+
+    if (!song) {
+        return res.status(404).json({
+            success: false,
+            message: 'Song not found'
+        });
+    }
+
     // Log the request headers and body
     console.log('Request headers:', req.headers); // Debugging statement
     console.log('Request body:', req.body); // Debugging statement
@@ -51,7 +75,8 @@ exports.createSong = asyncHandler(async (req, res, next) => {
         }
 
         // Create custom filename
-        file.name = `audio_${req.params.entertainerId}_${Date.now()}${path.parse(file.name).ext}`;
+        const slug = slugify(song.title, { lower: true });
+        file.name = `${req.params.entertainerId}_${slug}${path.parse(file.name).ext}`;
         console.log(`Custom filename: ${file.name}`); // Debugging statement
 
         // Ensure the songs directory exists
@@ -76,28 +101,21 @@ exports.createSong = asyncHandler(async (req, res, next) => {
 
             console.log(`File moved to: ${uploadPath}`); // Debugging statement
 
-            // Save the file path to the request body
-            req.body.file = `/songs/${file.name}`;
-            console.log(`File path saved to request body: ${req.body.file}`); // Debugging statement
+            // Save the file path to the song document
+            song.songFile = `/songs/${file.name}`;
+            await song.save();
+            console.log(`File path saved to song document: ${song.songFile}`); // Debugging statement
 
-            // Create the song
-            const song = await Song.create(req.body);
-            console.log(`Song created: ${song}`); // Debugging statement
-
-            res.status(201).json({
+            res.status(200).json({
                 success: true,
                 data: song
             });
         });
     } else {
         console.log('No file uploaded'); // Debugging statement
-        // Create the song without a file
-        const song = await Song.create(req.body);
-        console.log(`Song created without file: ${song}`); // Debugging statement
-
-        res.status(201).json({
-            success: true,
-            data: song
+        res.status(400).json({
+            success: false,
+            message: 'No file uploaded'
         });
     }
 });

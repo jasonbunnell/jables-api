@@ -1,7 +1,8 @@
 const express = require('express');
 const { 
     getSongs,
-    createSong
+    createSong,
+    uploadAudio
 } = require('../controllers/songs');
 
 const Song = require('../models/Song');
@@ -11,11 +12,16 @@ const router = express.Router({
     mergeParams: true
 });
 
-router.route('/')
+router
+    .route('/')
     .get(advancedResults(Song, {
         path: 'entertainer',
         select: 'name'
     }), getSongs)
     .post(createSong);
+
+router
+    .route('/:songId')
+    .post(uploadAudio);
 
 module.exports = router;

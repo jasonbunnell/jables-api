@@ -26,6 +26,9 @@ if(process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
 }
 
+// Set static folder
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Route files
 const attractions = require('./routes/attractions');
 const events = require('./routes/events');
@@ -33,9 +36,6 @@ const auth = require('./routes/auth');
 const entertainers = require('./routes/entertainers');
 const videos = require('./routes/videos');
 const songs = require('./routes/songs');
-
-// Set static folder
-app.use(express.static(path.join(__dirname, 'public')));
 
 // Mount routers
 app.use('/api/v1/attractions', attractions);
