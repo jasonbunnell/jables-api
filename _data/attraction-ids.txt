@@ -1,8 +1,10 @@
-Sapalta id = 66d8cb2922f27bef824e8b51
-Eastman Theatre = 66d8cb2922f27bef824e8be0
-The Vine at Del Lago = 66d8cb2922f27bef824e8bf6
-CMAC = 66d8cb2922f27bef824e8b1e
+Sapalta id = 66ec8fd28e941b5e0f80d69b
+Eastman Theatre = 66ec8fd28e941b5e0f80d72a
+The Vine at Del Lago = 66ec8fd28e941b5e0f80d740
+CMAC = 
 Del Lago = 
+
+Bobby Henrie Duo = 
 
 CATEGORIES
     music

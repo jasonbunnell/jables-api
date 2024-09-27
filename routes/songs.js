@@ -1,15 +1,21 @@
 const express = require('express');
 const { 
-    getSongs
+    getSongs,
+    createSong
 } = require('../controllers/songs');
 
 const Song = require('../models/Song');
+const advancedResults = require('../middleware/advancedResults');
 
 const router = express.Router({
     mergeParams: true
 });
 
-router.route('/').get(getSongs);
-// router.route('/:id').get(getSong).put(updateSong).delete(deleteSong);
+router.route('/')
+    .get(advancedResults(Song, {
+        path: 'entertainer',
+        select: 'name'
+    }), getSongs)
+    .post(createSong);
 
 module.exports = router;

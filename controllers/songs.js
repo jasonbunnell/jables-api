@@ -2,21 +2,102 @@ const ErrorResponse = require('../utils/errorResponse');
 const Song = require('../models/Song');
 const Entertainer = require('../models/Entertainer');
 const asyncHandler = require('../middleware/async');
+const path = require('path');
+const fs = require('fs');
 
 // @desc    Get all songs
 // @route   GET /api/v1/songs
-// #route   GET /api/v1/entertainer/:entertainerId/songs
 // @access  Public
 exports.getSongs = asyncHandler(async (req, res, next) => {
-    let songs;
+    // Check if the request has the entertainer ID
     if (req.params.entertainerId) {
-        songs = await Song.find({ entertainer: req.params.entertainerId });
+        const songs = await Song.find({
+            entertainer: req.params.entertainerId
+        });
+
+        return res.status(200).json({
+            success: true,
+            count: songs.length,
+            data: songs
+        });
     } else {
-        songs = await Song.find();
+        res.status(200).json(res.advancedResults);
     }
-    res.status(200).json({
-        success: true,
-        count: songs.length,
-        data: songs
-    });
+});
+
+
+// @desc    Create a song
+// @route   POST /api/v1/entertainers/:entertainerId/songs
+// @access  Public
+exports.createSong = asyncHandler(async (req, res, next) => {
+    // Add the entertainer ID to the request body
+    req.body.entertainer = req.params.entertainerId;
+
+    // Log the request headers and body
+    console.log('Request headers:', req.headers); // Debugging statement
+    console.log('Request body:', req.body); // Debugging statement
+    console.log('req.files:', req.files); // Debugging statement
+
+    // Handle file upload
+    if (req.files && req.files.file) {
+        const file = req.files.file;
+
+        // Check if the file is an audio file
+        if (!file.mimetype.startsWith('audio')) {
+            return res.status(400).json({
+                success: false,
+                message: 'Please upload an audio file'
+            });
+        }
+
+        // Create custom filename
+        file.name = `audio_${req.params.entertainerId}_${Date.now()}${path.parse(file.name).ext}`;
+        console.log(`Custom filename: ${file.name}`); // Debugging statement
+
+        // Ensure the songs directory exists
+        const songsDir = path.join(__dirname, '../public/songs');
+        console.log(`Songs directory: ${songsDir}`); // Debugging statement
+        if (!fs.existsSync(songsDir)) {
+            fs.mkdirSync(songsDir, { recursive: true });
+            console.log(`Created directory: ${songsDir}`); // Debugging statement
+        }
+
+        // Move the file to the upload directory
+        const uploadPath = path.join(songsDir, file.name);
+        console.log(`Upload path: ${uploadPath}`); // Debugging statement
+        file.mv(uploadPath, async err => {
+            if (err) {
+                console.error(`Error moving file: ${err}`); // Debugging statement
+                return res.status(500).json({
+                    success: false,
+                    message: 'Problem with file upload'
+                });
+            }
+
+            console.log(`File moved to: ${uploadPath}`); // Debugging statement
+
+            // Save the file path to the request body
+            req.body.file = `/songs/${file.name}`;
+            console.log(`File path saved to request body: ${req.body.file}`); // Debugging statement
+
+            // Create the song
+            const song = await Song.create(req.body);
+            console.log(`Song created: ${song}`); // Debugging statement
+
+            res.status(201).json({
+                success: true,
+                data: song
+            });
+        });
+    } else {
+        console.log('No file uploaded'); // Debugging statement
+        // Create the song without a file
+        const song = await Song.create(req.body);
+        console.log(`Song created without file: ${song}`); // Debugging statement
+
+        res.status(201).json({
+            success: true,
+            data: song
+        });
+    }
 });

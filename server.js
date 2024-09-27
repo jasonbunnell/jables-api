@@ -13,6 +13,19 @@ dotenv.config({ path: './config/config.env' });
 // Connect to database
 connectDB();
 
+const app = express();
+
+// Body parser
+app.use(express.json());
+
+// File uploading
+app.use(fileupload());
+
+// Dev logging middleware
+if(process.env.NODE_ENV === 'development') {
+    app.use(morgan('dev'));
+}
+
 // Route files
 const attractions = require('./routes/attractions');
 const events = require('./routes/events');
@@ -20,19 +33,6 @@ const auth = require('./routes/auth');
 const entertainers = require('./routes/entertainers');
 const videos = require('./routes/videos');
 const songs = require('./routes/songs');
-
-const app = express();
-
-// Body parser
-app.use(express.json());
-
-// Dev logging middleware
-if(process.env.NODE_ENV === 'development') {
-    app.use(morgan('dev'));
-}
-
-// File uploading
-app.use(fileupload());
 
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));

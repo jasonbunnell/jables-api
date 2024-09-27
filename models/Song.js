@@ -11,8 +11,8 @@ const SongSchema = new mongoose.Schema({
     },
     entertainer: {
         type: mongoose.Schema.ObjectId,
-        ref: 'Entertainer'
-        // required: [true, 'Please add an Entertainer']
+        ref: 'Entertainer',
+        required: [true, 'Please add an Entertainer']
     },
     album: {
         type: String
@@ -51,13 +51,9 @@ const SongSchema = new mongoose.Schema({
         type: String
     }
 
+}, {
+    toJSON: { virtuals: true },
+    toObject: {virtuals: true }
 }); 
-// {
-//     toJSON: { virtuals: true },
-//     toObject: {virtuals: true }
-// });
-
-// Call getTotalLikes after save
-// Call getTotalLikes before remove
 
 module.exports = mongoose.model('Song', SongSchema);
