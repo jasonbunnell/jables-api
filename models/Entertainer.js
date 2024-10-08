@@ -23,6 +23,19 @@ const EntertainerSchema = new mongoose.Schema({
             'test'
         ]
     },
+    members: [
+        {
+            _id: false,
+            name: {
+                type: String,
+                required: [true, 'Please add a member name']
+            },
+            role: {
+                type: String,
+                required: [true, 'Please add a member role']
+            }
+        }
+    ],
     manager: {
         type: String
     },
