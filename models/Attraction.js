@@ -124,6 +124,14 @@ const AttractionSchema = new mongoose.Schema({
             "test"
         ]
     },
+    subcategory: {
+        // Array of strings
+        type: [String],
+        enum: [
+            'football',
+            'state park'
+        ]
+    },
     awardBadge: {
         type: [String],
         enum: [
@@ -132,14 +140,6 @@ const AttractionSchema = new mongoose.Schema({
             'New',
             'Free',
             'Family'
-        ]
-    },
-    subcategory: {
-        // Array of strings
-        type: [String],
-        enum: [
-            'football',
-            'state park'
         ]
     },
     avgBookmarks: {

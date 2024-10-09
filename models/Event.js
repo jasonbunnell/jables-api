@@ -9,9 +9,6 @@ const EventSchema = new mongoose.Schema({
     subtitle: {
         type: String
     },
-    series: {
-        type: String
-    },
     description: {
         type: String
     },

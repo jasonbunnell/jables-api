@@ -46,6 +46,9 @@ const EntertainerSchema = new mongoose.Schema({
         type: String,
         default: 'no-photo.jpg'
     },
+    mediaRightsManagement: {
+        type: String
+    },
     createdAt: {
         type: Date,
         default: Date.now
