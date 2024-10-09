@@ -76,7 +76,8 @@ exports.uploadAudio = asyncHandler(async (req, res, next) => {
 
         // Create custom filename
         const slug = slugify(song.title, { lower: true });
-        file.name = `${req.params.entertainerId}_${slug}${path.parse(file.name).ext}`;
+        const entertainerId = song.entertainer; // Retrieve entertainerId from the song object
+        file.name = `${entertainerId}_${slug}${path.parse(file.name).ext}`;
         console.log(`Custom filename: ${file.name}`); // Debugging statement
 
         // Ensure the songs directory exists
