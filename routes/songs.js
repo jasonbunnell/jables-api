@@ -8,6 +8,8 @@ const {
 const Song = require('../models/Song');
 const advancedResults = require('../middleware/advancedResults');
 
+const { protect } = require('../middleware/auth');
+
 const router = express.Router({
     mergeParams: true
 });
@@ -18,10 +20,10 @@ router
         path: 'entertainer',
         select: 'name'
     }), getSongs)
-    .post(createSong);
+    .post(protect, createSong);
 
 router
     .route('/:songId')
-    .post(uploadAudio);
+    .post(protect, uploadAudio);
 
 module.exports = router;

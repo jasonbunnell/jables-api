@@ -16,22 +16,24 @@ const advancedResults = require('../middleware/advancedResults');
 const eventRouter = require('./events');
 const songRouter = require('./songs');
 
+const { protect } = require('../middleware/auth');
+
 const router = express.Router();
 
 // Re-route into other resource routers
 router.use('/:entertainerId/events', eventRouter);
 router.use('/:entertainerId/songs', songRouter);
 
-router.route('/:id/photo').put(entertainerPhotoUpload);
+router.route('/:id/photo').put(protect, entertainerPhotoUpload);
 
 router.route('/')
     .get(advancedResults(Entertainer, ['events', 'songs']), getEntertainers)
-    .post(createEntertainer);
+    .post(protect, createEntertainer);
 
 router.route('/:id')
     .get(getEntertainer)
-    .put(updateEntertainer)
-    .delete(deleteEntertainer);
+    .put(protect, updateEntertainer)
+    .delete(protect, deleteEntertainer);
 
 
 module.exports = router;
