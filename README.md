@@ -7,6 +7,7 @@
 * **[Express FileUpload](https://www.npmjs.com/package/express-fileupload)** - Simple express file upload middleware that wraps around busboy.  Used to upload images.
 * **[JSON Web Token](https://jwt.io/)**
 * **[BCryptJS](https://www.npmjs.com/package/bcryptjs)** - Optimized bcrypt in JS with zero dependencies.  Compatible with C++ bcrypt binding node.js and also working in browser.
+* **[Cookie-Parser](https://www.npmjs.com/package/cookie-parser)** - Parse cookie header and populate `req.secret` so it may be used by other middleware.
 
 ## Services
 * **[MapQuest Developer](https://developer.mapquest.com/)** - Used to get geocode data, uses CapOne cc
