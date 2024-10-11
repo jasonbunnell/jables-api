@@ -30,6 +30,17 @@ exports.getAttraction = asyncHandler(async (req, res, next) => {
 // @route   POST /api/v1/attractions
 // @access  Private
 exports.createAttraction = asyncHandler(async (req, res, next) => {
+        // Add user to req.body
+        req.body.user = req.user.id;
+
+        // Check for published attraction
+        const publishedAttraction = await Attraction.findOne({ user: req.user.id });
+
+        // If the user is not an admin, they can only add one attraction
+        if(publishedAttraction && req.user.role !== 'admin') {
+            return next(new ErrorResponse(`The user with ID ${req.user.id} has already published an attraction`, 400));
+        }
+
         const attraction = await Attraction.create(req.body);
         res.status(201).json({ 
             success: true, 
