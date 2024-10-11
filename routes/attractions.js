@@ -18,24 +18,24 @@ const eventRouter = require('./events');
 
 const router = express.Router();
 
-const { protect } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth');
 
 // Re-route into other resource routers
 router.use('/:attractionId/events', eventRouter);
 
 router.route('/radius/:zipcode/:distance').get(getAttractionsInRadius);
 
-router.route('/:id/photo').put(protect, attractionPhotoUpload);
+router.route('/:id/photo').put(protect, authorize('publisher', 'admin'), attractionPhotoUpload);
 
 
 // Advanced results should pass in the model and populate field
 router.route('/')
     .get(advancedResults(Attraction, 'events'), getAttractions)
-    .post(protect, createAttraction);
+    .post(protect, authorize('publisher', 'admin'), createAttraction);
 
 router.route('/:id')
     .get(getAttraction)
-    .put(protect, updateAttraction)
-    .delete(protect, deleteAttraction);
+    .put(protect, authorize('publisher', 'admin'), updateAttraction)
+    .delete(protect, authorize('publisher', 'admin'), deleteAttraction);
 
 module.exports = router;

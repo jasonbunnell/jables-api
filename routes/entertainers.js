@@ -16,7 +16,7 @@ const advancedResults = require('../middleware/advancedResults');
 const eventRouter = require('./events');
 const songRouter = require('./songs');
 
-const { protect } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth');
 
 const router = express.Router();
 
@@ -24,16 +24,16 @@ const router = express.Router();
 router.use('/:entertainerId/events', eventRouter);
 router.use('/:entertainerId/songs', songRouter);
 
-router.route('/:id/photo').put(protect, entertainerPhotoUpload);
+router.route('/:id/photo').put(protect, authorize('publisher', 'admin'), entertainerPhotoUpload);
 
 router.route('/')
     .get(advancedResults(Entertainer, ['events', 'songs']), getEntertainers)
-    .post(protect, createEntertainer);
+    .post(protect, authorize('publisher', 'admin'), createEntertainer);
 
 router.route('/:id')
     .get(getEntertainer)
-    .put(protect, updateEntertainer)
-    .delete(protect, deleteEntertainer);
+    .put(protect, authorize('publisher', 'admin'), updateEntertainer)
+    .delete(protect, authorize('publisher', 'admin'), deleteEntertainer);
 
 
 module.exports = router;

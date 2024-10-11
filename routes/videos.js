@@ -5,11 +5,11 @@ const {
     getLastVideo
 } = require('../controllers/videos');
 
-const { protect } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth');
 
 const router = express.Router();
 
-router.route('/').get(getVideos).post(protect, addVideo);
+router.route('/').get(getVideos).post(protect, authorize('admin'), addVideo);
 
 router.route('/last').get(getLastVideo);
 

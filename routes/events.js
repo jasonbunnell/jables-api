@@ -11,7 +11,7 @@ const Event = require('../models/Event');
 
 const advancedResults = require('../middleware/advancedResults');
 
-const { protect } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth');
 
 const router = express.Router({
     mergeParams: true
@@ -20,7 +20,12 @@ const router = express.Router({
 router.route('/').get(advancedResults(Event, {
     path: 'attraction',
     select: 'name location'
-}), getEvents).post(protect, addEvent);
-router.route('/:id').get(getEvent).put(protect, updateEvent).delete(protect, deleteEvent);
+}), getEvents).post(protect, authorize('publisher', 'admin'), addEvent);
+
+router
+    .route('/:id')
+    .get(getEvent)
+    .put(protect, authorize('publisher', 'admin'), updateEvent)
+    .delete(protect, authorize('publisher', 'admin'), deleteEvent);
 
 module.exports = router;
