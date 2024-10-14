@@ -38,6 +38,11 @@ You can sort.  EXAMPLE `attractions?sort=-likes`
 * **Limit** - this is a value set by the limit variable or by the limit parameter.  EXAMPLE - `attractions?limit=10`
 * **Page** - this is a value set by the page variable that default to 1 or by the page parameter.  EXAMPLE - `attractions?page=2`
 
+## Auth Middleware
+Auth middleware has functions used in the routes file to protect private routes.
+* **Protect** - this protects routes
+* **Authorize** - this ensures users have the right permissions.  Currently there are Users, Publishers, and Admins.  The roles that are allowed to access routes are set in the route file and passed in the authorize method.
+
 ## Config
 * **Config** - backup config folder on Google Drive personal under FLX compass.
 

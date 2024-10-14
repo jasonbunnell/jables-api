@@ -52,14 +52,21 @@ exports.createAttraction = asyncHandler(async (req, res, next) => {
 // @route   PUT /api/v1/attractions/:id
 // @access  Private
 exports.updateAttraction = asyncHandler(async (req, res, next) => {
-        const attraction = await Attraction.findByIdAndUpdate(req.params.id, req.body, {
-            new: true,
-            runValidators: true
-        });
+        let attraction = await Attraction.findById(req.params.id);
     
         if(!attraction) {
             return next(new ErrorResponse(`Attraction not found with id of ${req.params.id}`, 404));
         }
+
+        // Make sure user is attraction owner
+        if(attraction.user.toString() !== req.user.id && req.user.role !== 'admin') {
+            return next(new ErrorResponse(`User ${req.params.id} is not authorized to update this attraction`, 401));
+        }
+
+        attraction = await Attraction.findByIdAndUpdate(req.params.id, req.body, {
+            new: true,
+            runValidators: true
+        })
     
         res.status(200).json({ success: true, data: attraction });        
 });
@@ -72,6 +79,11 @@ exports.deleteAttraction = asyncHandler(async (req, res, next) => {
         const attraction = await Attraction.findById(req.params.id);
         if(!attraction) {
             return next(new ErrorResponse(`Attraction not found with id of ${req.params.id}`, 404));
+        }
+
+        // Make sure user is attraction owner
+        if(attraction.user.toString() !== req.user.id && req.user.role !== 'admin') {
+            return next(new ErrorResponse(`User ${req.params.id} is not authorized to delete this attraction`, 401));
         }
 
         // added after removing findByIdAndDelete
@@ -115,6 +127,11 @@ exports.attractionPhotoUpload = asyncHandler(async (req, res, next) => {
 
     if(!attraction) {
         return next(new ErrorResponse(`Attraction not found with id of ${req.params.id}`, 404));
+    }
+
+    // Make sure user is attraction owner
+    if(attraction.user.toString() !== req.user.id && req.user.role !== 'admin') {
+        return next(new ErrorResponse(`User ${req.params.id} is not authorized to update this attraction`, 401));
     }
 
     // added after removing findByIdAndDelete
