@@ -45,6 +45,7 @@ if(!event) {
 // @access  Private
 exports.addEvent = asyncHandler(async (req, res, next) => {
     req.body.attraction = req.params.attractionId;
+    req.body.user = req.user.id;
 
     const attraction = await Attraction.findById(req.params.attractionId);
     
@@ -53,6 +54,11 @@ exports.addEvent = asyncHandler(async (req, res, next) => {
             new ErrorResponse(`No attraction with ID of ${req.params.attracionId}`), 
             404
         );
+    }
+
+    // Make sure user is attraction owner
+    if(attraction.user.toString() !== req.user.id && req.user.role !== 'admin') {
+        return next(new ErrorResponse(`User ${req.user.id} is not authorized to add an event to this attraction ${attraction._id}`, 401));
     }
 
     const event = await Event.create(req.body);
@@ -74,6 +80,11 @@ exports.updateEvent = asyncHandler(async (req, res, next) => {
             new ErrorResponse(`No event with ID of ${req.params.id}`), 
             404
         );
+    }
+
+    // Make sure user is event owner
+    if(event.user.toString() !== req.user.id && req.user.role !== 'admin') {
+        return next(new ErrorResponse(`User ${req.user.id} is not authorized to update event ${event._id}`, 401));
     }
     
     event = await Event.findByIdAndUpdate(req.params.id, req.body, {
@@ -99,8 +110,13 @@ exports.deleteEvent = asyncHandler(async (req, res, next) => {
             404
         );
     }
+
+    // Make sure user is event owner
+    if(event.user.toString() !== req.user.id && req.user.role !== 'admin') {
+        return next(new ErrorResponse(`User ${req.user.id} is not authorized to delete event ${event._id}`, 401));
+    }
     
-await Event.findByIdAndDelete(req.params.id);
+    await Event.findByIdAndDelete(req.params.id);
 
         res.status(200).json({
             success: true,

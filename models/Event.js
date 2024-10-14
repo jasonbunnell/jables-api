@@ -94,6 +94,10 @@ const EventSchema = new mongoose.Schema({
         type: mongoose.Schema.ObjectId,
         ref: 'Entertainer'
     },
+    user: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'User'
+    },
     bookmarks: {
         type: Number,
         default: 0
