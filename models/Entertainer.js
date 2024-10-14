@@ -52,8 +52,13 @@ const EntertainerSchema = new mongoose.Schema({
     createdAt: {
         type: Date,
         default: Date.now
+    },
+    user: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'User',
+        required: true,
+        default: '66d0e71a61352962abe40a9d'
     }
-
 }, {
     toJSON: { virtuals: true },
     toObject: {virtuals: true }

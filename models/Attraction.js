@@ -197,9 +197,9 @@ const AttractionSchema = new mongoose.Schema({
     user: {
         type: mongoose.Schema.ObjectId,
         ref: 'User',
-        required: [true, 'Please add an Attraction as location'],
+        required: true,
         default: '66d0e71a61352962abe40a9d'
-    },
+    }
 }, {
     toJSON: { virtuals: true },
     toObject: {virtuals: true }

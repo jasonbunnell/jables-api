@@ -56,7 +56,7 @@ exports.addEvent = asyncHandler(async (req, res, next) => {
         );
     }
 
-    // Make sure user is attraction owner
+    // Make sure user is entertainer owner
     if(attraction.user.toString() !== req.user.id && req.user.role !== 'admin') {
         return next(new ErrorResponse(`User ${req.user.id} is not authorized to add an event to this attraction ${attraction._id}`, 401));
     }

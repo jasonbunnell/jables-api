@@ -32,10 +32,25 @@ exports.getSongs = asyncHandler(async (req, res, next) => {
 exports.createSong = asyncHandler(async (req, res, next) => {
     // Add the entertainer ID to the request body
     req.body.entertainer = req.params.entertainerId;
+    req.body.user = req.user.id;
+
+    const entertainer = await Entertainer.findById(req.params.entertainerId);
+
+    // Check if the entertainer exists
+    if(!entertainer) {
+        return next(
+            new ErrorResponse(`No entertainer with ID of ${req.params.entertainerId}`), 
+            404
+        );
+    }
+
+    // Make sure user is entertainer owner
+    if(entertainer.user.toString() !== req.user.id && req.user.role !== 'admin') {
+        return next(new ErrorResponse(`User ${req.user.id} is not authorized to add a song to entertainer ${entertainer._id}`, 401));
+    }
 
     // Create the song
     const song = await Song.create(req.body);
-    console.log(`Song created: ${song}`); // Debugging statement
 
     res.status(201).json({
         success: true,
@@ -45,7 +60,7 @@ exports.createSong = asyncHandler(async (req, res, next) => {
 
 
 // @desc    Upload audio file for a song
-// @route   POST /api/v1/entertainers/:entertainerId/songs/:songId/upload
+// @route   PUT /api/v1/entertainers/:entertainerId/songs/:songId/upload
 // @access  Public
 exports.uploadAudio = asyncHandler(async (req, res, next) => {
     const song = await Song.findById(req.params.songId);
@@ -57,10 +72,10 @@ exports.uploadAudio = asyncHandler(async (req, res, next) => {
         });
     }
 
-    // Log the request headers and body
-    console.log('Request headers:', req.headers); // Debugging statement
-    console.log('Request body:', req.body); // Debugging statement
-    console.log('req.files:', req.files); // Debugging statement
+    // Make sure user is event owner
+    if(song.user.toString() !== req.user.id && req.user.role !== 'admin') {
+        return next(new ErrorResponse(`User ${req.user.id} is not authorized to song ${song._id}`, 401));
+    }
 
     // Handle file upload
     if (req.files && req.files.file) {

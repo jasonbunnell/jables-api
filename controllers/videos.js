@@ -15,7 +15,14 @@ exports.getVideos = asyncHandler(async (req, res, next) => {
 // @access  Private
 exports.addVideo = asyncHandler(async (req, res, next) => {
     const video = await Video.create(req.body);
-        
+    
+    // Make sure user is admin
+    if(req.user.role !== 'admin') {
+        return next(
+            new ErrorResponse(`User ${req.user.id} is not authorized to add a video`, 401)
+        );
+    }
+
     res.status(200).json({
         success: true,
         data: video
