@@ -8,6 +8,7 @@
 * **[JSON Web Token](https://jwt.io/)**
 * **[BCryptJS](https://www.npmjs.com/package/bcryptjs)** - Optimized bcrypt in JS with zero dependencies.  Compatible with C++ bcrypt binding node.js and also working in browser.
 * **[Cookie-Parser](https://www.npmjs.com/package/cookie-parser)** - Parse cookie header and populate `req.secret` so it may be used by other middleware.
+* **[Nodemailer](https://nodemailer.com/)** - node package to send emails.
 
 ## Services
 * **[MapQuest Developer](https://developer.mapquest.com/)** - Used to get geocode data, uses CapOne cc
