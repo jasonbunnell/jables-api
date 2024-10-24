@@ -10,15 +10,14 @@ const {
 
 const Entertainer = require('../models/Entertainer');
 
-const advancedResults = require('../middleware/advancedResults');
-
 // Include other resource routers
 const eventRouter = require('./events');
 const songRouter = require('./songs');
 
-const { protect, authorize } = require('../middleware/auth');
-
 const router = express.Router();
+
+const advancedResults = require('../middleware/advancedResults');
+const { protect, authorize } = require('../middleware/auth');
 
 // Re-route into other resource routers
 router.use('/:entertainerId/events', eventRouter);

@@ -9,13 +9,10 @@ const {
 
 const Event = require('../models/Event');
 
+const router = express.Router({ mergeParams: true });
+
 const advancedResults = require('../middleware/advancedResults');
-
 const { protect, authorize } = require('../middleware/auth');
-
-const router = express.Router({
-    mergeParams: true
-});
 
 router.route('/').get(advancedResults(Event, {
     path: 'attraction',

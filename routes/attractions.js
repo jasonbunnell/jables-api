@@ -11,13 +11,12 @@ const {
 
 const Attraction = require('../models/Attraction');
 
-const advancedResults = require('../middleware/advancedResults');
-
 // Include other resource routers
 const eventRouter = require('./events');
 
 const router = express.Router();
 
+const advancedResults = require('../middleware/advancedResults');
 const { protect, authorize } = require('../middleware/auth');
 
 // Re-route into other resource routers
