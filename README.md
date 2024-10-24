@@ -56,6 +56,7 @@ These are tasks that have not been completed yet.
 * [ ] GET All Events cannot filter by date (without time) or attraction location info.
 * [ ] Count is showing results total for that page, not total results.  Count should show total results.  For example, if GET All Attractions should show total attraction count of about 380, not the number on that page of 50 set in the middleware/advancedResults pagination section.
 * [ ] Have images compressed and cropped, give guidance on image aspect ratio on site.
+* [ ] Get events for single Attraction
 
 # Deploy to Production
 * [ ] Be sure public folder is 775

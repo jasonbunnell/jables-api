@@ -12,7 +12,7 @@ const {
 const Attraction = require('../models/Attraction');
 
 // Include other resource routers
-const eventRouter = require('./events');
+const eventRouter = require('./events');  // does this work?
 
 const router = express.Router();
 
@@ -20,7 +20,7 @@ const advancedResults = require('../middleware/advancedResults');
 const { protect, authorize } = require('../middleware/auth');
 
 // Re-route into other resource routers
-router.use('/:attractionId/events', eventRouter);
+router.use('/:attractionId/events', eventRouter);  // does this work?
 
 router.route('/radius/:zipcode/:distance').get(getAttractionsInRadius);
 

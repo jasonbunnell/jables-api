@@ -9,10 +9,16 @@ const {
 
 const Event = require('../models/Event');
 
+// Incude other resource routers
+const eventBookmarkRouter = require('./ebookmarks');
+
 const router = express.Router({ mergeParams: true });
 
 const advancedResults = require('../middleware/advancedResults');
 const { protect, authorize } = require('../middleware/auth');
+
+// Re-route into other resource routers
+router.use('/:eventId/bookmarks', eventBookmarkRouter);
 
 router.route('/').get(advancedResults(Event, {
     path: 'attraction',
